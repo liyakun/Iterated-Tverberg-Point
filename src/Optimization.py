@@ -15,6 +15,7 @@ class Optimization:
 
     #gradient ascent optional optimize algorithm
     def gradAscent(self, trainMatrix, classLabels, dataIndexList, numIteration, function):
+        self.weights_all = []
         startTime = time.time() #get start time
         m, n = np.shape(trainMatrix)
         weights_tmp = np.ones((n,1))
@@ -31,7 +32,6 @@ class Optimization:
                 del (dataIndex[randIndex])
         print "\nTraining finished within %fs!\n" % (time.time() - startTime)
         return weights_tmp
-
 
     def plotWeights(self):
         plt.plot(self.weights_all)

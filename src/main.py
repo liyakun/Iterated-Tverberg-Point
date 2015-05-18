@@ -28,6 +28,5 @@ with open("../resources/output_weights.csv", "wb") as f:
     writer.writerows(weights)
 
 #plot weights convergence from regression
-#myPlot = Plot.Plot()
-#weights_ = weights_all[0]
-#myPlot.plot(weights_)
+myPlot = Plot.Plot()
+myPlot.plot(weights_all)

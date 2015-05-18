@@ -8,10 +8,11 @@ class Plot:
         pass
 
     def plot(self, weights_all):
-        #size = len(weights_all)
+        size = len(weights_all)
         with pltpage.PdfPages("../resources/pic/weights.pdf") as pdf:
-            fig = plt.figure(figsize=(8.27, 11.69), dpi=100)
-            plt.plot(weights_all)
-            pdf.savefig(fig)
-            plt.close()
+            for i in xrange(0, size):
+                fig = plt.figure(figsize=(8.27, 11.69), dpi=100)
+                plt.plot(weights_all[i])
+                pdf.savefig(fig)
+                plt.close()
 
