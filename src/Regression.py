@@ -22,6 +22,7 @@ class Regression:
     def gradAscent(self, trainMatrix, classLabels, dataIndexMatrix, numIteration):
         regOpt = Optimization.Optimization()
         weights = regOpt.gradAscent(trainMatrix, classLabels, dataIndexMatrix, numIteration, self)
+        regOpt.plotWeights()
         self.weights_all = regOpt.weights_all
         return weights
 

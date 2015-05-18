@@ -32,3 +32,8 @@ class Optimization:
         print "\nTraining finished within %fs!\n" % (time.time() - startTime)
         return weights_tmp
 
+
+    def plotWeights(self):
+        plt.plot(self.weights_all)
+        plt.ylabel("Weights")
+        plt.show()
