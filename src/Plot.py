@@ -12,6 +12,7 @@ class Plot:
         with pltpage.PdfPages("../resources/pic/weights.pdf") as pdf:
             for i in xrange(0, size):
                 fig = plt.figure(figsize=(8.27, 11.69), dpi=100)
+                plt.title("%dth weights convergence" % i)
                 plt.plot(weights_all[i])
                 pdf.savefig(fig)
                 plt.close()

@@ -13,6 +13,10 @@ class Optimization:
     def __init__(self):
         pass
 
+    #sigmoid function
+    def sigmoid(self, inX):
+        return 1.0/(1+np.exp(-inX))
+
     #gradient ascent optional optimize algorithm
     def gradAscent(self, trainMatrix, classLabels, dataIndexList, numIteration, function):
         self.weights_all = []
@@ -33,7 +37,9 @@ class Optimization:
         print "\nTraining finished within %fs!\n" % (time.time() - startTime)
         return weights_tmp
 
-    def plotWeights(self):
-        plt.plot(self.weights_all)
-        plt.ylabel("Weights")
-        plt.show()
+    def sigTest(self, instance, weights):
+        sig_value = self.sigmoid(sum(instance*weights))
+        if sig_value > 0.5 :
+            return 1.0
+        else:
+            return  0.0
