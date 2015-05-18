@@ -13,8 +13,8 @@ myData.convertAttrToMatrix()
 myData.splitToTrainAndTest()
 
 #training with regression algorithm
-weights, weights_all = Regression.Regression().gradAscent(1, myData.train_matrix, myData.train_class_list,
-                                                          myData.getRandomIndexList(2000), 300)
+weights, weights_all = Regression.Regression().gradAscent(15, myData.train_matrix, myData.train_class_list,
+                                                          myData.getRandomIndexList(1500), 500)
 
 #write trained weights to file
 myData.writeToCsvFile("../resources/output_weights.csv", weights)

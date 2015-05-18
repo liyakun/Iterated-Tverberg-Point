@@ -24,4 +24,4 @@ class Test:
     def writeErrorToFile(self):
         with open("../resources/error.txt", "w") as f:
             for i in range(0, len(self.errors_list)):
-                f.writelines("Training Error of %dth weights vector: %f" % (i, self.errors_list[i]))
+                f.writelines("Training Error of %dth weights vector: %f\n" % (i, self.errors_list[i]))

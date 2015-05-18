@@ -1,1 +1,15 @@
-Training Error of 0th weights vector: 0.264292
+Training Error of 0th weights vector: 0.259274
+Training Error of 1th weights vector: 0.270589
+Training Error of 2th weights vector: 0.271573
+Training Error of 3th weights vector: 0.266358
+Training Error of 4th weights vector: 0.263308
+Training Error of 5th weights vector: 0.263111
+Training Error of 6th weights vector: 0.269901
+Training Error of 7th weights vector: 0.259077
+Training Error of 8th weights vector: 0.269999
+Training Error of 9th weights vector: 0.262029
+Training Error of 10th weights vector: 0.261832
+Training Error of 11th weights vector: 0.259077
+Training Error of 12th weights vector: 0.261242
+Training Error of 13th weights vector: 0.259077
+Training Error of 14th weights vector: 0.263702
