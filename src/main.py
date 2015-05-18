@@ -1,9 +1,6 @@
 #! /usr/bin/pythonw
 #This file contains the main function
-import csv
-import Regression
-import Data
-import Plot
+import Test, Data, Plot, Regression
 
 weights = []
 weights_all = []
@@ -15,20 +12,15 @@ myData.filterDataSet()
 myData.convertAttrToMatrix()
 myData.splitToTrainAndTest()
 
-#regression algorithm
-myRegression = Regression.Regression()
-for i in range(0, 15):
-    print i, "th training."
-    weights.append(myRegression.gradAscent(myData.train_matrix, myData.train_class_list, myData.getRandomIndexList(1500), 500))
-    weights_all.append(myRegression.weights_all)
+#training with regression algorithm
+weights, weights_all = Regression.Regression().gradAscent(1, myData.train_matrix, myData.train_class_list,
+                                                          myData.getRandomIndexList(2000), 300)
 
 #write trained weights to file
-with open("../resources/output_weights.csv", "wb") as f:
-    writer = csv.writer(f)
-    writer.writerows(weights)
+myData.writeToCsvFile("../resources/output_weights.csv", weights)
 
 #plot weights convergence from regression
-myPlot = Plot.Plot()
-myPlot.plot(weights_all)
+Plot.Plot().plot(weights_all)
 
 #testing phase
+Test.Test().performTest(1, myData.test_matrix, myData.test_class_list, weights)

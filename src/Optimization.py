@@ -1,7 +1,5 @@
 #! /usr/bin/pythonw
 #This file contains the optimization algorithm
-
-import matplotlib.pyplot as plt
 import numpy as np
 import time
 
@@ -38,8 +36,8 @@ class Optimization:
         return weights_tmp
 
     def sigTest(self, instance, weights):
-        sig_value = self.sigmoid(sum(instance*weights))
-        if sig_value > 0.5 :
+        sig_value = self.sigmoid(np.sum(instance*weights))
+        if sig_value > 0.5:
             return 1.0
         else:
-            return  0.0
+            return 0.0

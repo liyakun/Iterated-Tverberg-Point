@@ -3,6 +3,7 @@
 
 import numpy as np
 import random
+import csv
 class Data:
     """
     load data, filter unknown features,
@@ -206,9 +207,16 @@ class Data:
         self.train_matrix, self.test_matrix = np.vsplit(self.data_matrix, np.array([2*m/3]))
         m_tr, n_tr = np.shape(self.train_matrix)
         self.train_class_list = self.teacher_label[0:m_tr]  #get the label of training example
-        self.test_class_list = self.teacher_label[m_tr+1:m] #get the label of testing example
+        self.test_class_list = self.teacher_label[m_tr:m] #get the label of testing example
 
     #get part of the train data matrix by index
     def getRandomIndexList(self, length):
         m, n = np.shape(self.train_matrix)
         return random.sample(range(m), length)
+
+    def writeToCsvFile(self, file_path, content):
+        with open(file_path, "w") as f:
+            writer = csv.writer(f)
+            writer.writerows(content)
+
+
