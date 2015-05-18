@@ -1,8 +1,8 @@
 #! /usr/bin/pythonw
-#This python file uses the following encoding: utf-8
-#Implementation by Yakun Li, Supervised by Michael Kamp
+#This file process data
 
-from numpy import *
+import numpy as np
+import random
 class Data:
     """
     load data, filter unknown features,
@@ -11,18 +11,15 @@ class Data:
     data_line_full = []
     filtered_data = []
     teacher_label = []
-    data_matrix = mat
+    data_matrix = np.mat
+    test_matrix = np.mat
+    train_matrix = np.mat
+    train_class_list = []
+    test_class_list = []
     header_line = []
 
     def __init__(self):
         pass
-
-    #create a 2-dimensional list, with specific rows and cols
-    def make2dList(self, rows, cols):
-        a = []
-        for row in xrange(rows):
-            a += [[0]*cols]
-        return a
 
     #load data from disk
     def loadDataSet(self):
@@ -196,17 +193,22 @@ class Data:
 
     # convert all value into numpy mat
     def convertAttrToMatrix(self):
-        temp_array = zeros((len(self.filtered_data), len(self.header_line)-2), dtype=float)
+        temp_array = np.zeros((len(self.filtered_data), len(self.header_line)-2), dtype=float)
         for idx_list, data_line in enumerate(self.filtered_data):
             self.teacher_label.append(self.parseTeacherLabel(data_line.pop()))
             for idx_line, element in enumerate(data_line):
                 temp_array[idx_list][idx_line] = self.convertCatToNumerical(idx_line, element)
-        self.data_matrix = asmatrix(temp_array)
+        self.data_matrix = np.asmatrix(temp_array)
 
-    #return part of the matrix
-    def returnPartDataMatrix(self, start, end):
-        return self.data_matrix[start:end], self.teacher_label[start:end]
+    #split data into train(2/3), and test(1/3)
+    def splitToTrainAndTest(self):
+        m, n = np.shape(self.data_matrix)
+        self.train_matrix, self.test_matrix = np.vsplit(self.data_matrix, np.array([2*m/3]))
+        m_tr, n_tr = np.shape(self.train_matrix)
+        self.train_class_list = self.teacher_label[0:m_tr]  #get the label of training example
+        self.test_class_list = self.teacher_label[m_tr+1:m] #get the label of testing example
 
-
-
-
+    #get part of the train data matrix by index
+    def getRandomIndexList(self, length):
+        m, n = np.shape(self.train_matrix)
+        return random.sample(range(m), length)
