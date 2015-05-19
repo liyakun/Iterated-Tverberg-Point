@@ -219,7 +219,9 @@ class Data:
             writer = csv.writer(f)
             writer.writerows(content)
 
-    def writeToTxtFile(self, file_path, content):
-        with open(file_path, "w") as f:
-            f.write(content)
+    def dataReady(self):
+        self.loadDataSet()
+        self.filterDataSet()
+        self.convertAttrToMatrix()
+        self.splitToTrainAndTest()
 

@@ -2,18 +2,14 @@
 #This file contains the main function
 import Test, Data, Plot, Regression
 
-weights = []
-weights_all = []
+weights, weights_all = [], []
 
 #filter data with unknown features && create dummy mat matrix
 myData = Data.Data()
-myData.loadDataSet()
-myData.filterDataSet()
-myData.convertAttrToMatrix()
-myData.splitToTrainAndTest()
+myData.dataReady()
 
 #training with regression algorithm
-weights, weights_all = Regression.Regression().gradAscent(15, myData.train_matrix, myData.train_class_list,
+weights, weights_all = Regression.Regression().gradAscent(3, myData.train_matrix, myData.train_class_list,
                                                           myData.getRandomIndexList(1500), 500)
 
 #write trained weights to file
