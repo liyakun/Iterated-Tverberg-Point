@@ -1,10 +1,2 @@
 Training Error of 0th weights vector: 0.259077
-Training Error of 1th weights vector: 0.259077
-Training Error of 2th weights vector: 0.259077
-Training Error of 3th weights vector: 0.259077
-Training Error of 4th weights vector: 0.259077
-Training Error of 5th weights vector: 0.259077
-Training Error of 6th weights vector: 0.259077
-Training Error of 7th weights vector: 0.259077
-Training Error of 8th weights vector: 0.259077
-Training Error of 9th weights vector: 0.259077
+Training Error of 1th weights vector: 0.704418
