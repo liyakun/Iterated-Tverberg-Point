@@ -12,14 +12,16 @@ class Regression:
     def __init__(self):
         pass
 
-    #train a logistic regression model using some optional optimize algorithm
-    def gradAscent(self, num_train, trainMatrix, classLabels, dataIndexMatrix, numIteration):
+    """
+    train a logistic regression model using some optional optimize algorithm
+    """
+    def grad_ascent(self, num_train, train_matrix, train_class_list, random_index_list_in_training, num_iteration):
         for i in range(0, num_train):
             print i, "th training."
-            regOpt = Optimization.Optimization()
-            self.weights.append(regOpt.gradAscent(trainMatrix, classLabels, dataIndexMatrix, numIteration,
-                                                  regOpt))
-            self.weights_all.append(regOpt.weights_all)
+            reg_opt = Optimization.Optimization()
+            self.weights.append(reg_opt.grad_ascent(train_matrix, train_class_list,  random_index_list_in_training,
+                                                    num_iteration, reg_opt))
+            self.weights_all.append(reg_opt.weights_all)
         return self.weights, self.weights_all
 
 

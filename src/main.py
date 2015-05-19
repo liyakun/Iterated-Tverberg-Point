@@ -1,22 +1,36 @@
-#! /usr/bin/pythonw
-#This file contains the main function
-import Test, Data, Plot, Regression
+"""
+This file contains the main function
+"""
+import Test
+import Data
+import Plot
+import Regression
 
 weights, weights_all = [], []
 
-#filter data with unknown features && create dummy mat matrix
-myData = Data.Data()
-myData.dataReady()
+"""
+filter data with unknown features && create training && testing data matrix
+"""
+my_data = Data.Data()
+my_data.data_ready()
 
-#training with regression algorithm
-weights, weights_all = Regression.Regression().gradAscent(3, myData.train_matrix, myData.train_class_list,
-                                                          myData.getRandomIndexList(1500), 500)
+"""
+training with regression algorithm
+"""
+weights, weights_all = Regression.Regression().grad_ascent(10, my_data.train_matrix, my_data.train_class_list, my_data.get_random_index_list(1500),
+                                                           500)
 
-#write trained weights to file
-myData.writeToCsvFile("../resources/output_weights.csv", weights)
+"""
+write trained weights to file
+"""
+my_data.write_to_csv_file("../resources/output_weights.csv", weights)
 
-#plot weights convergence from regression
+"""
+plot weights convergence from regression
+"""
 Plot.Plot().plot(weights_all)
 
-#testing phase
-Test.Test().performTest(1, myData.test_matrix, myData.test_class_list, weights)
+"""
+testing phase
+"""
+Test.Test().perform_test(1, my_data.test_matrix, my_data.test_class_list, weights)
