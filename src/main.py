@@ -17,7 +17,7 @@ my_data.data_ready()
 """
 training with regression algorithm, my_data, num_of_train, num_of_training_data, num_of_iteration_each_train
 """
-weights, weights_all = Regression.Regression().grad_ascent(my_data, 2, 2000, 500)
+weights, weights_all = Regression.Regression().grad_ascent(my_data, 10, 2000, 500)
 
 """
 write trained weights to file
