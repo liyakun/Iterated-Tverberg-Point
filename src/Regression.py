@@ -1,5 +1,6 @@
-#! /usr/bin/pythonw
-#This file contains the logistic regression algorithm
+"""
+This file contains the logistic regression algorithm
+"""
 import Optimization
 
 class Regression:

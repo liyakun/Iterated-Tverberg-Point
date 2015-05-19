@@ -1,5 +1,6 @@
-#! /usr/bin/pythonw
-#This file contains the optimization algorithm
+"""
+This file contains the optimization algorithm
+"""
 import numpy as np
 import time
 
