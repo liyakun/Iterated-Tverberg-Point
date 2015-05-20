@@ -10,6 +10,8 @@ class Data:
                                                                                                    []
     data_matrix, test_matrix, train_matrix = np.mat, np.mat, np.mat
 
+    negative_instances, positive_instances = 0, 0
+
     def __init__(self):
         pass
 
@@ -186,8 +188,10 @@ class Data:
     """
     def parse_teacher_label(self, str_in):
         if str_in == '"no"\r\n':
+            self.negative_instances += 1
             return 0
         else:
+            self.positive_instances += 1
             return 1
 
     """
@@ -235,3 +239,5 @@ class Data:
         self.convert_attr_to_matrix()
         self.split_to_train_and_test()
 
+    def get_positive_instances_percent(self):
+        return float(self.positive_instances) / float(self.positive_instances+self.negative_instances)
