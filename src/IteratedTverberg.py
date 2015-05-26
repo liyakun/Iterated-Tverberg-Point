@@ -1,6 +1,7 @@
 """
 This file implement the iterated Tverberg points algorithm
 """
+from itertools import compress
 import numpy as np
 import Optimization as Opt
 
@@ -51,6 +52,13 @@ class IteratedTverberg:
             qs_with_proof = opt.pop(B[l-1], d+2)
             qs, pss = zip(*qs_with_proof)
 
+            # TODO: the proof parts should be "ordered" according to the paper
+            # calculate the radon partition
+            radon_pt, alphas, partition_masks = opt.randon_partition(qs)
+
+            for k in range(2):
+                # qs_part denotes the list of points in this partition
+                # qs_part = list(compress(qs, partition_maks[k]))
 
 
     def find_l(self, B, d):
