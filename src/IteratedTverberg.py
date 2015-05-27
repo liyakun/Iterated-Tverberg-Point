@@ -17,7 +17,6 @@ class IteratedTverberg:
 
         """
         The loop terminates when a point is in the bucket B_z
-        Prune the proof until it is minimal for depth z
 
         np.ceil(a) Return the ceiling of the input, element-wise.
         The ceil of the scalar x is the smallest integer i, such that i >= x. It is often denoted as |x|.

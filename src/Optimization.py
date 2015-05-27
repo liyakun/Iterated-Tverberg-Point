@@ -11,15 +11,11 @@ class Optimization:
     def __init__(self):
         pass
 
-    """
-    sigmoid function
-    """
+    # sigmoid function
     def sigmoid(self, inX):
         return 1.0/(1+np.exp(-inX))
 
-    """
-    gradient ascent optional optimize algorithm
-    """
+    # gradient ascent optional optimize algorithm
     def grad_ascent(self, train_matrix, train_class_list, random_index_list_in_training, num_iteration, function):
         #  every time clean the weights_all for all training weights
         self.weights_all = []
@@ -53,9 +49,7 @@ class Optimization:
         print "\nTraining finished within %fs!\n" % (time.time() - start_time)
         return weights_tmp
 
-    """
-    Sigmoid test function
-    """
+    # Sigmoid test function
     def sig_test(self, instance, weights):
         sig_value = self.sigmoid(np.sum(instance*weights))
         if sig_value > 0.5:
@@ -63,17 +57,13 @@ class Optimization:
         else:
             return 0.0
 
-    """
-    Return a vector of x, which statisfies 'M*x=0'
-    """
+    # Return a vector of x, which statisfies 'M*x=0'
     def solve_homogeneous(self, equations):
         assert (isinstance(equations, np.ndarray)), "ndarray required"
         u, s, vh = np.linalg.svd(equations)
         return vh.T[:, -1]
 
-    """
-    find the alphas to solve the equation
-    """
+    # find the alphas to solve the equation
     def find_alphas(self, points):
         _points = np.asarray(points)
 
@@ -91,9 +81,7 @@ class Optimization:
 
         return self.solve_homogeneous(equations)
 
-    """
-    Find a radon partition
-    """
+    # Find a radon partition
     def randon_partition(self, points):
         """
          points: (n, d)-array like
@@ -128,9 +116,7 @@ class Optimization:
                 (randon_pt_greater_alphas, randon_pt_lower_alphas),
                 (greater_idx, lower_idx))
 
-    """
-    Find  the radon point
-    """
+    # Find  the radon point
     def radon_point(self, points):
         """
          points : (n, d)-array_like where n is the number of points and d is the dimension of the points
@@ -139,14 +125,12 @@ class Optimization:
         radon_pt, _, _ = self.randon_partition(points)
         return radon_pt
 
-    """
-    Yield n element from the list l
-    Throws IndexError if len(l) < n
-    """
+    # Yield n element from the list l, Throws IndexError if len(l) < n
     def pop(self, l, n):
         for i in range(n):
             yield l.pop()
 
+    # Let l be the max such that B_l-1 has at least d+2 points
     def find_l(self, B, d):
         l = None
         for i, b in enumerate(B):

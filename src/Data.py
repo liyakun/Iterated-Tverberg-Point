@@ -15,18 +15,14 @@ class Data:
     def __init__(self):
         pass
 
-    """
-    load data from disk
-    """
+    # load data from disk
     def load_data_set(self):
         fr = open("../resources/bank-additional-full.csv")
         self.header_line = next(fr).split(";")
         for line in fr:
             self.data_line_full.append(line.split(";"))
 
-    """
-    omit data with both unknown features attributes && with duration attribute column
-    """
+    # omit data with both unknown features attributes && with duration attribute column
     def filter_data_set(self):
         lines_omit = 0
         lines_left = 0
@@ -39,9 +35,7 @@ class Data:
                 self.filtered_data.append(lists)
                 lines_left += 1
 
-    """
-    convert all value into double
-    """
+    # convert all value into double
     def convert_category_to_numerical(self, index, attribute):
 
         if index == 1:
@@ -183,9 +177,7 @@ class Data:
         else:
             return float(attribute)
 
-    """
-    parse teacher label and return
-    """
+    # parse teacher label and return
     def parse_teacher_label(self, str_in):
         if str_in == '"no"\r\n':
             self.negative_instances += 1
@@ -194,9 +186,8 @@ class Data:
             self.positive_instances += 1
             return 1
 
-    """
-    convert all value into numpy mat
-    """
+    # convert all value into numpy mat
+
     def convert_attr_to_matrix(self):
         temp_array = np.zeros((len(self.filtered_data), len(self.header_line)-2), dtype=float)
         for idx_list, data_line in enumerate(self.filtered_data):
@@ -205,9 +196,7 @@ class Data:
                 temp_array[idx_list][idx_line] = self.convert_category_to_numerical(idx_line, element)
         self.data_matrix = np.asmatrix(temp_array)
 
-    """
-    split data into train(2/3), and test(1/3)
-    """
+    # split data into train(2/3), and test(1/3)
     def split_to_train_and_test(self):
         m, n = np.shape(self.data_matrix)
         self.train_matrix, self.test_matrix = np.vsplit(self.data_matrix, np.array([2*m/3]))
@@ -215,24 +204,18 @@ class Data:
         self.train_class_list = self.teacher_label[0:m_tr]  #get the label of training example
         self.test_class_list = self.teacher_label[m_tr:m] #get the label of testing example
 
-    """
-    get part of the train data matrix by index
-    """
+    # get part of the train data matrix by index
     def get_random_index_list(self, length):
         m, n = np.shape(self.train_matrix)
         return random.sample(range(m), length)
 
-    """
-    write weights to file
-    """
+    # write weights to file
     def write_to_csv_file(self, file_path, content):
         with open(file_path, "w") as f:
             writer = csv.writer(f)
             writer.writerows(content)
 
-    """
-    pre process all the data
-    """
+    # pre process all the data
     def data_ready(self):
         self.load_data_set()
         self.filter_data_set()

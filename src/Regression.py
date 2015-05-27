@@ -4,18 +4,13 @@ This file contains the logistic regression algorithm
 import Optimization
 
 class Regression:
-    """
-    logistic regression algorithm
-    """
     weights = []
     weights_all = []
 
     def __init__(self):
         pass
 
-    """
-    train a logistic regression model using some optional optimize algorithm
-    """
+    # train a logistic regression model using some optional optimize algorithm
     def grad_ascent(self, my_data, num_train, num_training_instances, num_iteration):
         for i in range(0, num_train):
             print i, "th training."
