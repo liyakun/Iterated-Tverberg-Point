@@ -147,3 +147,72 @@ class Optimization:
         for i in range(n):
             yield l.pop()
 
+    def find_l(self, B, d):
+        l = None
+        for i, b in enumerate(B):
+            if len(b) >= d + 2:
+                l = i
+
+        assert (l != None), "No bucket with d+2 points found"
+        return l + 1
+
+    def prune_zipped(self, alphas, hull):
+        _alphas = np.asarray(alphas)
+        _hull = np.asarray(hull)
+        alphas, hull, non_hull = self.prune_recursive(_alphas, _hull, [])
+
+        assert (alphas.shape[0] == hull.shape[0]), "Broken hull"
+
+        non_hull = [(p, [[(1,p)]]) for p in non_hull]
+
+        return zip(alphas, hull), non_hull
+
+    def prune_recursive(self, alphas, hull, non_hull):
+        # remove all coefficients that are already (close to) zero
+        idx_nonzero = ~ np.isclose(alphas, np.zeros_like(alphas)) # alphas != 0
+        alphas = alphas[idx_nonzero]
+
+        # Add pruned points to the non hull (and thus back to bucket B_0)
+        non_hull = non_hull + hull[~idx_nonzero].tolist()
+
+        hull = hull[idx_nonzero]
+        n, d = hull.shape
+
+        # Anchor: d+1 hull points can't  be reduced any further
+        if n <= d + 1:
+            return alphas, hull, non_hull
+
+        # Choose d + 2 hull points
+        _hull = hull[:d + 2]
+        _alphas = alphas[:d + 2]
+
+        # create linearly dependent vectors
+        lindep = _hull[1:] - _hull[1]
+
+        # solve theta * lindep = 0
+        _betas = self.solve_homogenerous(lindep.T)
+
+        # calculate theta_1 in a way to assure theta_i = 0
+        beta1 = np.negative(np.sum(_betas))
+        betas = np.hstack((beta1, _betas))
+
+        # calculate the adjusted alphas and determine the minimum
+        # calculate the minimum fraction alpha / theta_i for each theta_i > 0
+        idx_positive = betas > 0
+        idx_nonzero = ~ np.isclose(betas, np.zeros_like(betas)) # betas != 0
+        idx = idx_positive & idx_nonzero
+        lambdas = _alphas[idx] / betas[idx]
+        lambda_min_idx = np.argmin(lambdas)
+
+        # adjust the alpha's of the original point
+        # since _alphas is a view to the original data, the alphas array will like
+        # be updated automatically
+        _alphas[:] = _alphas - (lambdas[lambda_min_idx] * betas)
+
+        # remove (filter) the pruned hull vector
+        idx = np.arrange(n) != lambda_min_idx
+        hull = hull[idx]
+        non_hull.append(hull[lambda_min_idx])
+        alphas = alphas[idx]
+
+        return self._prune_recursive(alphas, hull, non_hull)

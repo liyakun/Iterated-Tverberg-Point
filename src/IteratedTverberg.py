@@ -10,7 +10,7 @@ class IteratedTverberg:
     def __init__(self):
         pass
 
-    def centerpoint(self, points):
+    def center_point(self, points):
         opt = Opt.Optimization()
         points = np.asarray(points)
         n, d = points.shape
@@ -60,12 +60,41 @@ class IteratedTverberg:
                 # qs_part denotes the list of points in this partition
                 # qs_part = list(compress(qs, partition_maks[k]))
 
+                # pss_part denotes the collection of proofs for that points
+                pss_part = list(compress(pss, partition_masks[k]))
 
-    def find_l(self, B, d):
-        l = None
-        for i, b in enumerate(B):
-            if len(b) >= d + 2:
-                l = i
+                # as_part denotes the factors of the radon point in regard to
+                # the hulls consisting of the partitions
+                as_part = alphas[k]
 
-        assert (l != None), "No bucket with d+2 points found"
-        return l + 1
+                # Form a proof of depth 2^(l+1) for the radon point
+                for i in range(2 ** (l-1)):
+
+                    # union the i'th part of each proof of each point
+                    X_alphas = []
+                    X_hulls = []
+                    for j, ps in enumerate(pss_part):
+                        S_ij = ps[j]
+
+                        for ppt in S_ij:
+                            # Adjust the factors of the proofs to be able to
+                            # describe the radon point as a combination of it's
+                            # proofs
+                            alpha = as_part[j] * ppt[0]
+                            hull = ppt[1]
+
+                            # Add them to the new proof
+                            X_alphas.append(alpha)
+                            X_hulls.append(hull)
+
+                    # reduce the hull of the radon point, that is consisting
+                    # of the proof parts, to d+1 hull points
+                    X2, non_hull = opt.prune_zipped(X_alphas, X_hulls)
+
+                    proof.append(X2)
+                    B[0].extend(non_hull)
+            B[l].append((radon_pt, proof))
+        return B[z][0][0]
+
+
+
