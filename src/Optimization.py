@@ -1,5 +1,5 @@
 """
-This file contains the optimization algorithm
+This file contains the optimization algorithms
 """
 import numpy as np
 import time
@@ -49,7 +49,7 @@ class Optimization:
         print "\nTraining finished within %fs!\n" % (time.time() - start_time)
         return weights_tmp
 
-    # Sigmoid test function
+    # sigmoid test function
     def sig_test(self, instance, weights):
         sig_value = self.sigmoid(np.sum(instance*weights))
         if sig_value > 0.5:
@@ -57,10 +57,12 @@ class Optimization:
         else:
             return 0.0
 
-    # Return a vector of x, which statisfies 'M*x=0'
+    # return a vector of x, which satisfies 'M*x=0'
     def solve_homogeneous(self, equations):
         assert (isinstance(equations, np.ndarray)), "ndarray required"
+        # Singular Value Decomposition.
         u, s, vh = np.linalg.svd(equations)
+        # the last one is the solution for the sum of multiply with points to zero, as we add all one before
         return vh.T[:, -1]
 
     # find the alphas to solve the equation
@@ -68,11 +70,11 @@ class Optimization:
         _points = np.asarray(points)
 
         n, m = _points.shape
-        equations = np.vstack((np.ones(n), _points.T))
+        equations = np.vstack((np.ones(n), _points.T)) # add one here to prevent we got all zero as the solution
         """
         numpy.vstack(tup): stack array in sequence vertically(row wise)
-                Take a sequence of arrays and stack them vertically to make
-                a single array. Rebuild arrays divided by vsplit
+                Take a sequence of arrays and stack them vertically to make a single array.
+                Rebuild arrays divided by vsplit
                 For example: a = np.array([1, 2, 3])
                              b = np.array([2, 3, 4])
                             np.vstack((a,b)) => array([[1, 2, 3],
@@ -81,7 +83,7 @@ class Optimization:
 
         return self.solve_homogeneous(equations)
 
-    # Find a radon partition
+    # find a radon partition
     def randon_partition(self, points):
         """
          points: (n, d)-array like
@@ -96,27 +98,33 @@ class Optimization:
         n, d = points.shape
         assert (n >= d + 2), "Not enough points"
 
+        # get the array of alphas
         alphas = self.find_alphas(points)
 
-        greater_idx = alphas > 0
-        greater_alphas = alphas[greater_idx]
-        greater_points = points[greater_idx]
+        positive_idx = alphas > 0
+        positive_alphas = alphas[positive_idx]
+        positive_points = points[positive_idx]
+        non_positive_idx = ~ positive_idx
+        non_positive_alphas = alphas[non_positive_idx]
 
-        lower_idx = ~ greater_idx
-        lower_alphas = alphas[lower_idx]
-        lower_points = points[lower_idx]
-
-        sum_alphas = np.sum(greater_alphas)
-        randon_pt_greater_alphas = greater_alphas / sum_alphas
-        randon_pt_lower_alphas = lower_alphas / (-sum_alphas)
-
-        radon_pt = np.dot(randon_pt_greater_alphas, greater_points)
+        """
+        The convex hull of I and J must intersect, because they both contain the
+        point
+                p = sum{(a_i/A)x_i}, i in I = sum{-(a_j/A)*x_j}, j in J
+        where
+                A = sum{a_i}, i in I, = -sum{a_j}, i in J
+        """
+        sum_alphas = np.sum(positive_alphas)
+        radon_pt_positive_alphas = positive_alphas / sum_alphas
+        radon_pt_non_positive_alphas = non_positive_alphas / (-sum_alphas)
+        # dot product of two arrays, we get the radon point in this step, p = sum{(a_i/A)x_i}, i
+        radon_pt = np.dot(radon_pt_positive_alphas, positive_points)
 
         return (radon_pt,
-                (randon_pt_greater_alphas, randon_pt_lower_alphas),
-                (greater_idx, lower_idx))
+                (radon_pt_positive_alphas, radon_pt_non_positive_alphas),
+                (positive_idx, non_positive_idx))
 
-    # Find  the radon point
+    # find  the radon point
     def radon_point(self, points):
         """
          points : (n, d)-array_like where n is the number of points and d is the dimension of the points
@@ -125,19 +133,19 @@ class Optimization:
         radon_pt, _, _ = self.randon_partition(points)
         return radon_pt
 
-    # Yield n element from the list l, Throws IndexError if len(l) < n
+    # yield n element from the list l, Throws IndexError if len(l) < n
     def pop(self, l, n):
         for i in range(n):
             yield l.pop()
 
-    # Let l be the max such that B_l-1 has at least d+2 points
-    def find_l(self, B, d):
+    # let l be the max such that B_(l-1) has at least d+2 points
+    def find_l(self, buckets, d):
         l = None
-        for i, b in enumerate(B):
+        for i, b in enumerate(buckets):
             if len(b) >= d + 2:
                 l = i
 
-        assert (l != None), "No bucket with d+2 points found"
+        assert (l is not None), "No bucket with d+2 points found"
         return l + 1
 
     def prune_zipped(self, alphas, hull):
@@ -153,7 +161,7 @@ class Optimization:
 
     def prune_recursive(self, alphas, hull, non_hull):
         # remove all coefficients that are already (close to) zero
-        idx_nonzero = ~ np.isclose(alphas, np.zeros_like(alphas)) # alphas != 0
+        idx_nonzero = ~ np.isclose(alphas, np.zeros_like(alphas))  # alphas != 0
         alphas = alphas[idx_nonzero]
 
         # Add pruned points to the non hull (and thus back to bucket B_0)
