@@ -23,7 +23,7 @@ weights, weights_all = regression.Regression().grad_ascent(my_data, 3, 1000, 300
 """
 write trained weights to file
 """
-my_data.write_to_csv_file("../resources/output_weights.csv", weights)
+my_data.write_to_csv_file("../resources/bank/output_weights.csv", weights)
 
 """
 plot weights convergence from regression
