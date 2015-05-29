@@ -15,7 +15,6 @@ my_data = Data.Data()
 my_data.data_ready()
 print "Positive Instances Percentage is %f " % my_data.get_positive_instances_percent()
 
-
 """
 training with regression algorithm, my_data, num_of_train, num_of_training_data, num_of_iteration_each_train
 """

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e8d4969-a7cb-4c9f-94ca-054f200ccd21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/pic/weights.pdf" afterPath="$PROJECT_DIR$/resources/pic/weights.pdf" />
+    <list default="true" id="3e8d4969-a7cb-4c9f-94ca-054f200ccd21" name="Default" comment="update the iterated tverberg algorithm">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/haberman/haberman.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/haberman/haberman.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/haberman.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Data.py" afterPath="$PROJECT_DIR$/src/Data.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IteratedTverberg.py" afterPath="$PROJECT_DIR$/src/IteratedTverberg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Optimization.py" afterPath="$PROJECT_DIR$/src/Optimization.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/error.txt" afterPath="$PROJECT_DIR$/resources/error.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/output_weights.csv" afterPath="$PROJECT_DIR$/resources/output_weights.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="datamininglab.iws" />
@@ -28,39 +29,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Optimization.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Optimization.py">
+      <file leaf-file-name="haberman.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/haberman.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="161" column="54" selection-start-line="161" selection-start-column="54" selection-end-line="161" selection-end-column="54" />
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <element signature="e#55#73#0" expanded="true" />
-                <element signature="e#162#166#0" expanded="false" />
-                <element signature="e#227#254#0" expanded="false" />
-                <element signature="e#429#2420#0" expanded="false" />
-                <element signature="e#2501#2645#0" expanded="false" />
-                <element signature="e#2745#3027#0" expanded="false" />
-                <element signature="e#3116#3813#0" expanded="false" />
-                <element signature="e#3892#5476#0" expanded="false" />
-                <element signature="e#5549#5793#0" expanded="false" />
-                <element signature="e#5899#5949#0" expanded="false" />
-                <element signature="e#6052#6242#0" expanded="false" />
-                <element signature="e#6294#6594#0" expanded="false" />
-                <element signature="e#6659#8450#0" expanded="false" />
+                <element signature="e#96#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Regression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Regression.py">
+      <file leaf-file-name="Optimization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Optimization.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="e#171#175#0" expanded="false" />
-                <element signature="e#350#852#0" expanded="false" />
-              </folding>
+              <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,32 +54,9 @@
       <file leaf-file-name="IteratedTverberg.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IteratedTverberg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7542373">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="e#67#97#0" expanded="true" />
-                <element signature="e#202#206#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-              <folding>
-                <element signature="e#463#467#0" expanded="false" />
-                <element signature="e#838#1195#0" expanded="false" />
-                <element signature="e#1299#5858#0" expanded="false" />
-                <element signature="e#5942#6110#0" expanded="false" />
-                <element signature="e#6192#6638#0" expanded="false" />
-                <element signature="e#6735#7097#0" expanded="false" />
-                <element signature="e#7201#7282#0" expanded="false" />
-                <element signature="e#7373#7483#0" expanded="false" />
-                <element signature="e#7544#7672#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.5135135">
+              <caret line="89" column="49" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,10 +85,14 @@
         <option value="$PROJECT_DIR$/src/Test.py" />
         <option value="$PROJECT_DIR$/resources/output_weights.csv" />
         <option value="$PROJECT_DIR$/src/Plot.py" />
-        <option value="$PROJECT_DIR$/src/main.py" />
-        <option value="$PROJECT_DIR$/src/Data.py" />
         <option value="$PROJECT_DIR$/src/Regression.py" />
         <option value="$PROJECT_DIR$/src/Optimization.py" />
+        <option value="$PROJECT_DIR$/src/test.py" />
+        <option value="$PROJECT_DIR$/resources/haberman/haberman.data" />
+        <option value="$PROJECT_DIR$/resources/haberman/haberman.name" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/Data.py" />
+        <option value="$PROJECT_DIR$/src/haberman.py" />
         <option value="$PROJECT_DIR$/src/IteratedTverberg.py" />
       </list>
     </option>
@@ -137,7 +104,7 @@
     <option name="x" value="-2" />
     <option name="y" value="-3" />
     <option name="width" value="1924" />
-    <option name="height" value="1087" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,7 +130,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,12 +190,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pic" />
+              <option name="myItemId" value="haberman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +206,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.haberman">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,6 +224,40 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="datamininglab" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="haberman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="datamininglab" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/haberman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -398,13 +399,17 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.haberman" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.haberman" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -503,21 +508,27 @@
       <option name="project" value="LOCAL" />
       <updated>1432758520044</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update the iterated tverberg algorithm">
+      <created>1432840077554</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1432840077554</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-3" width="1924" height="1087" extended-state="6" />
+    <frame x="-2" y="-3" width="1924" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13586098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1858873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58409786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42128935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37553647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -536,21 +547,22 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58409786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13586098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34711966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40350878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -578,83 +590,16 @@
     <MESSAGE value="get the percent of positive instances" />
     <MESSAGE value="add the radon partition" />
     <MESSAGE value="add the iterated tverberg algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the iterated tverberg algorithm" />
+    <MESSAGE value="update the iterated tverberg algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the iterated tverberg algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/error.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="216" column="29" selection-start-line="216" selection-start-column="8" selection-end-line="216" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Optimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-            <element signature="e#162#166#0" expanded="false" />
-            <element signature="e#227#254#0" expanded="false" />
-            <element signature="e#429#2420#0" expanded="false" />
-            <element signature="e#2501#2645#0" expanded="false" />
-            <element signature="e#2745#3027#0" expanded="false" />
-            <element signature="e#3116#3813#0" expanded="false" />
-            <element signature="e#3892#5476#0" expanded="false" />
-            <element signature="e#5549#5793#0" expanded="false" />
-            <element signature="e#5899#5949#0" expanded="false" />
-            <element signature="e#6052#6242#0" expanded="false" />
-            <element signature="e#6294#6594#0" expanded="false" />
-            <element signature="e#6659#8450#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#171#175#0" expanded="false" />
-            <element signature="e#350#852#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -694,21 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-            <element signature="e#162#166#0" expanded="false" />
-            <element signature="e#227#254#0" expanded="false" />
-            <element signature="e#429#2420#0" expanded="false" />
-            <element signature="e#2501#2645#0" expanded="false" />
-            <element signature="e#2745#3027#0" expanded="false" />
-            <element signature="e#3116#3813#0" expanded="false" />
-            <element signature="e#3892#5476#0" expanded="false" />
-            <element signature="e#5549#5793#0" expanded="false" />
-            <element signature="e#5899#5949#0" expanded="false" />
-            <element signature="e#6052#6242#0" expanded="false" />
-            <element signature="e#6294#6594#0" expanded="false" />
-            <element signature="e#6659#8450#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,10 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#171#175#0" expanded="false" />
-            <element signature="e#350#852#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,21 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-            <element signature="e#162#166#0" expanded="false" />
-            <element signature="e#227#254#0" expanded="false" />
-            <element signature="e#429#2420#0" expanded="false" />
-            <element signature="e#2501#2645#0" expanded="false" />
-            <element signature="e#2745#3027#0" expanded="false" />
-            <element signature="e#3116#3813#0" expanded="false" />
-            <element signature="e#3892#5476#0" expanded="false" />
-            <element signature="e#5549#5793#0" expanded="false" />
-            <element signature="e#5899#5949#0" expanded="false" />
-            <element signature="e#6052#6242#0" expanded="false" />
-            <element signature="e#6294#6594#0" expanded="false" />
-            <element signature="e#6659#8450#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,10 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#171#175#0" expanded="false" />
-            <element signature="e#350#852#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,21 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-            <element signature="e#162#166#0" expanded="false" />
-            <element signature="e#227#254#0" expanded="false" />
-            <element signature="e#429#2420#0" expanded="false" />
-            <element signature="e#2501#2645#0" expanded="false" />
-            <element signature="e#2745#3027#0" expanded="false" />
-            <element signature="e#3116#3813#0" expanded="false" />
-            <element signature="e#3892#5476#0" expanded="false" />
-            <element signature="e#5549#5793#0" expanded="false" />
-            <element signature="e#5899#5949#0" expanded="false" />
-            <element signature="e#6052#6242#0" expanded="false" />
-            <element signature="e#6294#6594#0" expanded="false" />
-            <element signature="e#6659#8450#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,10 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#171#175#0" expanded="false" />
-            <element signature="e#350#852#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,21 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-            <element signature="e#162#166#0" expanded="false" />
-            <element signature="e#227#254#0" expanded="false" />
-            <element signature="e#429#2420#0" expanded="false" />
-            <element signature="e#2501#2645#0" expanded="false" />
-            <element signature="e#2745#3027#0" expanded="false" />
-            <element signature="e#3116#3813#0" expanded="false" />
-            <element signature="e#3892#5476#0" expanded="false" />
-            <element signature="e#5549#5793#0" expanded="false" />
-            <element signature="e#5899#5949#0" expanded="false" />
-            <element signature="e#6052#6242#0" expanded="false" />
-            <element signature="e#6294#6594#0" expanded="false" />
-            <element signature="e#6659#8450#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,10 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#171#175#0" expanded="false" />
-            <element signature="e#350#852#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,21 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-            <element signature="e#162#166#0" expanded="false" />
-            <element signature="e#227#254#0" expanded="false" />
-            <element signature="e#429#2420#0" expanded="false" />
-            <element signature="e#2501#2645#0" expanded="false" />
-            <element signature="e#2745#3027#0" expanded="false" />
-            <element signature="e#3116#3813#0" expanded="false" />
-            <element signature="e#3892#5476#0" expanded="false" />
-            <element signature="e#5549#5793#0" expanded="false" />
-            <element signature="e#5899#5949#0" expanded="false" />
-            <element signature="e#6052#6242#0" expanded="false" />
-            <element signature="e#6294#6594#0" expanded="false" />
-            <element signature="e#6659#8450#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,10 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#171#175#0" expanded="false" />
-            <element signature="e#350#852#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,21 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-            <element signature="e#162#166#0" expanded="false" />
-            <element signature="e#227#254#0" expanded="false" />
-            <element signature="e#429#2420#0" expanded="false" />
-            <element signature="e#2501#2645#0" expanded="false" />
-            <element signature="e#2745#3027#0" expanded="false" />
-            <element signature="e#3116#3813#0" expanded="false" />
-            <element signature="e#3892#5476#0" expanded="false" />
-            <element signature="e#5549#5793#0" expanded="false" />
-            <element signature="e#5899#5949#0" expanded="false" />
-            <element signature="e#6052#6242#0" expanded="false" />
-            <element signature="e#6294#6594#0" expanded="false" />
-            <element signature="e#6659#8450#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,10 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#171#175#0" expanded="false" />
-            <element signature="e#350#852#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.328125">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28125">
@@ -1042,42 +866,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Optimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="54" selection-start-line="161" selection-start-column="54" selection-end-line="161" selection-end-column="54" />
-          <folding>
-            <element signature="e#55#73#0" expanded="true" />
-            <element signature="e#162#166#0" expanded="false" />
-            <element signature="e#227#254#0" expanded="false" />
-            <element signature="e#429#2420#0" expanded="false" />
-            <element signature="e#2501#2645#0" expanded="false" />
-            <element signature="e#2745#3027#0" expanded="false" />
-            <element signature="e#3116#3813#0" expanded="false" />
-            <element signature="e#3892#5476#0" expanded="false" />
-            <element signature="e#5549#5793#0" expanded="false" />
-            <element signature="e#5899#5949#0" expanded="false" />
-            <element signature="e#6052#6242#0" expanded="false" />
-            <element signature="e#6294#6594#0" expanded="false" />
-            <element signature="e#6659#8450#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding>
-            <element signature="e#171#175#0" expanded="false" />
-            <element signature="e#350#852#0" expanded="false" />
+            <element signature="e#45#56#0" expanded="true" />
+            <element signature="e#131#214#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1085,29 +887,85 @@
     <entry file="file://$PROJECT_DIR$/src/Data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <caret line="232" column="60" selection-start-line="232" selection-start-column="60" selection-end-line="232" selection-end-column="60" />
           <folding>
-            <element signature="e#463#467#0" expanded="false" />
-            <element signature="e#838#1195#0" expanded="false" />
-            <element signature="e#1299#5858#0" expanded="false" />
-            <element signature="e#5942#6110#0" expanded="false" />
-            <element signature="e#6192#6638#0" expanded="false" />
-            <element signature="e#6735#7097#0" expanded="false" />
-            <element signature="e#7201#7282#0" expanded="false" />
-            <element signature="e#7373#7483#0" expanded="false" />
-            <element signature="e#7544#7672#0" expanded="false" />
+            <element signature="e#31#49#0" expanded="true" />
+            <element signature="e#1022#1205#0" expanded="false" />
+            <element signature="e#1328#1685#0" expanded="false" />
+            <element signature="e#1789#6348#0" expanded="false" />
+            <element signature="e#6432#6600#0" expanded="false" />
+            <element signature="e#6682#7128#0" expanded="false" />
+            <element signature="e#7225#7587#0" expanded="false" />
+            <element signature="e#7691#7772#0" expanded="false" />
+            <element signature="e#8192#8320#0" expanded="false" />
+            <element signature="e#8376#8470#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/haberman/haberman.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8054054">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/haberman/haberman.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/haberman/output_weights_haber_man">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38918918">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/haberman/scores">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/haberman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IteratedTverberg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7542373">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="e#67#97#0" expanded="true" />
-            <element signature="e#202#206#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.5135135">
+          <caret line="89" column="49" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

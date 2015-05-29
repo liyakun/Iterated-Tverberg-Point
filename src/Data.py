@@ -6,14 +6,27 @@ import random
 import csv
 class Data:
 
-    data_line_full, filtered_data, teacher_label, train_class_list, test_class_list, header_line = [], [], [], [], [], \
-                                                                                                   []
-    data_matrix, test_matrix, train_matrix = np.mat, np.mat, np.mat
+    haber_man_data, data_line_full, filtered_data, teacher_label, train_class_list, test_class_list, header_line = [], \
+                                                                                                 [], [], [], [], [], []
+    haber_man_data_matrix, data_matrix, test_matrix, train_matrix = np.mat, np.mat, np.mat, np.mat
 
     negative_instances, positive_instances = 0, 0
 
     def __init__(self):
         pass
+
+    # load haber_man data
+    def load_haber_man_data(self):
+        fr = open("../resources/haberman/haberman.data")
+        for line in fr:
+            self.haber_man_data.append(line.split(","))
+
+    def parse_haber_man_data(self):
+        temp_list = []
+        for lists in self.haber_man_data:
+            temp_list.append([int(x) for x in lists])
+        x, y = np.hsplit(np.asmatrix(temp_list), np.array([3, ]))
+        return x, y
 
     # load data from disk
     def load_data_set(self):
@@ -214,6 +227,10 @@ class Data:
         with open(file_path, "w") as f:
             writer = csv.writer(f)
             writer.writerows(content)
+
+    def write_score_to_file(self, file_path, content):
+        with open(file_path, "w") as f:
+            f.writelines(["%s\n" % item for item in content])
 
     # pre process all the data
     def data_ready(self):

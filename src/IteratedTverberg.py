@@ -43,7 +43,7 @@ class IteratedTverberg:
             points_list, proofs_list = zip(*opt.pop(buckets[l-1], d+2))
 
             # calculate the radon partition
-            radon_pt, alphas, partition_idx_tuple = opt.randon_partition(proofs_list)
+            radon_pt, alphas, partition_idx_tuple = opt.randon_partition(points_list)
 
             """
             TODO: the proof parts should be "ordered" according to the paper
