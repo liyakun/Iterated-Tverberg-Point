@@ -2,12 +2,12 @@
 from sklearn import linear_model
 from sklearn import cross_validation
 import numpy as np
-import Data
-import IteratedTverberg
+import data
+import itertver
 
 weigths, scores = [], []
 
-my_haber_man_data = Data.Data()
+my_haber_man_data = data.Data()
 my_haber_man_data.load_haber_man_data()
 X, y = my_haber_man_data.parse_haber_man_data()  # get instances matrix and corresponding label
 
@@ -25,6 +25,6 @@ for train_idx, test_idx in skf:
 my_haber_man_data.write_to_csv_file("../resources/haberman/output_weights_haber_man", weigths)
 my_haber_man_data.write_score_to_file("../resources/haberman/scores", scores)
 
-my_itertverberg = IteratedTverberg.IteratedTverberg()
-coefficients = my_itertverberg.center_point(weigths)
+my_itertver = itertver.IteratedTverberg()
+coefficients = my_itertver.center_point(weigths)
 print coefficients
