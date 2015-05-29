@@ -84,7 +84,7 @@ class Optimization:
         return self.solve_homogeneous(equations)
 
     # find a radon partition
-    def randon_partition(self, points):
+    def radon_partition(self, points):
         """
          points: (n, d)-array like
                  where n is the number of points and d is the dimension of the points

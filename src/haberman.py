@@ -25,7 +25,6 @@ for train_idx, test_idx in skf:
 my_haber_man_data.write_to_csv_file("../resources/haberman/output_weights_haber_man", weigths)
 my_haber_man_data.write_score_to_file("../resources/haberman/scores", scores)
 
-
 my_itertverberg = IteratedTverberg.IteratedTverberg()
 coefficients = my_itertverberg.center_point(weigths)
 print coefficients
