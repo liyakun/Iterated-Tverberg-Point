@@ -15,25 +15,23 @@ class Data:
     def __init__(self):
         pass
 
-
-    #load skin data
+    # load skin data
     def load_skin_data(self):
         fr = open("../resources/skin/skin_nonskin.txt")
         for line in fr:
             self.skin_data.append(line.strip().split("\t"))
-
 
     # load haber_man data
     def load_haber_man_data(self):
         fr = open("../resources/haberman/haberman.data")
         for line in fr:
             self.haber_man_data.append(line.split(","))
-        x, y = np.hsplit()
+
     def parse_haber_man_data(self):
         temp_list = []
         for lists in self.haber_man_data:
             temp_list.append([int(x) for x in lists])
-        x, y = np.hsplit(np.asmatrix(temp_list), np.array([3, ]))
+        x, y = np.hsplit(np.asarray(temp_list), np.array([3, ]))
         return x, y
 
     # load data from disk

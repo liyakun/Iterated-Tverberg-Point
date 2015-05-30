@@ -14,26 +14,19 @@ class IteratedTverberg:
         opt = Opt.Optimization()
         points = np.asarray(points)
         n, d = points.shape
-
         # np.ceil(a) return the ceiling of the input, element-wise, get the bigger integer than a, -1.7->-1, 0.2->1
         z = int(np.log10(np.ceil(n/(2*((d+1)**2)))))
-
         # initialize empty stacks / buckets with z+1 rows
         buckets = [[] for l in range(z+1)]
-
         # push initial points with trivial proofs with depth 1, proofs consist of a factor and a hull
         for s in points:
             buckets[0].append((s, [[(1, s)]]))
-
         # loop terminates when a point is in the bucket B_z
         while len(buckets[z]) == 0:
-
             # initialize proof to be empty stack
             proof = []
-
             # let l be the max such that B_(l-1) has at least d+2 points
             l = opt.find_l(buckets, d)
-
             # <editor-fold desc="Description">
             """
             pop d + 2 points q_1, ... , q_d+2 from B_l-1,
@@ -44,10 +37,8 @@ class IteratedTverberg:
             # </editor-fold>
             idx = opt.pop(buckets[l-1], d+2)
             points_list, proofs_list = zip(*idx)
-
             # calculate the radon partition
             radon_pt, alphas, partition_idx_tuple = opt.radon_partition(points_list)
-
             # <editor-fold desc="Description">
             """
             TODO: the proof parts should be "ordered" according to the paper
@@ -70,10 +61,8 @@ class IteratedTverberg:
                 """
                 # </editor-fold>
                 radon_pt_proof_list = list(compress(proofs_list, partition_idx_tuple[k]))
-
                 # factors of the radon point in regard to the hulls consisting of the partitions
                 radon_pt_factor_tuple = alphas[k]
-
                 # <editor-fold desc="Description">
                 """
                 form a proof of depth 2^(l+1) for the radon point, by lemma 4.1
@@ -86,7 +75,6 @@ class IteratedTverberg:
                 # </editor-fold>
                 for i in range(2 ** (l-1)):
                     pt_alphas, pt_hulls = [], []
-
                     # enumerate the proof list, get the index and proof, i is the number of partitions in each proof
                     for j, ps in enumerate(radon_pt_proof_list):
                         # <editor-fold desc="Description">
@@ -115,7 +103,6 @@ class IteratedTverberg:
                             # Add them to the new proof
                             pt_alphas.append(alpha)
                             pt_hulls.append(hull)
-
                     # reduce the hull of the radon point, that is consisting of the proof parts, to d+1 hull points
                     X2, non_hull = opt.prune_zipped(pt_alphas, pt_hulls)
                     proof.append(X2)

@@ -1,9 +1,10 @@
 """
 This file provide plot tools
 """
+import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf as pltpage
-
+from mpl_toolkits.mplot3d import  Axes3D
 
 class Plot:
 
@@ -20,3 +21,20 @@ class Plot:
                 pdf.savefig(fig)
                 plt.close()
 
+    def plot3dpoints(self, points, coefficients):
+        fig = plt.figure()
+        ax = fig.add_subplot(111, projection='3d')
+
+        _x, _y, _z = [], [], []
+        for i in range(len(points)):
+            _x.append(points[i][0])
+            _y.append(points[i][1])
+            _z.append(points[i][2])
+
+        ax.scatter(_x, _y, _z, c='r', marker='o', color='yellow')
+        ax.scatter(coefficients[0], coefficients[1], coefficients[2], color='blue', marker='o')
+        ax.scatter(np.mean(_x), np.mean(_y), np.mean(_z), color='red', marker='o')
+        ax.set_xlabel('x axis')
+        ax.set_ylabel('y axis')
+        ax.set_zlabel('z axis')
+        plt.show()
