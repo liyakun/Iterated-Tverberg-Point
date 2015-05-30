@@ -51,7 +51,7 @@ class Optimization:
 
     # sigmoid test function
     def sig_test(self, instance, weights):
-        sig_value = self.sigmoid(np.sum(instance*weights))
+        sig_value = self.sigmoid(np.vdot(instance, weights))
         if sig_value > 0.5:
             return 1.0
         else:

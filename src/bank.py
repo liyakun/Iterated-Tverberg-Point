@@ -23,4 +23,4 @@ class Bank:
         plot.Plot().plot(weights_all)
 
         """testing phase"""
-        test.Test().perform_test(1, self.my_data.test_matrix, self.my_data.test_class_list, weights)
+        test.Test().perform_test(self.my_data.test_matrix, self.my_data.test_class_list, weights)
