@@ -1,1 +1,1 @@
-This is the file for data mining lab.
+This is the repository for data mining lab.
