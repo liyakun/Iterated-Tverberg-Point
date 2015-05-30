@@ -14,7 +14,7 @@ class Haberman:
 
     def run_sklearn(self):
         my_sklearn = sklearnlib.Sklearnlib()
-        weights, scores = my_sklearn.trainandtest(100, self.X, self.Y, 0.3)
+        weights, scores = my_sklearn.train_and_test(100, self.X, self.Y, 0.3)
         self.my_haber_man_data.write_to_csv_file("../resources/haberman/output_weights_haber_man", weights)
         self.my_haber_man_data.write_score_to_file("../resources/haberman/scores", scores)
 

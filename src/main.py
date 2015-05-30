@@ -12,5 +12,5 @@ import test
 """ run skin test """
 my_skin = skin.Skin()
 my_test = test.Test()
-weights, coefficients = my_skin.run_sklean()
-my_test.perform_test(my_skin.X, my_skin.Y, weights, coefficients, "../resources/skin/error.txt")
+weights, coefficients, mean_point = my_skin.run_sklean()
+my_test.perform_test(my_skin.X, my_skin.Y, weights, coefficients, mean_point, "../resources/skin/error.txt")

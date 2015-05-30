@@ -14,7 +14,7 @@ class Bank:
 
     def runbank(self):
         """ regression algorithm, my_data, num_of_train, num_of_training_data, num_of_iteration_each_train """
-        weights, weights_all = regression.Regression().grad_ascent(self.my_data, 3, 1000, 300)
+        weights, weights_all = regression.Regression().grad_ascent(self.my_data, 3, 100, 300)
 
         """write trained weights to file"""
         self.my_data.write_to_csv_file("../resources/bank/output_weights.csv", weights)
@@ -23,4 +23,5 @@ class Bank:
         plot.Plot().plot(weights_all)
 
         """testing phase"""
-        test.Test().perform_test(self.my_data.test_matrix, self.my_data.test_class_list, weights)
+        test.Test().perform_test(self.my_data.test_matrix, self.my_data.test_class_list, weights, 0,
+                                 "../resources/skin/error.txt")
