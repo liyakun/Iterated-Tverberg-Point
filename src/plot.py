@@ -33,7 +33,7 @@ class Plot:
 
         ax.scatter(_x, _y, _z, c='r', marker='o', color='yellow')
         ax.scatter(coefficients[0], coefficients[1], coefficients[2], color='red', marker='o')
-        # ax.scatter(mean_point[0], mean_point[1], mean_point[2], color='red', marker='o')
+        ax.scatter(mean_point[0], mean_point[1], mean_point[2], color='blue', marker='o')
         ax.set_xlabel('x axis')
         ax.set_ylabel('y axis')
         ax.set_zlabel('z axis')

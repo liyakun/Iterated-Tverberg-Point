@@ -7,7 +7,9 @@ import haberman
 
 """ run haberman test """
 my_haber = haberman.Haberman()
-my_haber.run_sklearn()
+weights, coefficients, mean_point = my_haber.run_sklearn()
+my_test = test.Test()
+my_test.perform_test(my_haber.X, my_haber.Y, weights, coefficients, mean_point, "../resources/haberman/error.txt")
 
 """ run skin test """
 # my_skin = skin.Skin()
