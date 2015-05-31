@@ -142,12 +142,18 @@ class Optimization:
         radon_pt, _, _ = self.randon_partition(points)
         return radon_pt
 
-    # yield n element from the list l, Throws IndexError if len(l) < n
+    # yield n element from the list l, IndexError if len(l) < n, pop the index of point with proof within one bucket
     def pop(self, l, n):
         for i in range(n):
             yield l.pop()
 
-    # let l be the max such that B_(l-1) has at least d+2 points
+    # <editor-fold desc="Description">
+    """
+    let l be the max such that B_(l-1) has at least d+2 points
+    when the B_0 are popped (d+2) points many times, then there are less than (d+2) points left finally, then we come
+    to B_1, and find_l make sure we will find the radon point and partition on each level (in bucket_i)
+    """
+    # </editor-fold>
     def find_l(self, buckets, d):
         l = None
         for i, b in enumerate(buckets):
@@ -157,6 +163,7 @@ class Optimization:
         assert (l is not None), "No bucket with d+2 points found"
         return l + 1
 
+    # prune based on caratheodory's theorem
     def prune_zipped(self, alphas, hull):
         _alphas = np.asarray(alphas)
         _hull = np.asarray(hull)
@@ -188,7 +195,7 @@ class Optimization:
         lindep = _hull[1:] - _hull[1]
 
         # solve theta * lindep = 0
-        _betas = self.solve_homogenerous(lindep.T)
+        _betas = self.solve_homogeneous(lindep.T)
 
         # calculate theta_1 in a way to assure theta_i = 0
         beta1 = np.negative(np.sum(_betas))
@@ -208,9 +215,9 @@ class Optimization:
         _alphas[:] = _alphas - (lambdas[lambda_min_idx] * betas)
 
         # remove (filter) the pruned hull vector
-        idx = np.arrange(n) != lambda_min_idx
+        idx = np.arange(n) != lambda_min_idx
         hull = hull[idx]
         non_hull.append(hull[lambda_min_idx])
         alphas = alphas[idx]
 
-        return self._prune_recursive(alphas, hull, non_hull)
+        return self.prune_recursive(alphas, hull, non_hull)

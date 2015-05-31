@@ -14,13 +14,16 @@ class IteratedTverberg:
         opt = Opt.Optimization()
         points = np.asarray(points)
         n, d = points.shape
+        depth = 0
         # np.ceil(a) return the ceiling of the input, element-wise, get the bigger integer than a, -1.7->-1, 0.2->1
         z = int(np.log10(np.ceil(n/(2*((d+1)**2)))))
         # initialize empty stacks / buckets with z+1 rows
-        buckets = [[] for l in range(z+1)]
+        buckets = [[] for l in range(z+1)]  # also add B_0, so size z+1
         # push initial points with trivial proofs with depth 1, proofs consist of a factor and a hull
         for s in points:
             buckets[0].append((s, [[(1, s)]]))
+
+        print "Height of tree is: %d" % z
         # loop terminates when a point is in the bucket B_z
         while len(buckets[z]) == 0:
             # initialize proof to be empty stack
@@ -57,7 +60,8 @@ class IteratedTverberg:
                 points of depth r into a Radon point c, we can rearrange the proofs to get a new proof that c has
                 depth 2r
 
-                # ('ABCDEF', [1,0,1,0,1,1]) --> A C E F, compress(data, selector), collection of proofs for that points
+                ('ABCDEF', [1,0,1,0,1,1]) --> A C E F, compress(data, selector), parts of proofs in positive/ negative
+                partition for that points, by using boolean index in partition_idx_tuple
                 """
                 # </editor-fold>
                 radon_pt_proof_list = list(compress(proofs_list, partition_idx_tuple[k]))
@@ -66,11 +70,15 @@ class IteratedTverberg:
                 # <editor-fold desc="Description">
                 """
                 form a proof of depth 2^(l+1) for the radon point, by lemma 4.1
+
                 In the case of the fig-2 of paper, the i is range(2), as next step we will get the radon point
                 of depth 4, so l=1, then we get the depth of the four points which form the second order radon
                 partition, the use of i here is just get the depth of the previous point, and depth is also the
                 number of parts of the disjoint partitions of the proof of the previous point, so later we use
                 ps[i] indicate the i part of the partitions of the proof of previous radon point
+
+                generally, we will prune based on the partitions of the proof of the points which form the current
+                radon point
                 """
                 # </editor-fold>
                 for i in range(2 ** (l-1)):
@@ -100,12 +108,12 @@ class IteratedTverberg:
                             # </editor-fold>
                             alpha = radon_pt_factor_tuple[j] * ppt[0]
                             hull = ppt[1]
-                            # Add them to the new proof
+                            # Add the alpha and hull to the new union proof
                             pt_alphas.append(alpha)
                             pt_hulls.append(hull)
                     # reduce the hull of the radon point, that is consisting of the proof parts, to d+1 hull points
-                    X2, non_hull = opt.prune_zipped(pt_alphas, pt_hulls)
-                    proof.append(X2)
-                    buckets[0].extend(non_hull)
+                    proof_after_pruning, non_hull = opt.prune_zipped(pt_alphas, pt_hulls)
+                    proof.append(proof_after_pruning)
+                    buckets[0].extend(non_hull)     # add the outside isolated point to buckets[0] again
             buckets[l].append((radon_pt, proof))
-        return buckets[z][0][0]
+        return buckets[z]
