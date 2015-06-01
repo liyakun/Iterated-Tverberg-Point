@@ -69,9 +69,7 @@ class Optimization:
     # find the alphas to solve the equation
     def find_alphas(self, points):
         _points = np.asarray(points)
-
         n, m = _points.shape
-        equations = np.vstack((np.ones(n), _points.T)) # add one here to prevent we got all zero as the solution
         # <editor-fold desc="Description">
         """
         numpy.vstack(tup): stack array in sequence vertically(row wise)
@@ -81,9 +79,11 @@ class Optimization:
                              b = np.array([2, 3, 4])
                             np.vstack((a,b)) => array([[1, 2, 3],
                                                        [2, 3, 4]])
+        We use b_i := (a_i, 1), so we have (d+2) vectors in d+1 dimensional space, thus they are linearly
+        dependent. That is, there exists α_1, ... , α_m not all zero such that sum(α_i * b_i)=0, i in [1, m]
         """
         # </editor-fold>
-
+        equations = np.vstack((np.ones(n), _points.T))
         return self.solve_homogeneous(equations)
 
     # find a radon partition
@@ -93,7 +93,7 @@ class Optimization:
          points: (n, d)-array like
                  where n is the number of points and d is the dimension of the points
          Return the radon points, the factors for the partition I and the partition J
-         and two masking arrays, representing the partitions in reference to the inputarray.
+         and two masking arrays, representing the partitions in reference to the input array.
             (radon point),
             (alpha_I, alpha_J),
             (mask_I, mask_J)
@@ -103,9 +103,8 @@ class Optimization:
         n, d = points.shape
         assert (n >= d + 2), "Not enough points"
 
-        # get the array of alphas
+        # get the array of alphas, get the mask of alphas
         alphas = self.find_alphas(points)
-
         positive_idx = alphas > 0
         positive_alphas = alphas[positive_idx]
         positive_points = points[positive_idx]
@@ -115,32 +114,21 @@ class Optimization:
         # <editor-fold desc="Description">
         """
         The convex hull of I and J must intersect, because they both contain the
-        point
-                p = sum{(a_i/A)x_i}, i in I = sum{-(a_j/A)*x_j}, j in J
+        point(vectors) in  both the convex hull of {a_i|i in I} and {a_j|j in J}
+
+                p = sum{(α_i/α)a_i} = sum{-(α_j/α)*a_j}, i in I & j in J
         where
-                A = sum{a_i}, i in I, = -sum{a_j}, i in J
+
+                α = sum{α_i} = -sum{α_j}, i in J & i in I,
         """
         # </editor-fold>
         sum_alphas = np.sum(positive_alphas)
         radon_pt_positive_alphas = positive_alphas / sum_alphas
         radon_pt_non_positive_alphas = non_positive_alphas / (-sum_alphas)
-        # dot product of two arrays, we get the radon point in this step, p = sum{(a_i/A)x_i}, i
-        radon_pt = np.dot(radon_pt_positive_alphas, positive_points)
-
+        radon_pt = np.dot(radon_pt_positive_alphas, positive_points) # get common vectors, radon point
         return (radon_pt,
                 (radon_pt_positive_alphas, radon_pt_non_positive_alphas),
                 (positive_idx, non_positive_idx))
-
-    # find  the radon point
-    def radon_point(self, points):
-        # <editor-fold desc="Description">
-        """
-         points : (n, d)-array_like where n is the number of points and d is the dimension of the points
-         Return the radon point as a ndarray
-        """
-        # </editor-fold>
-        radon_pt, _, _ = self.randon_partition(points)
-        return radon_pt
 
     # yield n element from the list l, IndexError if len(l) < n, pop the index of point with proof within one bucket
     def pop(self, l, n):
@@ -172,6 +160,13 @@ class Optimization:
         non_hull = [(p, [[(1,p)]]) for p in non_hull]
         return zip(alphas, hull), non_hull
 
+    # <editor-fold desc="Description">
+    """
+    prune recursively by referencing http://www.math.cornell.edu/~eranevo/homepage/ConvNote.pdf
+    x = sum{α_i*x_i}, x_i in S, such that α_i > 0 ; sum(α_i) = 1 and |S| > d + 1
+        here we have |S| = d + 2
+    """
+    # </editor-fold>
     def prune_recursive(self, alphas, hull, non_hull):
         # remove all coefficients that are already (close to) zero
         idx_nonzero = ~ np.isclose(alphas, np.zeros_like(alphas))  # alphas != 0
@@ -183,7 +178,7 @@ class Optimization:
         hull = hull[idx_nonzero]
         n, d = hull.shape
 
-        # Anchor: d+1 hull points can't  be reduced any further
+        # continue prune until d+1 hull points, then can't  be reduced any further
         if n <= d + 1:
             return alphas, hull, non_hull
 
@@ -191,21 +186,37 @@ class Optimization:
         _hull = hull[:d + 2]
         _alphas = alphas[:d + 2]
 
-        # create linearly dependent vectors
-        lindep = _hull[1:] - _hull[1]
+        # <editor-fold desc="Description">
+        """
+        create linearly dependent vectors
 
-        # solve theta * lindep = 0
-        _betas = self.solve_homogeneous(lindep.T)
+        we choose d+2 points last step, denote as x_1, ... , x_(d+2)
+        then we consider vectors {x_2-x_1, x_3-x_1, ... , x_(d+2)-x_1}, those vectors are linearly dependent
+        therefore, there exists β_2, ... , β_(d+2) not all zero such that sum{(x_i-x_1)β_i}=0, i in [2, d+2]
+        Then we solve the equation β * lindep = 0
+        """
+        # </editor-fold>
+        linear_dependent = _hull[1:] - _hull[1]
+        _betas = self.solve_homogeneous(linear_dependent.T)
 
-        # calculate theta_1 in a way to assure theta_i = 0
+        # Then we need to find β_1 = sum{-(β_i)}, i >= 2
         beta1 = np.negative(np.sum(_betas))
         betas = np.hstack((beta1, _betas))
 
-        # calculate the adjusted alphas and determine the minimum
-        # calculate the minimum fraction alpha / theta_i for each theta_i > 0
+        # <editor-fold desc="Description">
+        """
+        calculate the adjusted alphas and determine the minimum
+        calculate the minimum fraction alpha / theta_i, in this case for each theta_i > 0
+
+        we want to reduce the size of x, and we get the β_1, β_2, ... , β_(d+2) with sum to zero
+        and sum(β_i * x_i) = 0, then we can represent x = sum{α_i * x_i} = sum{(α_i - λ*β_i)x_i} for all λ
+        Thus, we can choose a λ such that α'_i = α_i - λ*β_i >= 0, and at least one such value is 0.
+        Still, sum(α'_i) = sum(α_i) = 1, so we get another representation of x whose support has size smaller than |S|
+        """
+        # </editor-fold>
         idx_positive = betas > 0
-        idx_nonzero = ~ np.isclose(betas, np.zeros_like(betas)) # betas != 0
-        idx = idx_positive & idx_nonzero
+        idx_nonzero = ~ np.isclose(betas, np.zeros_like(betas))  # betas != 0
+        idx = idx_positive & idx_nonzero  # make sure betas are positive and nonzero, so  α'_i = α_i - λ*β_i >= 0
         lambdas = _alphas[idx] / betas[idx]
         lambda_min_idx = np.argmin(lambdas)
 
@@ -215,9 +226,9 @@ class Optimization:
         _alphas[:] = _alphas - (lambdas[lambda_min_idx] * betas)
 
         # remove (filter) the pruned hull vector
-        idx = np.arange(n) != lambda_min_idx
-        hull = hull[idx]
-        non_hull.append(hull[lambda_min_idx])
-        alphas = alphas[idx]
+        idx = np.arange(n) != lambda_min_idx   # get the index of points which are Not corresponding to the minimum λ
+        hull = hull[idx]                       # get the representation of the pruned convex hull
+        non_hull.append(hull[lambda_min_idx])  # add pruned points to the non hull (and thus back to bucket B_0)
+        alphas = alphas[idx]                   # get the corresponding alphas with the convex hull points
 
         return self.prune_recursive(alphas, hull, non_hull)
