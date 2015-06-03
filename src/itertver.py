@@ -16,7 +16,7 @@ class IteratedTverberg:
         n, d = points.shape
         depth = 0
         # np.ceil(a) return the ceiling of the input, element-wise, get the bigger integer than a, -1.7->-1, 0.2->1
-        z = int(np.log10(np.ceil(n/(2*((d+1)**2)))))
+        z = int(np.log2(np.ceil(n/(2*((d+1)**2)))))
         # initialize empty stacks / buckets with z+1 rows
         buckets = [[] for l in range(z+1)]  # also add B_0, so size z+1
         # push initial points with trivial proofs with depth 1, proofs consist of a factor and a hull
@@ -106,7 +106,7 @@ class IteratedTverberg:
                             of it's proofs
                             """
                             # </editor-fold>
-                            alpha = radon_pt_factor_tuple[j] * ppt[0]
+                            alpha = radon_pt_factor_tuple[j] * ppt[0]  # adjust the factors
                             hull = ppt[1]
                             # Add the alpha and hull to the new union proof
                             pt_alphas.append(alpha)

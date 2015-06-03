@@ -1,6 +1,5 @@
-"""
-This file contains the optimization algorithms
-"""
+# -*- coding: utf-8 -*-
+
 import numpy as np
 import time
 

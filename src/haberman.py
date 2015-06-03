@@ -26,4 +26,5 @@ class Haberman:
         print "Center Point with proof: ", center_point_with_proof[0]
         print "Center point: ", center_point_with_proof[0][0]
         print "Proof of center point: ", center_point_with_proof[0][1]
+        print "Depth of center point: ", len(center_point_with_proof[0][1])
         return weights, center_point_with_proof[0][0], mean_point
