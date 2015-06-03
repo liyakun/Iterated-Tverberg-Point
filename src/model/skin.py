@@ -1,11 +1,9 @@
 __author__ = 'kun'
 
-import data
-import plot
-import optimization
-import itertver
 import numpy as np
-import sklearnlib
+
+from src.lib import data, sklearnlib, itertver
+
 
 class Skin:
 

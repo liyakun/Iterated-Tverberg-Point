@@ -1,7 +1,8 @@
 """
 This file contains the logistic regression algorithm
 """
-import optimization
+from src.lib import optimization
+
 
 class Regression:
     weights = []

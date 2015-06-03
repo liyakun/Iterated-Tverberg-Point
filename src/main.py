@@ -1,9 +1,8 @@
 """
 This file contains the main function
 """
-import skin
-import test
-import haberman
+from src.lib import test
+from src.model import haberman
 
 """ run haberman test """
 my_haber = haberman.Haberman()

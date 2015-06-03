@@ -1,9 +1,7 @@
 __author__ = 'ya kun'
 
-import test
-import data
-import plot
-import regression
+from src.lib import data, test, plot, regression
+
 
 class Bank:
 

@@ -1,9 +1,8 @@
 # http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 import numpy as np
-import data
-import itertver
-import plot
-import sklearnlib
+
+from src.lib import data, sklearnlib, plot, itertver
+
 
 class Haberman:
 

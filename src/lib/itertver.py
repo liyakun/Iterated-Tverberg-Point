@@ -3,7 +3,7 @@ This file implement the iterated Tverberg points algorithm
 """
 from itertools import compress
 import numpy as np
-import optimization as Opt
+from src.lib import optimization as Opt
 
 class IteratedTverberg:
 

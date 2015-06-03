@@ -1,8 +1,11 @@
 """
 This file test weights w.r.t testing data
 """
-import optimization
 import numpy as np
+
+from src.lib import optimization
+
+
 class Test:
 
     errors_list = []
