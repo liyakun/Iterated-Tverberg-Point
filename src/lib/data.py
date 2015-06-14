@@ -8,7 +8,7 @@ class Data:
 
     skin_data, haber_man_data, data_line_full, filtered_data, teacher_label, train_class_list, test_class_list, \
         header_line = [], [], [], [], [], [], [], []
-    data_matrix, test_matrix, train_matrix = np.mat, np.mat, np.mat,
+    data_matrix, test_matrix, train_matrix = np.mat, np.mat, np.mat
 
     negative_instances, positive_instances = 0, 0
 
@@ -198,7 +198,7 @@ class Data:
 
     # parse teacher label and return
     def parse_teacher_label(self, str_in):
-        if str_in == '"no"\r\n':
+        if str_in == '"no"\n':
             self.negative_instances += 1
             return 0
         else:

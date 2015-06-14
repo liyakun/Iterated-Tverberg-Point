@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from sklearn import linear_model
 import numpy as np
 import time
 
@@ -47,6 +48,12 @@ class Optimization:
                 del (data_index[rand_index])
         print "\nTraining finished within %fs!\n" % (time.time() - start_time)
         return weights_tmp
+
+    def gradient_descent(self, train_matrix, train_class_list, random_index_list_in_training, num_iteration, function):
+        clf = linear_model.SGDClassifier(loss="log", n_jobs=-1)
+        clf.fit(train_matrix[random_index_list_in_training], np.asarray(train_class_list)[random_index_list_in_training]
+                )
+        return clf.coef_[0]
 
     # sigmoid test function
     def sig_test(self, instance, weights):

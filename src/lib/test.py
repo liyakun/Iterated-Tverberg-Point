@@ -21,7 +21,7 @@ class Test:
             print "%d th test..." % j
             error_count = 0
             for i in range(len(instance_matrix)):
-                if int((my_optimization.sig_test(np.asarray(instance_matrix[i]).transpose(), np.asarray(weights_list[j])
+                if int((my_optimization.sig_test(np.transpose(np.asarray(instance_matrix[i])[0]), np.asarray(weights_list[j])
                                                  ))) != int(labels_list[i]):
                     error_count += 1
             self.errors_list.append(float(error_count)/float(len(instance_matrix)))
