@@ -6,8 +6,6 @@ import time
 
 class Optimization:
 
-    weights_all = []
-
     def __init__(self):
         pass
 
@@ -17,8 +15,6 @@ class Optimization:
 
     # gradient ascent optional optimize algorithm
     def grad_ascent(self, train_matrix, train_class_list, random_index_list_in_training, num_iteration, function):
-        #  every time clean the weights_all for all training weights
-        self.weights_all = []
         # get start time
         start_time = time.time()
         # get the number of rows and columns of the training matrix
@@ -40,8 +36,6 @@ class Optimization:
                 h = function.sigmoid(np.sum(train_matrix[random_index_list_in_training[rand_index]]*weights_tmp))
                 # compare the sigmoid value with teacher, and store the current error
                 error_tmp = (train_class_list[random_index_list_in_training[rand_index]] - h)
-                # store all the weights
-                self.weights_all.append(np.sum(np.mat(weights_tmp)))
                 # update weights in current training example
                 weights_tmp += alpha * train_matrix[random_index_list_in_training[rand_index]].transpose() * error_tmp
                 # remove the used instances index
@@ -49,10 +43,15 @@ class Optimization:
         print "\nTraining finished within %fs!\n" % (time.time() - start_time)
         return weights_tmp
 
-    def gradient_descent(self, train_matrix, train_class_list, random_index_list_in_training, num_iteration, function):
+    def gradient_descent_random(self, train_matrix, train_class_list, random_index_list_in_training):
         clf = linear_model.SGDClassifier(loss="log", n_jobs=-1)
         clf.fit(train_matrix[random_index_list_in_training], np.asarray(train_class_list)[random_index_list_in_training]
                 )
+        return clf.coef_[0]
+
+    def gradient_descent_equal(self, train_matrix, train_class_list):
+        clf = linear_model.SGDClassifier(loss="log", n_jobs=-1)
+        clf.fit(train_matrix, train_class_list)
         return clf.coef_[0]
 
     # sigmoid test function

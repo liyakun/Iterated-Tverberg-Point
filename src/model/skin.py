@@ -1,8 +1,10 @@
-__author__ = 'kun'
+"""
+skin data set from UCI
+"""
 
 import numpy as np
 
-from src.lib import data, sklearnlib, itertver
+from src.lib import data, itertver, regression, test
 
 
 class Skin:
@@ -18,25 +20,31 @@ class Skin:
     X = X.astype(np.float)
     Y = Y.astype(np.float)
 
-    def run_sklean(self):
+    def run_skin(self, number_of_training, number_of_training_instances):
 
-        """training and testing"""
-        my_sklearn = sklearnlib.Sklearnlib()
-        weights, scores, mean_point = my_sklearn.train_and_test(200, self.X, self.Y, 0.3)
-        self.my_data.write_to_csv_file("../resources/skin/output_weights_skin", weights)
-        self.my_data.write_score_to_file("../resources/skin/scores", scores)
+       # get training weights
+        weights_random = regression.Regression().gradient_descent_random_general(self.X, self.Y, number_of_training,
+                    self.my_data.get_random_index_list(number_of_training_instances, self.X))
 
-        """running iterated tverberg algorithm to compute the centerpoint"""
-        my_itertver = itertver.IteratedTverberg()
-        center_point_with_proof = my_itertver.center_point(weights)
-        center_point = center_point_with_proof[0]
-        proof_points = center_point_with_proof[1]
+        weights_all = regression.Regression().gradient_descent_all(self.X, self.Y)
 
-        """plot the points, coefficients, middle points """
-        # my_plot = plot.Plot()
-        # my_plot.plot3dpoints(weights, coefficients, mean_point)
-        print center_point
-        print proof_points
-        return weights, center_point, mean_point
+        data_set, label = self.my_data.get_subset_data(1000, self.X, self.Y)
+        weights_equal = regression.Regression().gradient_descent_equal(data_set, label)
 
+        # write trained weights to file
+        self.my_data.write_to_csv_file("../resources/skin/result/output_weights_random.csv", weights_random)
+        self.my_data.write_to_csv_file("../resources/skin/result/output_weights_equal.csv", weights_equal)
+        self.my_data.write_to_csv_file("../resources/skin/result/output_weights_all.csv", weights_all)
+
+        # get center point
+        my_center_point = itertver.IteratedTverberg()
+        center_point_random, average_point_random = my_center_point.get_center_and_average_point(weights_random)
+        center_point_equal, average_point_euqal = my_center_point.get_center_and_average_point(weights_equal)
+
+        # testing phase
+        test.Test().perform_test(self.X, self.Y, weights_random, center_point_random,
+                                 average_point_random, weights_all, "../resources/skin/result/error_random.txt")
+
+        test.Test().perform_test(self.X, self.Y, weights_equal, center_point_equal,
+                                 average_point_euqal, weights_all, "../resources/skin/result/error_equal.txt")
 

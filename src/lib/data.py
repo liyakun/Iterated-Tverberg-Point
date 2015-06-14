@@ -208,6 +208,8 @@ class Data:
     # convert all value into numpy mat
     def convert_attr_to_matrix(self):
         temp_array = np.zeros((len(self.filtered_data), len(self.header_line)-2), dtype=float)
+         # make sure the dataset are random, here is easier to achieve, as the data and label are together at present
+        np.random.shuffle(self.filtered_data)
         for idx_list, data_line in enumerate(self.filtered_data):
             self.teacher_label.append(self.parse_teacher_label(data_line.pop()))
             for idx_line, element in enumerate(data_line):
@@ -223,8 +225,8 @@ class Data:
         self.test_class_list = self.teacher_label[m_tr:m] #get the label of testing example
 
     # get part of the train data matrix by index
-    def get_random_index_list(self, length):
-        m, n = np.shape(self.train_matrix)
+    def get_random_index_list(self, length, dataset):
+        m, n = np.shape(dataset)
         return random.sample(range(m), length)
 
     # write weights to file
@@ -246,3 +248,8 @@ class Data:
 
     def get_positive_instances_percent(self):
         return float(self.positive_instances) / float(self.positive_instances+self.negative_instances)
+
+    def get_subset_data(self, num_subset, dataset, labelset):
+        print len(labelset)
+        return np.array_split(dataset, num_subset), np.array_split(labelset, num_subset)
+

@@ -117,3 +117,18 @@ class IteratedTverberg:
                     buckets[0].extend(non_hull)     # add the outside isolated point to buckets[0] again
             buckets[l].append((radon_pt, proof))
         return buckets[z]
+
+    def get_center_and_average_point(self, weights):
+        center_point_with_proof = self.center_point(weights)
+        print "Center Point with proof: ", center_point_with_proof[0]
+        print "Center point: ", center_point_with_proof[0][0]
+        print "Proof of center point: ", center_point_with_proof[0][1]
+        print "Depth of center point: ", len(center_point_with_proof[0][1])
+        return center_point_with_proof[0][0], self.calculate_average_point(weights)
+
+    def calculate_average_point(self, weights):
+        average_point = [0 for x in range(len(weights[0]))]
+        for i in range(len(weights)):
+            for j in range(len(weights[i])):
+                average_point[j] += (weights[i][j])
+        return [x / len(weights) for x in average_point]
