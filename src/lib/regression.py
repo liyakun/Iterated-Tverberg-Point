@@ -2,7 +2,7 @@
 This file contains the logistic regression algorithm
 """
 from src.lib import optimization
-
+from src.lib import data
 
 class Regression:
     weights_random, weights_equal, weights_all = [], [], []
@@ -31,9 +31,11 @@ class Regression:
         self.weights_all.append(reg_opt.gradient_descent_equal(data_matrix, label))
         return self.weights_all
 
-    def gradient_descent_random_general(self, data_set, label_set, number_of_training, radom_index):
+    def gradient_descent_random_general(self, data_set, label_set, number_of_training, number_of_training_instances):
+        my_data = data.Data()
         for i in range(0, number_of_training):
             print i, "th training."
             reg_opt = optimization.Optimization()
-            self.weights_random.append(reg_opt.gradient_descent_random(data_set, label_set, radom_index))
+            self.weights_random.append(reg_opt.gradient_descent_random(data_set, label_set,
+                                                my_data.get_random_index_list(number_of_training_instances, data_set)))
         return self.weights_random

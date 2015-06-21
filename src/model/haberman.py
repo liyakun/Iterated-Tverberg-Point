@@ -8,7 +8,7 @@ class Haberman:
 
     my_haber_man_data = data.Data()
     my_haber_man_data.load_haber_man_data()
-    X, y = my_haber_man_data.parse_haber_man_data()  # get instances matrix and corresponding label
+    X, y = my_haber_man_data.get_haber_man_data()  # get instances matrix and corresponding label
     Y = np.array(y.transpose())[0]
 
     def run_sklearn(self):

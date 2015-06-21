@@ -1,7 +1,6 @@
 """
 This file provide plot tools
 """
-import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf as pltpage
 from mpl_toolkits.mplot3d import  Axes3D
@@ -38,3 +37,7 @@ class Plot:
         ax.set_ylabel('y axis')
         ax.set_zlabel('z axis')
         plt.show()
+
+    def plot_error(self, path):
+
+        return

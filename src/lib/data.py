@@ -21,13 +21,25 @@ class Data:
         for line in fr:
             self.skin_data.append(line.strip().split("\t"))
 
+    # return skin data with instances and labels
+    def get_skin_data(self):
+        skin_data = np.asarray(self.skin_data)
+        np.random.shuffle(skin_data)
+        x_, y_ = np.hsplit(skin_data, np.array([3, ]))
+        y_ = y_.transpose()[0]
+        y_[y_ == '2'] = 0
+        x_ = x_.astype(np.float)
+        y_ = y_.astype(np.float)
+        return x_, y_
+
     # load haber_man data
     def load_haber_man_data(self):
         fr = open("../resources/haberman/haberman.data")
         for line in fr:
             self.haber_man_data.append(line.split(","))
 
-    def parse_haber_man_data(self):
+    # return haber man data with instances and labels
+    def get_haber_man_data(self):
         temp_list = []
         for lists in self.haber_man_data:
             temp_list.append([int(x) for x in lists])
@@ -35,14 +47,14 @@ class Data:
         return x, y
 
     # load data from disk
-    def load_data_set(self):
+    def load_bank_data_set(self):
         fr = open("../resources/bank/bank-additional-full.csv")
         self.header_line = next(fr).split(";")
         for line in fr:
             self.data_line_full.append(line.split(";"))
 
     # omit data with both unknown features attributes && with duration attribute column
-    def filter_data_set(self):
+    def filter_bank_data_set(self):
         lines_omit = 0
         lines_left = 0
         duration_idx = self.header_line.index('"duration"')
@@ -55,7 +67,7 @@ class Data:
                 lines_left += 1
 
     # convert all value into double
-    def convert_category_to_numerical(self, index, attribute):
+    def convert_bank_category_to_numerical(self, index, attribute):
 
         if index == 1:
             if attribute == '"admin."':
@@ -197,7 +209,7 @@ class Data:
             return float(attribute)
 
     # parse teacher label and return
-    def parse_teacher_label(self, str_in):
+    def parse_bank_teacher_label(self, str_in):
         if str_in == '"no"\n':
             self.negative_instances += 1
             return 0
@@ -206,23 +218,24 @@ class Data:
             return 1
 
     # convert all value into numpy mat
-    def convert_attr_to_matrix(self):
+    def convert_bank_attr_to_matrix(self):
         temp_array = np.zeros((len(self.filtered_data), len(self.header_line)-2), dtype=float)
-         # make sure the dataset are random, here is easier to achieve, as the data and label are together at present
+        # make sure the dataset are random, here is easier to achieve, as the data and label are together at present
         np.random.shuffle(self.filtered_data)
         for idx_list, data_line in enumerate(self.filtered_data):
-            self.teacher_label.append(self.parse_teacher_label(data_line.pop()))
+            self.teacher_label.append(self.parse_bank_teacher_label(data_line.pop()))
             for idx_line, element in enumerate(data_line):
-                temp_array[idx_list][idx_line] = self.convert_category_to_numerical(idx_line, element)
+                temp_array[idx_list][idx_line] = self.convert_bank_category_to_numerical(idx_line, element)
         self.data_matrix = np.asmatrix(temp_array)
 
-    # split data into train(2/3), and test(1/3)
-    def split_to_train_and_test(self):
-        m, n = np.shape(self.data_matrix)
-        self.train_matrix, self.test_matrix = np.vsplit(self.data_matrix, np.array([2*m/3]))
-        m_tr, n_tr = np.shape(self.train_matrix)
-        self.train_class_list = self.teacher_label[0:m_tr]  #get the label of training example
-        self.test_class_list = self.teacher_label[m_tr:m] #get the label of testing example
+    # split data matrix into train and set, with percent_train/10 as the percentage
+    def split_to_train_and_test(self, train_x, label_y, percent_train):
+        m, n = np.shape(train_x)
+        train_matrix, test_matrix = np.vsplit(train_x, np.array([percent_train*m/10]))
+        m_tr, n_tr = np.shape(train_matrix)
+        train_class_list = label_y[0:m_tr]
+        test_class_list = label_y[m_tr:m]
+        return train_matrix, train_class_list, test_matrix, test_class_list
 
     # get part of the train data matrix by index
     def get_random_index_list(self, length, dataset):
@@ -235,21 +248,23 @@ class Data:
             writer = csv.writer(f)
             writer.writerows(content)
 
+    # write score of weights in file
     def write_score_to_file(self, file_path, content):
         with open(file_path, "w") as f:
             f.writelines(["%s\n" % item for item in content])
 
     # pre process all the data
-    def data_ready(self):
-        self.load_data_set()
-        self.filter_data_set()
-        self.convert_attr_to_matrix()
+    def bank_data_ready(self):
+        self.load_bank_data_set()
+        self.filter_bank_data_set()
+        self.convert_bank_attr_to_matrix()
         self.split_to_train_and_test()
 
-    def get_positive_instances_percent(self):
+    # get the percent of positive instance in bank dataset
+    def get_bank_positive_instances_percent(self):
         return float(self.positive_instances) / float(self.positive_instances+self.negative_instances)
 
+    # get the subset of the train data set with how many "num_subset" equal set we want to have
     def get_subset_data(self, num_subset, dataset, labelset):
-        print len(labelset)
         return np.array_split(dataset, num_subset), np.array_split(labelset, num_subset)
 

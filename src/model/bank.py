@@ -1,7 +1,6 @@
 """
 bank data set from UCI
 """
-
 from src.lib import data, test, regression
 from src.lib import itertver
 
@@ -9,8 +8,8 @@ class Bank:
 
     """filter data with unknown features && create training && testing data matrix"""
     my_data = data.Data()
-    my_data.data_ready()
-    print "Positive Instances Percentage is %f " % my_data.get_positive_instances_percent()
+    my_data.bank_data_ready()
+    print "Positive Instances Percentage is %f " % my_data.get_bank_positive_instances_percent()
 
     def runbank(self, number_of_training, number_of_training_instances):
         # regression algorithm, my_data, num_of_train, num_of_training_data, num_of_iteration_each_train

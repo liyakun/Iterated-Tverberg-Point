@@ -1,34 +1,27 @@
 """
 skin data set from UCI
+https://archive.ics.uci.edu/ml/datasets/Skin+Segmentation
 """
-
-import numpy as np
 
 from src.lib import data, itertver, regression, test
 
 
 class Skin:
-
-    """prepare data"""
+    # prepare data
     my_data = data.Data()
     my_data.load_skin_data()
-    skin_data = np.asarray(my_data.skin_data)
-    np.random.shuffle(skin_data)
-    X, Y = np.hsplit(skin_data, np.array([3, ]))
-    Y = Y.transpose()[0]
-    Y[Y == '2'] = 0
-    X = X.astype(np.float)
-    Y = Y.astype(np.float)
+    X, Y = my_data.get_skin_data()
+    X_train, Y_train, X_test, Y_test = my_data.split_to_train_and_test(X, Y, 7)
 
     def run_skin(self, number_of_training, number_of_training_instances):
-
-       # get training weights
-        weights_random = regression.Regression().gradient_descent_random_general(self.X, self.Y, number_of_training,
-                    self.my_data.get_random_index_list(number_of_training_instances, self.X))
+        # get training weights
+        weights_random = regression.Regression().gradient_descent_random_general(self.X_train, self.Y_train,
+                                                                                 number_of_training,
+                                                                                 number_of_training_instances)
 
         weights_all = regression.Regression().gradient_descent_all(self.X, self.Y)
 
-        data_set, label = self.my_data.get_subset_data(1000, self.X, self.Y)
+        data_set, label = self.my_data.get_subset_data(2000, self.X, self.Y)
         weights_equal = regression.Regression().gradient_descent_equal(data_set, label)
 
         # write trained weights to file
@@ -42,9 +35,8 @@ class Skin:
         center_point_equal, average_point_euqal = my_center_point.get_center_and_average_point(weights_equal)
 
         # testing phase
-        test.Test().perform_test(self.X, self.Y, weights_random, center_point_random,
+        test.Test().perform_test(self.X_test, self.Y_test, weights_random, center_point_random,
                                  average_point_random, weights_all, "../resources/skin/result/error_random.txt")
 
-        test.Test().perform_test(self.X, self.Y, weights_equal, center_point_equal,
+        test.Test().perform_test(self.X_test, self.Y_test, weights_equal, center_point_equal,
                                  average_point_euqal, weights_all, "../resources/skin/result/error_equal.txt")
-
