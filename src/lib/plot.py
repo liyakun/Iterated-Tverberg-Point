@@ -39,5 +39,14 @@ class Plot:
         plt.show()
 
     def plot_error(self, path):
+        fr = open(path)
+        temp_list = []
+        for line in fr:
+                temp_list.append(line.split(":")[1])
 
-        return
+        with pltpage.PdfPages(path+".weights.pdf") as pdf:
+            fig = plt.figure(figsize=(8.27, 11.69), dpi=100)
+            plt.title("error")
+            plt.plot(temp_list, marker='o', linestyle='--', color='r')
+            pdf.savefig(fig)
+            plt.close()
