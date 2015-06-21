@@ -21,7 +21,7 @@ class Skin:
 
         weights_all = regression.Regression().gradient_descent_all(self.X, self.Y)
 
-        data_set, label = self.my_data.get_subset_data(2000, self.X, self.Y)
+        data_set, label = self.my_data.get_disjoint_subset_data(2000, self.X, self.Y)
         weights_equal = regression.Regression().gradient_descent_equal(data_set, label)
 
         # write trained weights to file
