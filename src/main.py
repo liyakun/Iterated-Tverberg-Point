@@ -26,3 +26,4 @@ from src.lib import plot
 """ test plot error """
 my_plot = plot.Plot()
 my_plot.plot_error("../resources/skin/result/error_random.txt")
+my_plot.plot_error("../resources/skin/result/error_equal.txt")

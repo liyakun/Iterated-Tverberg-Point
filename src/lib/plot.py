@@ -45,8 +45,8 @@ class Plot:
                 temp_list.append(line.split(":")[1])
 
         with pltpage.PdfPages(path+".weights.pdf") as pdf:
-            fig = plt.figure(figsize=(8.27, 11.69), dpi=100)
+            fig = plt.figure()
             plt.title("error")
-            plt.plot(temp_list, marker='o', linestyle='--', color='r')
+            plt.plot(temp_list, marker='.', linestyle='--', color='blue', markeredgecolor='red')
             pdf.savefig(fig)
             plt.close()
