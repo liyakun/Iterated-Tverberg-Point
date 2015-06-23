@@ -19,7 +19,7 @@ class Skin:
                                                                                  number_of_training,
                                                                                  number_of_training_instances)
 
-        weights_all = regression.Regression().gradient_descent_all(self.X, self.Y)
+        weights_all = regression.Regression().gradient_descent_all(self.X_train, self.Y_train)
 
         data_set, label = self.my_data.get_disjoint_subset_data(2000, self.X, self.Y)
         weights_equal = regression.Regression().gradient_descent_equal(data_set, label)

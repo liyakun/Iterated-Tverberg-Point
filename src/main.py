@@ -14,7 +14,7 @@ from src.lib import plot
 
 """ run skin test """
 my_skin = skin.Skin()
-my_skin.run_skin(100, 2000)
+my_skin.run_skin(1000, 2000)
 # my_test = test.Test()
 # weights, coefficients, mean_point = my_skin.run_sklean()
 # my_test.perform_test(my_skin.X, my_skin.Y, weights, coefficients, mean_point, "../resources/skin/error.txt")
