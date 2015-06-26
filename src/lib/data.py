@@ -235,7 +235,8 @@ class Data:
         m_tr, n_tr = np.shape(train_matrix)
         train_class_list = label_y[0:m_tr]
         test_class_list = label_y[m_tr:m]
-        return train_matrix, train_class_list, test_matrix, test_class_list
+        return train_matrix.astype(np.float), train_class_list.astype(np.float), test_matrix.astype(np.float), \
+               test_class_list.astype(np.float)
 
     # get part of the train data matrix by index
     def get_random_index_list(self, length, dataset):

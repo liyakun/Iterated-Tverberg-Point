@@ -17,6 +17,7 @@ class Skin:
         return x_train, y_train, x_test, y_test, x, y
 
     def run_skin_one_fold(self, number_of_training, number_of_training_instances, fold, percent_of_train):
+
         # get skin data
         x_train, y_train, x_test, y_test, x, y = self.get_skin_data(percent_of_train)
 
@@ -49,8 +50,10 @@ class Skin:
         test.Test().perform_test(x_test, y_test, weights_equal, center_point_equal,
                                  average_point_euqal, weights_all, "../resources/skin/result/"+str(fold) +
                                  "error_equal.txt")
+        return
 
     def run_skin_n_fold(self, number_of_training, number_of_training_instances, number_of_fold, percent_of_train):
         for i in range(number_of_fold):
             print str(i)+"th fold cross validation."
             self.run_skin_one_fold(number_of_training, number_of_training_instances, i, percent_of_train)
+        return 
