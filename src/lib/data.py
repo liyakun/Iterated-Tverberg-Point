@@ -266,6 +266,6 @@ class Data:
         return float(self.positive_instances) / float(self.positive_instances+self.negative_instances)
 
     # get the subset of the train data set with how many "num_subset" equal set we want to have
-    def get_disjoint_subset_data(self, num_subset, dataset, labelset):
-        return np.array_split(dataset, num_subset), np.array_split(labelset, num_subset)
+    def get_disjoint_subset_data(self, num_subset, data_set, label_set):
+        return np.array_split(data_set, num_subset), np.array_split(label_set, num_subset)
 
