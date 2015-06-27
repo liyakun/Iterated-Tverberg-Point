@@ -35,10 +35,12 @@ class Skin:
         weights_equal = (regression.Regression().gradient_descent_equal(data_set, label))
 
         # write trained weights to file
-        self.my_data.write_to_csv_file("../resources/skin/result/output_weights_random"+str(fold)+".csv",
+        self.my_data.write_to_csv_file("../resources/skin/result/weights/output_weights_random"+str(fold)+".csv",
                                        weights_random)
-        self.my_data.write_to_csv_file("../resources/skin/result/output_weights_equal"+str(fold)+".csv", weights_equal)
-        self.my_data.write_to_csv_file("../resources/skin/result/output_weights_all"+str(fold)+".csv", weights_all)
+        self.my_data.write_to_csv_file("../resources/skin/result/weights/output_weights_equal"+str(fold)+".csv",
+                                       weights_equal)
+        self.my_data.write_to_csv_file("../resources/skin/result/weights/output_weights_all"+str(fold)+".csv",
+                                       weights_all)
         # get center point
         my_center_point = itertver.IteratedTverberg()
         center_point_random, average_point_random = my_center_point.get_center_and_average_point(weights_random)
@@ -46,10 +48,10 @@ class Skin:
 
         # testing phase
         test.Test().perform_test(x_test, y_test, weights_random, center_point_random, average_point_random, weights_all,
-                                 "../resources/skin/result/"+str(fold) + "error_random.txt")
+                                 "../resources/skin/result/errors/"+str(fold) + "error_random.txt")
 
         test.Test().perform_test(x_test, y_test, weights_equal, center_point_equal, average_point_equal, weights_all,
-                                 "../resources/skin/result/"+str(fold) + "error_equal.txt")
+                                 "../resources/skin/result/errors/"+str(fold) + "error_equal.txt")
 
     def run_skin_n_fold(self, number_of_training, number_of_training_instances, number_of_fold, percent_of_train):
         for i in range(number_of_fold):
