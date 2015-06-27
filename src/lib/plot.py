@@ -4,6 +4,7 @@ This file provide plot tools
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.backends.backend_pdf as pltpage
+from pylab import *
 from mpl_toolkits.mplot3d import  Axes3D
 
 class Plot:
@@ -76,15 +77,15 @@ class Plot:
 
         bp_1 = ax.boxplot(equal_special_list[0])
         for median in bp_1['medians']:
-            median.set(color='red', linewidth=2)
+            median.set(color='red', linewidth=1)
 
         bp_2 = ax.boxplot(equal_special_list[1])
         for median in bp_2['medians']:
-            median.set(color='blue', linewidth=2)
+            median.set(color='magenta', linewidth=1)
 
         bp_3 = ax.boxplot(equal_special_list[2])
         for median in bp_3['medians']:
-            median.set(color='yellow', linewidth=2)
+            median.set(color='yellow', linewidth=1)
 
         # Remove top axes and right axes ticks
         ax.get_xaxis().tick_bottom()
@@ -102,7 +103,7 @@ class Plot:
         # change outline color, fill color and linewidth of the boxes
         for box in bp_0['boxes']:
             # change outline color
-            box.set(color='#7570b3', linewidth=2)
+            box.set(color='#7570b3', linewidth=1)
 
         # change color and linewidth of the whiskers
         for whisker in bp_0['whiskers']:
@@ -130,15 +131,15 @@ class Plot:
 
         bp_1 = ax.boxplot(random_special_list[0])
         for median in bp_1['medians']:
-            median.set(color='red', linewidth=2)
+            median.set(color='red', linewidth=1)
 
         bp_2 = ax.boxplot(random_special_list[1])
         for median in bp_2['medians']:
-            median.set(color='blue', linewidth=2)
+            median.set(color='magenta', linewidth=1)
 
         bp_3 = ax.boxplot(random_special_list[2])
         for median in bp_3['medians']:
-            median.set(color='yellow', linewidth=2)
+            median.set(color='yellow', linewidth=1)
 
         # Remove top axes and right axes ticks
         ax.get_xaxis().tick_bottom()
@@ -156,7 +157,7 @@ class Plot:
         # change outline color, fill color and linewidth of the boxes
         for box in bp_0['boxes']:
             # change outline color
-            box.set(color='#7570b3', linewidth=2)
+            box.set(color='#7570b3', linewidth=1)
 
         # change color and linewidth of the whiskers
         for whisker in bp_0['whiskers']:

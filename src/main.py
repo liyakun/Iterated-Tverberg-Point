@@ -21,4 +21,4 @@ from src.lib import plot
 
 """ box plot """
 my_plot = plot.Plot()
-my_plot.box_plot(10, "../resources/skin/result/")
+my_plot.box_plot(10, "../resources/skin/result/errors/")
