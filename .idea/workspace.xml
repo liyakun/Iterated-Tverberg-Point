@@ -2,57 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c8ecb39-0f88-4bbc-bc6f-e88c824ffa8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/0error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/1error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/3error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/4error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/5error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/6error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/7error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/8error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/9error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all0.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all1.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all3.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all4.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all5.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all6.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all7.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all8.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_all9.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal0.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal1.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal3.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal4.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal5.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal6.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal7.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal8.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_equal9.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random0.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random1.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random3.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random4.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random5.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random6.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random7.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random8.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/output_weights_random9.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/test.py" afterPath="$PROJECT_DIR$/src/lib/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/fig_equal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/result/fig_random.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/plot.py" afterPath="$PROJECT_DIR$/src/lib/plot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab.iws" />
@@ -78,74 +31,41 @@
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="263" column="56" selection-start-line="263" selection-start-column="56" selection-end-line="263" selection-end-column="56" />
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
-                <element signature="e#31#49#0" expanded="true" />
-                <element signature="e#407#411#0" expanded="false" />
-                <element signature="e#472#609#0" expanded="false" />
-                <element signature="e#691#966#0" expanded="false" />
-                <element signature="e#1037#1171#0" expanded="false" />
-                <element signature="e#1263#1458#0" expanded="false" />
-                <element signature="e#1528#1716#0" expanded="false" />
-                <element signature="e#1844#2201#0" expanded="false" />
-                <element signature="e#2310#6869#0" expanded="false" />
-                <element signature="e#6958#7124#0" expanded="false" />
-                <element signature="e#7210#7829#0" expanded="false" />
-                <element signature="e#7995#8396#0" expanded="false" />
-                <element signature="e#8509#8580#0" expanded="false" />
-                <element signature="e#8671#8781#0" expanded="false" />
-                <element signature="e#8877#8976#0" expanded="false" />
-                <element signature="e#9042#9185#0" expanded="false" />
-                <element signature="e#9305#9399#0" expanded="false" />
+                <element signature="e#45#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/skin.py">
+      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+              <caret line="193" column="53" selection-start-line="193" selection-start-column="53" selection-end-line="193" selection-end-column="53" />
               <folding>
-                <element signature="e#263#267#0" expanded="false" />
-                <element signature="e#425#618#0" expanded="false" />
+                <element signature="e#37#55#0" expanded="true" />
+                <element signature="e#225#229#0" expanded="false" />
+                <element signature="e#979#1335#0" expanded="false" />
+                <element signature="e#1407#2021#0" expanded="false" />
+                <element signature="e#2063#2450#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7534722">
-              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-              <folding />
-            </state>
+      <file leaf-file-name="fig_random.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/skin/result/fig_random.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itertver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/itertver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="e#265#6389#0" expanded="false" />
-                <element signature="e#6452#6867#0" expanded="false" />
-                <element signature="e#6925#7168#0" expanded="false" />
-              </folding>
-            </state>
+      <file leaf-file-name="fig_equal.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/skin/result/fig_equal.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -163,13 +83,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/model/bank.py" />
-        <option value="$PROJECT_DIR$/src/lib/plot.py" />
         <option value="$PROJECT_DIR$/src/model/test.py" />
         <option value="$PROJECT_DIR$/src/lib/regression.py" />
         <option value="$PROJECT_DIR$/src/lib/data.py" />
-        <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/model/skin.py" />
         <option value="$PROJECT_DIR$/src/lib/test.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/lib/plot.py" />
       </list>
     </option>
   </component>
@@ -177,9 +97,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="108" />
-    <option name="width" value="1777" />
-    <option name="height" value="1007" />
+    <option name="x" value="-2" />
+    <option name="y" value="-3" />
+    <option name="width" value="1924" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -265,11 +186,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="skin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,6 +209,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="result" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,18 +444,28 @@
       <option name="project" value="LOCAL" />
       <updated>1435300067430</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="correct code">
+      <created>1435396628697</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1435396628697</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="0" width="1777" height="1007" extended-state="0" />
-    <editor active="false" />
+    <frame x="-2" y="-3" width="1924" height="1087" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2522831" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21063718" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35603714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25329816" sideWeight="0.26" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37777779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -538,11 +473,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39261746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -569,54 +500,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lib/regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/optimization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/result/error_equal.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1609" column="35" selection-start-line="1609" selection-start-column="35" selection-end-line="1609" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/result/error_random.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1001" column="48" selection-start-line="1001" selection-start-column="48" selection-end-line="1001" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/skin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -624,6 +512,7 @@
           <folding>
             <element signature="e#263#267#0" expanded="false" />
             <element signature="e#425#618#0" expanded="false" />
+            <element signature="e#2675#2865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,7 +532,6 @@
             <element signature="e#31#49#0" expanded="true" />
             <element signature="e#407#411#0" expanded="false" />
             <element signature="e#472#609#0" expanded="false" />
-            <element signature="e#691#966#0" expanded="false" />
             <element signature="e#1037#1171#0" expanded="false" />
             <element signature="e#1263#1458#0" expanded="false" />
             <element signature="e#1528#1716#0" expanded="false" />
@@ -672,7 +560,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#45#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -697,6 +587,7 @@
           <folding>
             <element signature="e#263#267#0" expanded="false" />
             <element signature="e#425#618#0" expanded="false" />
+            <element signature="e#2675#2865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -716,7 +607,6 @@
             <element signature="e#31#49#0" expanded="true" />
             <element signature="e#407#411#0" expanded="false" />
             <element signature="e#472#609#0" expanded="false" />
-            <element signature="e#691#966#0" expanded="false" />
             <element signature="e#1037#1171#0" expanded="false" />
             <element signature="e#1263#1458#0" expanded="false" />
             <element signature="e#1528#1716#0" expanded="false" />
@@ -745,7 +635,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#45#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -756,6 +648,7 @@
           <folding>
             <element signature="e#263#267#0" expanded="false" />
             <element signature="e#425#618#0" expanded="false" />
+            <element signature="e#2675#2865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -775,7 +668,6 @@
             <element signature="e#31#49#0" expanded="true" />
             <element signature="e#407#411#0" expanded="false" />
             <element signature="e#472#609#0" expanded="false" />
-            <element signature="e#691#966#0" expanded="false" />
             <element signature="e#1037#1171#0" expanded="false" />
             <element signature="e#1263#1458#0" expanded="false" />
             <element signature="e#1528#1716#0" expanded="false" />
@@ -804,7 +696,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#45#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,6 +709,7 @@
           <folding>
             <element signature="e#263#267#0" expanded="false" />
             <element signature="e#425#618#0" expanded="false" />
+            <element signature="e#2675#2865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,7 +718,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#45#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -849,7 +746,6 @@
             <element signature="e#31#49#0" expanded="true" />
             <element signature="e#407#411#0" expanded="false" />
             <element signature="e#472#609#0" expanded="false" />
-            <element signature="e#691#966#0" expanded="false" />
             <element signature="e#1037#1171#0" expanded="false" />
             <element signature="e#1263#1458#0" expanded="false" />
             <element signature="e#1528#1716#0" expanded="false" />
@@ -874,6 +770,7 @@
           <folding>
             <element signature="e#263#267#0" expanded="false" />
             <element signature="e#425#618#0" expanded="false" />
+            <element signature="e#2675#2865#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,7 +779,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#45#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -904,20 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.114285715">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/result/error_equal.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1609" column="35" selection-start-line="1609" selection-start-column="35" selection-end-line="1609" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -956,32 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="263" column="56" selection-start-line="263" selection-start-column="56" selection-end-line="263" selection-end-column="56" />
-          <folding>
-            <element signature="e#31#49#0" expanded="true" />
-            <element signature="e#407#411#0" expanded="false" />
-            <element signature="e#472#609#0" expanded="false" />
-            <element signature="e#691#966#0" expanded="false" />
-            <element signature="e#1037#1171#0" expanded="false" />
-            <element signature="e#1263#1458#0" expanded="false" />
-            <element signature="e#1528#1716#0" expanded="false" />
-            <element signature="e#1844#2201#0" expanded="false" />
-            <element signature="e#2310#6869#0" expanded="false" />
-            <element signature="e#6958#7124#0" expanded="false" />
-            <element signature="e#7210#7829#0" expanded="false" />
-            <element signature="e#7995#8396#0" expanded="false" />
-            <element signature="e#8509#8580#0" expanded="false" />
-            <element signature="e#8671#8781#0" expanded="false" />
-            <element signature="e#8877#8976#0" expanded="false" />
-            <element signature="e#9042#9185#0" expanded="false" />
-            <element signature="e#9305#9399#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/itertver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -991,32 +850,6 @@
             <element signature="e#6452#6867#0" expanded="false" />
             <element signature="e#6925#7168#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/skin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="e#263#267#0" expanded="false" />
-            <element signature="e#425#618#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/result/0error_random.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1041,13 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/result/1error_random.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.62732">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/skin/result/9error_random.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.62732">
@@ -1057,10 +883,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7534722">
+        <state vertical-scroll-proportion="0.0">
           <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/0error_equal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2002" column="48" selection-start-line="2000" selection-start-column="0" selection-end-line="2002" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/error_equal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3003" column="0" selection-start-line="3003" selection-start-column="0" selection-end-line="3005" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/9error_equal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1989" column="48" selection-start-line="1989" selection-start-column="48" selection-end-line="1989" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/output_weights_equal9.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-60.828766">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/8error_equal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2000" column="0" selection-start-line="2000" selection-start-column="0" selection-end-line="2002" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/1error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1001" column="43" selection-start-line="1001" selection-start-column="43" selection-end-line="1001" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/0error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72864324">
+          <caret line="1000" column="0" selection-start-line="1000" selection-start-column="0" selection-end-line="1002" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="193" column="53" selection-start-line="193" selection-start-column="53" selection-end-line="193" selection-end-column="53" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+            <element signature="e#225#229#0" expanded="false" />
+            <element signature="e#979#1335#0" expanded="false" />
+            <element signature="e#1407#2021#0" expanded="false" />
+            <element signature="e#2063#2450#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/skin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59463984">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#263#267#0" expanded="false" />
+            <element signature="e#425#618#0" expanded="false" />
+            <element signature="e#2675#2865#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30653265">
+          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <folding>
+            <element signature="e#31#49#0" expanded="true" />
+            <element signature="e#407#411#0" expanded="false" />
+            <element signature="e#472#609#0" expanded="false" />
+            <element signature="e#1037#1171#0" expanded="false" />
+            <element signature="e#1263#1458#0" expanded="false" />
+            <element signature="e#1528#1716#0" expanded="false" />
+            <element signature="e#1844#2201#0" expanded="false" />
+            <element signature="e#2310#6869#0" expanded="false" />
+            <element signature="e#6958#7124#0" expanded="false" />
+            <element signature="e#7210#7829#0" expanded="false" />
+            <element signature="e#7995#8396#0" expanded="false" />
+            <element signature="e#8509#8580#0" expanded="false" />
+            <element signature="e#8671#8781#0" expanded="false" />
+            <element signature="e#8877#8976#0" expanded="false" />
+            <element signature="e#9042#9185#0" expanded="false" />
+            <element signature="e#9305#9399#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#45#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/fig_random.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/result/fig_equal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
