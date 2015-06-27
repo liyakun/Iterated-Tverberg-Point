@@ -8,13 +8,12 @@ from src.lib import optimization
 
 class Test:
 
-    errors_list = []
-
     def __init__(self):
         pass
 
     """ Perform test  """
     def perform_test(self, instance_matrix, labels_list, weights_list, coefficients, mean_point, weights_all, path):
+        errors_list = []
         print "Test Starts...\n"
         my_optimization = optimization.Optimization()
         for j in range(len(weights_list)):
@@ -24,7 +23,7 @@ class Test:
                 if int((my_optimization.sig_test(np.transpose(np.asarray(instance_matrix[i])), np.asarray(weights_list[j])
                                                  ))) != int(labels_list[i]):
                     error_count += 1
-            self.errors_list.append(float(error_count)/float(len(instance_matrix)))
+            errors_list.append(float(error_count)/float(len(instance_matrix)))
             print "%d th test finished." % j
 
         if coefficients is not None:
@@ -41,13 +40,13 @@ class Test:
                         int(labels_list[i]):
                     error_a += 1
             print "test for middle and center point finished."
-            self.errors_list.append(float(error_m)/float(len(instance_matrix)))
-            self.errors_list.append(float(error_c)/float(len(instance_matrix)))
-            self.errors_list.append(float(error_a)/float(len(instance_matrix)))
-        self.write_error_to_file(path)
+            errors_list.append(float(error_m)/float(len(instance_matrix)))
+            errors_list.append(float(error_c)/float(len(instance_matrix)))
+            errors_list.append(float(error_a)/float(len(instance_matrix)))
+        self.write_error_to_file(errors_list, path)
 
     """ Write testing error rate to file """
-    def write_error_to_file(self, path):
+    def write_error_to_file(self, errors_list, path):
         with open(path, "w") as f:
-            for i in range(0, len(self.errors_list)):
-                f.writelines("Testing Error of %dth weights vector: %f\n" % (i, self.errors_list[i]))
+            for i in range(0, len(errors_list)):
+                f.writelines("Testing Error of %dth weights vector: %f\n" % (i, errors_list[i]))
