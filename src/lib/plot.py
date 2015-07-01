@@ -3,6 +3,7 @@ This file provide plot tools
 """
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.lines as mlines
 import matplotlib.backends.backend_pdf as pltpage
 from pylab import *
 from mpl_toolkits.mplot3d import  Axes3D
@@ -69,23 +70,32 @@ class Plot:
             plt.close()
 
     def box_plot_equal(self, equal_list, equal_special_list, path):
-        fig1 = plt.figure(1, figsize=(10, 6))
+        fig1 = plt.figure(1, figsize=(10, 12))
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
         bp_0 = ax.boxplot(equal_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         bp_1 = ax.boxplot(equal_special_list[0])
-        for median in bp_1['medians']:
-            median.set(color='red', linewidth=1)
+        for i, median in enumerate(bp_1['medians']):
+            if i == 0:
+                median.set(color='red', linewidth=1, label="mean_point")
+            else:
+                median.set(color='red', linewidth=1)
 
         bp_2 = ax.boxplot(equal_special_list[1])
-        for median in bp_2['medians']:
-            median.set(color='magenta', linewidth=1)
+        for i, median in enumerate(bp_2['medians']):
+            if i == 0:
+                median.set(color='magenta', linewidth=1, label="center_point")
+            else:
+                median.set(color='magenta', linewidth=1)
 
         bp_3 = ax.boxplot(equal_special_list[2])
-        for median in bp_3['medians']:
-            median.set(color='yellow', linewidth=1)
+        for i, median in enumerate(bp_3['medians']):
+            if i == 0:
+                median.set(color='yellow', linewidth=1, label="all_point")
+            else:
+                median.set(color='yellow', linewidth=1)
 
         # Remove top axes and right axes ticks
         ax.get_xaxis().tick_bottom()
@@ -114,8 +124,21 @@ class Plot:
             cap.set(color='#7570b3', linewidth=2)
 
         # change color and linewidth of the medians
-        for median in bp_0['medians']:
-            median.set(color='#b2df8a', linewidth=2)
+        for i, median in enumerate(bp_0['medians']):
+            if i == 0:
+                median.set(color='#b2df8a', linewidth=2, label="error_median")
+            else:
+                median.set(color='#b2df8a', linewidth=2)
+
+        dash_line = mlines.Line2D([], [], color='purple', label='error_mean', linestyle='--')
+
+        # Put a legend below current axis
+        f1 = plt.legend(handles=[dash_line], loc=1)
+
+        ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.05), fancybox=True, shadow=True,
+                  ncol=5)
+
+        ax = plt.gca().add_artist(f1)
 
         fig1.savefig(path+'fig_equal.png', bbox_inches='tight')
 
@@ -123,23 +146,32 @@ class Plot:
 
     def box_plot_random(self, random_list, random_special_list, path):
 
-        fig2 = plt.figure(1, figsize=(10, 6))
+        fig2 = plt.figure(1, figsize=(10, 12))
         ax = fig2.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops_0 = dict(linestyle='--', linewidth=2.5, color='purple')
         bp_0 = ax.boxplot(random_list, 1, meanprops=meanlineprops_0, meanline=True, showmeans=True)
 
         bp_1 = ax.boxplot(random_special_list[0])
-        for median in bp_1['medians']:
-            median.set(color='red', linewidth=1)
+        for i, median in enumerate(bp_1['medians']):
+            if i == 0:
+                median.set(color='red', linewidth=1, label="mean_point")
+            else:
+                median.set(color='red', linewidth=1)
 
         bp_2 = ax.boxplot(random_special_list[1])
-        for median in bp_2['medians']:
-            median.set(color='magenta', linewidth=1)
+        for i, median in enumerate(bp_2['medians']):
+            if i == 0:
+                median.set(color='magenta', linewidth=1, label="center_point")
+            else:
+                median.set(color='magenta', linewidth=1)
 
         bp_3 = ax.boxplot(random_special_list[2])
-        for median in bp_3['medians']:
-            median.set(color='yellow', linewidth=1)
+        for i, median in enumerate(bp_3['medians']):
+            if i == 0:
+                median.set(color='yellow', linewidth=1, label="all_point")
+            else:
+                median.set(color='yellow', linewidth=1)
 
         # Remove top axes and right axes ticks
         ax.get_xaxis().tick_bottom()
@@ -168,11 +200,21 @@ class Plot:
             cap.set(color='#7570b3', linewidth=2)
 
         # change color and linewidth of the medians
-        for median in bp_0['medians']:
-            median.set(color='#b2df8a', linewidth=2)
+        for i, median in enumerate(bp_0['medians']):
+            if i == 0:
+                median.set(color='#b2df8a', linewidth=2, label="error_median")
+            else:
+                median.set(color='#b2df8a', linewidth=2)
 
-        for median in bp_0['medians']:
-            median.set(color='#b2df8a', linewidth=2)
+        dash_line = mlines.Line2D([], [], color='purple', label='error_mean', linestyle='--')
+
+        # Put a legend below current axis
+        f1 = plt.legend(handles=[dash_line], loc=1)
+
+        ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.05), fancybox=True, shadow=True,
+                  ncol=5)
+
+        ax = plt.gca().add_artist(f1)
 
         fig2.savefig(path+'fig_random.png', bbox_inches='tight')
         plt.close()
