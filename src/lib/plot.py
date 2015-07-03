@@ -3,6 +3,7 @@ This file provide plot tools
 """
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.patches import Polygon
 import matplotlib.lines as mlines
 import matplotlib.backends.backend_pdf as pltpage
 from pylab import *
@@ -69,11 +70,16 @@ class Plot:
             pdf.savefig(fig)
             plt.close()
 
-    def box_plot_equal(self, equal_list, equal_special_list, path):
-        fig1 = plt.figure(1, figsize=(10, 12))
+    def box_plot_with_special_point(self, equal_list, equal_special_list, path, str_):
+        fig1 = plt.figure(1, figsize=(10, 14))
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
+
+        # get all the variance value w.r.t equal_list(random_list)
+        randomDists = [np.var(equal_list[0]), np.var(equal_list[1]), np.var(equal_list[2]), np.var(equal_list[3]), np.
+            var(equal_list[4]), np.var(equal_list[5]), np.var(equal_list[6]), np.var(equal_list[7]),
+                       np.var(equal_list[8]), np.var(equal_list[9])]
         bp_0 = ax.boxplot(equal_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         bp_1 = ax.boxplot(equal_special_list[0])
@@ -107,8 +113,10 @@ class Plot:
 
         # Hide these grid behind plot objects
         ax.set_axisbelow(True)
-        ax.set_xlabel('Equal Sample-Lists of Weight Vector')
-        ax.set_ylabel('Errors of Each Weight Vector')
+
+        # add xtick name with variance value
+        xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
+        plt.setp(xticksNames, rotation=45, fontsize=8)
 
         # change outline color, fill color and linewidth of the boxes
         for box in bp_0['boxes']:
@@ -132,46 +140,38 @@ class Plot:
 
         dash_line = mlines.Line2D([], [], color='purple', label='error_mean', linestyle='--')
 
+        if str_ == "equal":
+            ax.set_xlabel('Equal Sample-Lists of Weight Vector')
+        else:
+            ax.set_xlabel('Random Sample-Lists of Weight Vector')
+        ax.set_ylabel('Errors of Each Weight Vector')
         # Put a legend below current axis
         f1 = plt.legend(handles=[dash_line], loc=1)
 
-        ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.05), fancybox=True, shadow=True,
-                  ncol=5)
+        box = ax.get_position()
+        ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
+
+        # Put a legend to the right of the current axis
+        ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 
         ax = plt.gca().add_artist(f1)
 
-        fig1.savefig(path+'fig_equal.png', bbox_inches='tight')
+        if str_ == "equal":
+            fig1.savefig(path+'fig_equal.png', bbox_inches='tight')
+        else:
+            fig1.savefig(path+'fig_random.png', bbox_inches='tight')
 
         plt.close()
 
-    def box_plot_random(self, random_list, random_special_list, path):
-
-        fig2 = plt.figure(1, figsize=(10, 12))
-        ax = fig2.add_subplot(111)
+    def box_plot_no_special_point(self, equal_list, path, str_):
+        fig1 = plt.figure(1, figsize=(10, 10))
+        ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
-        meanlineprops_0 = dict(linestyle='--', linewidth=2.5, color='purple')
-        bp_0 = ax.boxplot(random_list, 1, meanprops=meanlineprops_0, meanline=True, showmeans=True)
-
-        bp_1 = ax.boxplot(random_special_list[0])
-        for i, median in enumerate(bp_1['medians']):
-            if i == 0:
-                median.set(color='red', linewidth=1, label="mean_point")
-            else:
-                median.set(color='red', linewidth=1)
-
-        bp_2 = ax.boxplot(random_special_list[1])
-        for i, median in enumerate(bp_2['medians']):
-            if i == 0:
-                median.set(color='magenta', linewidth=1, label="center_point")
-            else:
-                median.set(color='magenta', linewidth=1)
-
-        bp_3 = ax.boxplot(random_special_list[2])
-        for i, median in enumerate(bp_3['medians']):
-            if i == 0:
-                median.set(color='yellow', linewidth=1, label="all_point")
-            else:
-                median.set(color='yellow', linewidth=1)
+        meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
+        randomDists = [np.var(equal_list[0]), np.var(equal_list[1]), np.var(equal_list[2]), np.var(equal_list[3]), np.
+            var(equal_list[4]), np.var(equal_list[5]), np.var(equal_list[6]), np.var(equal_list[7]),
+                       np.var(equal_list[8]), np.var(equal_list[9])]
+        bp_0 = ax.boxplot(equal_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         # Remove top axes and right axes ticks
         ax.get_xaxis().tick_bottom()
@@ -183,8 +183,10 @@ class Plot:
 
         # Hide these grid behind plot objects
         ax.set_axisbelow(True)
-        ax.set_xlabel('Random Sample-Lists of Weight Vector')
-        ax.set_ylabel('Errors of Each Weight Vector')
+
+        # add xtick name with variance value
+        xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
+        plt.setp(xticksNames, rotation=45, fontsize=8)
 
         # change outline color, fill color and linewidth of the boxes
         for box in bp_0['boxes']:
@@ -205,18 +207,66 @@ class Plot:
                 median.set(color='#b2df8a', linewidth=2, label="error_median")
             else:
                 median.set(color='#b2df8a', linewidth=2)
+        ax.set_ylabel('Errors of Each Weight Vector')
+        if str_ == "equal":
+            ax.set_xlabel('Equal Sample-Lists of Weight Vector')
+            fig1.savefig(path+'fig_equal_.png', bbox_inches='tight')
+        else:
+            ax.set_xlabel('Random Sample-Lists of Weight Vector')
+            fig1.savefig(path+'fig_random_.png', bbox_inches='tight')
 
-        dash_line = mlines.Line2D([], [], color='purple', label='error_mean', linestyle='--')
+        plt.close()
 
-        # Put a legend below current axis
-        f1 = plt.legend(handles=[dash_line], loc=1)
+    def box_plot_only_special_point(self, special_list, path, str_):
+        fig1 = plt.figure(1, figsize=(10, 10))
+        ax = fig1.add_subplot(111)
+        plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
+        meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
+        randomDists = [np.var(special_list[0]), np.var(special_list[1]), np.var(special_list[2])]
+        bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
-        ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.05), fancybox=True, shadow=True,
-                  ncol=5)
+        # Remove top axes and right axes ticks
+        ax.get_xaxis().tick_bottom()
+        ax.get_yaxis().tick_left()
 
-        ax = plt.gca().add_artist(f1)
+        # Add a horizontal grid to the plot, but make it very light in color
+        # so we can use it for reading data values but not be distracting
+        ax.yaxis.grid(True, linestyle='-', which='major', color='lightgrey', alpha=0.5)
 
-        fig2.savefig(path+'fig_random.png', bbox_inches='tight')
+        # Hide these grid behind plot objects
+        ax.set_axisbelow(True)
+
+        # add xtick name with variance value
+        xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
+        plt.setp(xticksNames, rotation=45, fontsize=8)
+
+        # change outline color, fill color and linewidth of the boxes
+        for box in bp_0['boxes']:
+            # change outline color
+            box.set(color='#7570b3', linewidth=1)
+
+        # change color and linewidth of the whiskers
+        for whisker in bp_0['whiskers']:
+            whisker.set(color='#7570b3', linewidth=2)
+
+        # change color and linewidth of the caps
+        for cap in bp_0['caps']:
+            cap.set(color='#7570b3', linewidth=2)
+
+        # change color and linewidth of the medians
+        for i, median in enumerate(bp_0['medians']):
+            if i == 0:
+                median.set(color='#b2df8a', linewidth=2, label="error_median")
+            else:
+                median.set(color='#b2df8a', linewidth=2)
+        ax.set_ylabel('Errors of Each Weight Vector')
+        if str_ == "equal":
+            ax.set_xlabel('Equal Sample-Lists of Special Point Vector')
+            fig1.savefig(path+'fig_special_equal_.png', bbox_inches='tight')
+        else:
+            ax.set_xlabel('Random Sample-Lists of Special Point Vector')
+            fig1.savefig(path+'fig_special_random_.png', bbox_inches='tight')
+
         plt.close()
 
     def box_plot(self, n, path):
@@ -237,5 +287,9 @@ class Plot:
             random_special_list[2].append(ra_all_list)
 
         print len(random_special_list)
-        self.box_plot_equal(equal_list, equal_special_list, path)
-        self.box_plot_random(random_list, random_special_list, path)
+        self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
+        self.box_plot_with_special_point(random_list, random_special_list, path, "random")
+        self.box_plot_no_special_point(equal_list, path, "equal")
+        self.box_plot_no_special_point(random_list, path, "random")
+        self.box_plot_only_special_point(equal_special_list, path, "equal")
+        self.box_plot_only_special_point(random_special_list, path, "random")

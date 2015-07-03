@@ -21,4 +21,6 @@ from src.lib import plot
 
 """ box plot """
 my_plot = plot.Plot()
+
+# number of files, and path of files
 my_plot.box_plot(10, "../resources/skin/result/errors/")
