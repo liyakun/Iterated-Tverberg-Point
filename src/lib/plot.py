@@ -209,10 +209,10 @@ class Plot:
                 median.set(color='#b2df8a', linewidth=2)
         ax.set_ylabel('Errors of Each Weight Vector')
         if str_ == "equal":
-            ax.set_xlabel('Equal Sample-Lists of Weight Vector')
+            ax.set_xlabel('Equal Sample-Lists of Weight Vector with variance at bottom')
             fig1.savefig(path+'fig_equal_.png', bbox_inches='tight')
         else:
-            ax.set_xlabel('Random Sample-Lists of Weight Vector')
+            ax.set_xlabel('Random Sample-Lists of Weight Vector with variance at bottom')
             fig1.savefig(path+'fig_random_.png', bbox_inches='tight')
 
         plt.close()
@@ -261,10 +261,10 @@ class Plot:
                 median.set(color='#b2df8a', linewidth=2)
         ax.set_ylabel('Errors of Each Weight Vector')
         if str_ == "equal":
-            ax.set_xlabel('Equal Sample-Lists of Special Point Vector')
+            ax.set_xlabel('Equal Sample-Lists of Special Point Vector with variance at bottom')
             fig1.savefig(path+'fig_special_equal_.png', bbox_inches='tight')
         else:
-            ax.set_xlabel('Random Sample-Lists of Special Point Vector')
+            ax.set_xlabel('Random Sample-Lists of Special Point Vector with variance at bottom')
             fig1.savefig(path+'fig_special_random_.png', bbox_inches='tight')
 
         plt.close()
