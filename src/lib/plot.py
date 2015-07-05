@@ -141,9 +141,9 @@ class Plot:
         dash_line = mlines.Line2D([], [], color='purple', label='error_mean', linestyle='--')
 
         if str_ == "equal":
-            ax.set_xlabel('Equal Sample-Lists of Weight Vector')
+            ax.set_xlabel('Equal Sample-Lists of Weight Vector with variance at bottom')
         else:
-            ax.set_xlabel('Random Sample-Lists of Weight Vector')
+            ax.set_xlabel('Random Sample-Lists of Weight Vector with variance at bottom')
         ax.set_ylabel('Errors of Each Weight Vector')
         # Put a legend below current axis
         f1 = plt.legend(handles=[dash_line], loc=1)
