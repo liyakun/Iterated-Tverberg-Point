@@ -27,22 +27,22 @@ class Test:
             print "%d th test finished." % j
 
         if coefficients is not None:
-            error_c, error_m, error_a = 0, 0, 0
+            error_center_counter, error_mean_counter, error_all_counter = 0, 0, 0
             print "test for middle and center point..."
             for i in range(len(instance_matrix)):
                 if int((my_optimization.sig_test(instance_matrix[i], np.asarray(mean_point).transpose()))) != \
                         int(labels_list[i]):
-                    error_m += 1
+                    error_mean_counter += 1
                 if int((my_optimization.sig_test(instance_matrix[i], np.asarray(coefficients).transpose()))) != \
                         int(labels_list[i]):
-                    error_c += 1
+                    error_center_counter += 1
                 if int((my_optimization.sig_test(instance_matrix[i], np.asarray(weights_all).transpose()))) != \
                         int(labels_list[i]):
-                    error_a += 1
+                    error_all_counter += 1
             print "test for middle and center point finished."
-            errors_list.append(float(error_m)/float(len(instance_matrix)))
-            errors_list.append(float(error_c)/float(len(instance_matrix)))
-            errors_list.append(float(error_a)/float(len(instance_matrix)))
+            errors_list.append(float(error_mean_counter)/float(len(instance_matrix)))
+            errors_list.append(float(error_center_counter)/float(len(instance_matrix)))
+            errors_list.append(float(error_all_counter)/float(len(instance_matrix)))
         self.write_error_to_file(errors_list, path)
 
     """ Write testing error rate to file """

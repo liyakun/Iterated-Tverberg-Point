@@ -5,9 +5,9 @@ from src.model import skin
 from src.lib import plot
 
 """ run skin test """
-# my_skin = skin.Skin()
+#my_skin = skin.Skin()
 # number_of_training, number_of_training_instances, number_of_fold, percentage_of_training(e.g. 7) 70%
-# my_skin.run_skin_n_fold(1000, 2000, 10, 7)
+#my_skin.run_skin_n_fold(1000, 2000, 50, 9)
 
 """ run bank test """
 # my_bank = bank.Bank()
@@ -23,4 +23,4 @@ from src.lib import plot
 my_plot = plot.Plot()
 
 # number of files, and path of files
-my_plot.box_plot(10, "../resources/skin/result/errors/")
+my_plot.box_plot(50, "../resources/skin/result/errors/")
