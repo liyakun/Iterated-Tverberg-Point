@@ -19,7 +19,8 @@ class Skin:
         x_train, y_train, x_test, y_test = self.my_data.split_to_train_and_test(x, y, percent_of_train)
         return x_train, y_train, x_test, y_test, x, y
 
-    def run_skin_one_fold(self, number_of_training, number_of_training_instances, fold, percent_of_train):
+    def run_skin_one_fold(self, number_of_training, number_of_training_instances, fold, percent_of_train,
+                          number_of_equal_disjoint_sets):
 
         # get skin data
         x_train, y_train, x_test, y_test, x, y = self.get_skin_data(percent_of_train)
@@ -30,7 +31,8 @@ class Skin:
 
         weights_all = (regression.Regression().gradient_descent_all(x_train, y_train))
 
-        data_set, label = self.my_data.get_disjoint_subset_data(2000, x, y)
+        # how many "num_subset" equal
+        data_set, label = self.my_data.get_disjoint_subset_data(number_of_equal_disjoint_sets, x, y)
 
         weights_equal = (regression.Regression().gradient_descent_equal(data_set, label))
 
@@ -53,8 +55,10 @@ class Skin:
         test.Test().perform_test(x_test, y_test, weights_equal, center_point_equal, average_point_equal, weights_all,
                                  "../resources/skin/result/errors/"+str(fold) + "error_equal.txt")
 
-    def run_skin_n_fold(self, number_of_training, number_of_training_instances, number_of_fold, percent_of_train):
+    def run_skin_n_fold(self, number_of_training, number_of_training_instances, number_of_fold, percent_of_train,
+                        number_of_equal_disjoint_sets):
         for i in range(number_of_fold):
-            print str(i)+"th fold cross validation."
-            self.run_skin_one_fold(number_of_training, number_of_training_instances, i, percent_of_train)
+            print str(i)+"th experiment."
+            self.run_skin_one_fold(number_of_training, number_of_training_instances, i, percent_of_train,
+                                   number_of_equal_disjoint_sets)
 

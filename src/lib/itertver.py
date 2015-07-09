@@ -14,7 +14,6 @@ class IteratedTverberg:
         opt = Opt.Optimization()
         points = np.asarray(points)
         n, d = points.shape
-        depth = 0
         # np.ceil(a) return the ceiling of the input, element-wise, get the bigger integer than a, -1.7->-1, 0.2->1
         z = int(np.log2(np.ceil(n/(2*((d+1)**2)))))
         # initialize empty stacks / buckets with z+1 rows
@@ -119,6 +118,9 @@ class IteratedTverberg:
         return buckets[z]
 
     def get_center_and_average_point(self, weights):
+        """
+        return the tverberg point and average point
+        """
         center_point_with_proof = self.center_point(weights)
         print "Center Point with proof: ", center_point_with_proof[0]
         print "Center point: ", center_point_with_proof[0][0]
@@ -127,6 +129,9 @@ class IteratedTverberg:
         return center_point_with_proof[0][0], self.calculate_average_point(weights)
 
     def calculate_average_point(self, weights):
+        """
+        calculate the average point and return
+        """
         average_point = [0 for x in range(len(weights[0]))]
         for i in range(len(weights)):
             for j in range(len(weights[i])):
