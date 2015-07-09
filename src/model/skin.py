@@ -32,7 +32,8 @@ class Skin:
         weights_all = (regression.Regression().gradient_descent_all(x_train, y_train))
 
         # how many "num_subset" equal
-        data_set, label = self.my_data.get_disjoint_subset_data(number_of_equal_disjoint_sets, x, y)
+        # data_set, label = self.my_data.get_disjoint_subset_data(number_of_equal_disjoint_sets, x, y)
+        data_set, label = self.my_data.get_disjoint_subset_data(number_of_equal_disjoint_sets, x_train, y_train)
 
         weights_equal = (regression.Regression().gradient_descent_equal(data_set, label))
 
