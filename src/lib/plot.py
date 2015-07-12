@@ -223,8 +223,8 @@ class Plot:
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
-        randomDists = [str(round(np.var(special_list[0]), 4))+'/mean_points', str(round(np.var(special_list[1]), 4))+
-                       '/tverberg_points', str(round(np.var(special_list[2]), 4))+'/all_points']
+        randomDists = [str(round(np.var(special_list[0]), 7))+'/mean_points', str(round(np.var(special_list[1]), 7))+
+                       '/tverberg_points', str(round(np.var(special_list[2]), 7))+'/all_points']
         bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         # Remove top axes and right axes ticks
@@ -275,23 +275,97 @@ class Plot:
         equal_list, random_list,  = [], []
         equal_special_list, random_special_list = [[], [], []], [[], [], []]
         for i in range(n):
-            fr_equal = (open(path+str(i)+"error_equal.txt"))
+            #fr_equal = (open(path+str(i)+"error_equal.txt"))
             fr_random = (open(path+str(i)+"error_random.txt"))
-            equal, eq_average_list, eq_center_list, eq_all_list = self.file_to_list(fr_equal)
-            random, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
-            equal_list.append(equal)
-            equal_special_list[0].append(eq_average_list)
-            equal_special_list[1].append(eq_center_list)
-            equal_special_list[2].append(eq_all_list)
-            random_list.append(random)
+            #equal, eq_average_list, eq_center_list, eq_all_list = self.file_to_list(fr_equal)
+            random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
+            #equal_list.append(equal)
+            #equal_special_list[0].append(eq_average_list)
+            #equal_special_list[1].append(eq_center_list)
+            #equal_special_list[2].append(eq_all_list)
+            random_list.append(random_)
             random_special_list[0].append(ra_average_list)
             random_special_list[1].append(ra_center_list)
             random_special_list[2].append(ra_all_list)
 
         print len(random_special_list)
-        self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
+        # self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
         self.box_plot_with_special_point(random_list, random_special_list, path, "random")
-        self.box_plot_no_special_point(equal_list, path, "equal")
+        # self.box_plot_no_special_point(equal_list, path, "equal")
         self.box_plot_no_special_point(random_list, path, "random")
-        self.box_plot_only_special_point(equal_special_list, path, "equal")
+        # self.box_plot_only_special_point(equal_special_list, path, "equal")
         self.box_plot_only_special_point(random_special_list, path, "random")
+
+    def box_plot_special_point(self, special_list, path, str_):
+        fig1 = plt.figure(1, figsize=(10, 10))
+        ax = fig1.add_subplot(111)
+        plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
+        meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
+        randomDists = [str(2)+"-dim", str(3)+"-dim", str(4)+"-dim", str(5)+"-dim", str(6)+"-dim", str(7)+"-dim",
+                       str(8)+"-dim", str(9)+"-dim"]
+        bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
+
+        # Remove top axes and right axes ticks
+        ax.get_xaxis().tick_bottom()
+        ax.get_yaxis().tick_left()
+
+        # Add a horizontal grid to the plot, but make it very light in color
+        # so we can use it for reading data values but not be distracting
+        ax.yaxis.grid(True, linestyle='-', which='major', color='lightgrey', alpha=0.5)
+
+        # Hide these grid behind plot objects
+        ax.set_axisbelow(True)
+
+        # add xtick name with variance value
+        xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
+        plt.setp(xticksNames, fontsize=8)
+
+        # change outline color, fill color and linewidth of the boxes
+        for box in bp_0['boxes']:
+            # change outline color
+            box.set(color='#7570b3', linewidth=1)
+
+        # change color and linewidth of the whiskers
+        for whisker in bp_0['whiskers']:
+            whisker.set(color='#7570b3', linewidth=2)
+
+        # change color and linewidth of the caps
+        for cap in bp_0['caps']:
+            cap.set(color='#7570b3', linewidth=2)
+
+        # change color and linewidth of the medians
+        for i, median in enumerate(bp_0['medians']):
+            if i == 0:
+                median.set(color='#b2df8a', linewidth=2, label="error_median")
+            else:
+                median.set(color='#b2df8a', linewidth=2)
+        ax.set_ylabel('Errors')
+        if str_ == "tverberg":
+            ax.set_xlabel('Tverberg points with increasing dimensions.')
+            fig1.savefig(path+'tverberg.png', bbox_inches='tight')
+        elif str_ == "average":
+            ax.set_xlabel('Average points with increasing dimensions')
+            fig1.savefig(path+'average.png', bbox_inches='tight')
+        else:
+            ax.set_xlabel('All points with increasing dimensions')
+            fig1.savefig(path+'all_.png', bbox_inches='tight')
+
+        plt.close()
+
+    def box_plot_different_dimensions(self, n, path):
+        special_list_list = [[], [], []]
+        for i in range(2, n):
+            random_special_list = [[], [], []]
+            for j in range(10):
+                fr_random = open(path+"10experiments_10000instances_"+str(i)+"d_"+str(i) +
+                                 "informative_2label_0.75train_1000vectors_1000instances/"+str(j)+"error_random.txt")
+                random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
+                random_special_list[0].append(ra_average_list)
+                random_special_list[1].append(ra_center_list)
+                random_special_list[2].append(ra_all_list)
+            special_list_list[0].append(random_special_list[0])
+            special_list_list[1].append(random_special_list[1])
+            special_list_list[2].append(random_special_list[2])
+        self.box_plot_special_point(special_list_list[0], path, "average")
+        self.box_plot_special_point(special_list_list[1], path, "tverberg")
+        self.box_plot_special_point(special_list_list[2], path, "all")

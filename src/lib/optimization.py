@@ -45,7 +45,7 @@ class Optimization:
 
     def gradient_descent_random(self, train_matrix, train_class_list, random_index_list_in_training):
         clf = linear_model.SGDClassifier(loss="log", n_iter=6, n_jobs=-1)
-        clf.fit(train_matrix[random_index_list_in_training], np.asarray(train_class_list)[random_index_list_in_training]
+        clf.fit(np.asarray(train_matrix)[random_index_list_in_training], np.asarray(train_class_list)[random_index_list_in_training]
                 )
         return clf.coef_[0]
 

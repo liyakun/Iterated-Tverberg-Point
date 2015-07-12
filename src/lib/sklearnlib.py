@@ -1,6 +1,5 @@
 import numpy as np
-from sklearn import linear_model
-from sklearn import cross_validation
+from sklearn import linear_model, cross_validation, datasets
 
 class Sklearnlib:
 
@@ -32,3 +31,11 @@ class Sklearnlib:
             _z.append(weights[i][2])
         mean_point = [np.mean(_x), np.mean(_y), np.mean(_z)]
         return mean_point
+
+    def split_train_and_test(self, x_, y_, train_size):
+        return cross_validation.train_test_split(x_, y_, train_size=train_size, random_state=42)
+
+    def generate_fake_data(self, n_samples, n_features, n_informative, n_classes):
+        X, y = datasets.make_classification(n_samples=n_samples, n_features=n_features, n_informative=n_informative,
+                                            n_redundant=0, n_classes=n_classes, random_state=42)
+        return X, y
