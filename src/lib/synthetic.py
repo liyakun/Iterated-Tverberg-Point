@@ -3,10 +3,10 @@ import os
 from src.lib.sklearnlib import Sklearnlib
 from src.lib import itertver, regression, test
 
-class FakeData:
+class SyntheticData:
 
     x_, y_ = '', ''
-    def run_fake_data_one_fold(self, n_samples, n_features, n_informative, n_classes, percent_of_train,
+    def run_synthetic_data_one_fold(self, n_samples, n_features, n_informative, n_classes, percent_of_train,
                                number_of_training, number_of_training_instances, i_, path, str_):
         x_train, x_test, y_train,  y_test = Sklearnlib().split_train_and_test(self.x_, self.y_, percent_of_train)
         # x_train, y_train, x_test, y_test = data.Data().split_to_train_and_test(x_, y_, 9)
@@ -36,16 +36,16 @@ class FakeData:
                                      average_point_random, weights_all, path+"errors/"+str(number_of_training)+"/" +
                                      str(i_)+"error_random.txt")
 
-    def run_fake_data_n_fold(self, n_samples, n_features, n_informative, n_classes, percent_of_train,
+    def run_synthetic_data_n_fold(self, n_samples, n_features, n_informative, n_classes, percent_of_train,
                              number_of_training, number_of_training_instances, number_of_iterations, path, str_):
         for i in range(number_of_iterations):
-            self.run_fake_data_one_fold(n_samples, n_features, n_informative, n_classes, percent_of_train,
+            self.run_synthetic_data_one_fold(n_samples, n_features, n_informative, n_classes, percent_of_train,
                                         number_of_training, number_of_training_instances, i, path, str_)
 
     def dimension_test(self, n_samples, fetures, n_informative, n_classes, percent_of_train,
                              number_of_training, number_of_training_instances, number_of_iterations):
         for i in range(2, fetures):
-            self.run_fake_data_n_fold(n_samples, i, i, n_classes, percent_of_train,
+            self.run_synthetic_data_n_fold(n_samples, i, i, n_classes, percent_of_train,
                              number_of_training, number_of_training_instances, number_of_iterations,
                                       "../resources/fakedata/result/dimensions/", "features")
 
@@ -53,7 +53,7 @@ class FakeData:
                              number_of_training, number_of_training_instances, number_of_iterations):
         self.x_, self.y_ = Sklearnlib().generate_fake_data(n_samples, features, n_informative, n_classes)
         while number_of_training >= 1000:
-            self.run_fake_data_n_fold(n_samples, features, n_informative, n_classes, percent_of_train,
+            self.run_synthetic_data_n_fold(n_samples, features, n_informative, n_classes, percent_of_train,
                              number_of_training, number_of_training_instances, number_of_iterations,
                                       "../resources/fakedata/result/instances/", ",")
             number_of_training -= 500
