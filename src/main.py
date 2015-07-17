@@ -27,10 +27,17 @@ from src.model import fakedata
 my_plot = plot.Plot()
 
 # number of files, and path of files
-my_plot.box_plot_different_dimensions(10, "../resources/fakedata/result/dimension_differences_1000_single_vectors/")
+my_plot.box_plot_different_dimensions(20, "../resources/fakedata/result/dimensions/errors/")
+my_plot.box_plot_different_instances(10, "../resources/fakedata/result/vectors/errors/")
 
 """ test fake data """
 # my_fake_data = fakedata.FakeData()
 # n_samples, n_features, n_informative, n_classes
 # percent_of_train(0~1), number_of_training, number_of_training_instances, number_of_experiments
 # my_fake_data.run_fake_data_n_fold(10000, 9, 9, 2, 0.75, 3500, 1000, 10)
+
+# n_samples, n_features, n_informative, n_classes, percent_train, vectors, instances, iterations
+# my_fake_data.dimension_test(20000, 20, 20, 2, 0.75, 1000, 4000, 20)
+
+# n_samples, n_features, n_informative, n_classes, percent_train, vectors, instances, iterations
+# my_fake_data.vectors_test(30000, 5, 5, 2, 0.75, 10000, 1000, 20)

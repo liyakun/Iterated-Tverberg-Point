@@ -296,13 +296,14 @@ class Plot:
         # self.box_plot_only_special_point(equal_special_list, path, "equal")
         self.box_plot_only_special_point(random_special_list, path, "random")
 
-    def box_plot_special_point(self, special_list, path, str_):
+    def box_plot_special_point_dimension(self, special_list, path, str_):
         fig1 = plt.figure(1, figsize=(10, 10))
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
         randomDists = [str(2)+"-dim", str(3)+"-dim", str(4)+"-dim", str(5)+"-dim", str(6)+"-dim", str(7)+"-dim",
-                       str(8)+"-dim", str(9)+"-dim"]
+                       str(8)+"-dim", str(9)+"-dim", str(10)+"-dim", str(11)+"-dim", str(12)+"-dim", str(13)+"-dim",
+                       str(14)+"-dim", str(15)+"-dim", str(16)+"-dim", str(17)+"-dim", str(18)+"-dim", str(19)+"-dim"]
         bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         # Remove top axes and right axes ticks
@@ -352,13 +353,68 @@ class Plot:
 
         plt.close()
 
+    def box_plot_special_point_instance(self, special_list, path, str_):
+        fig1 = plt.figure(1, figsize=(10, 10))
+        ax = fig1.add_subplot(111)
+        plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
+        meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
+        randomDists = [str(1000), str(1500), str(2000), str(2500), str(3000), str(3500), str(4000), str(4500), str(5000),
+                       str(5500), str(6000), str(6500), str(7000), str(7500), str(8000), str(8500), str(9000), str(9500), str(10000)]
+        bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
+
+        # Remove top axes and right axes ticks
+        ax.get_xaxis().tick_bottom()
+        ax.get_yaxis().tick_left()
+
+        # Add a horizontal grid to the plot, but make it very light in color
+        # so we can use it for reading data values but not be distracting
+        ax.yaxis.grid(True, linestyle='-', which='major', color='lightgrey', alpha=0.5)
+
+        # Hide these grid behind plot objects
+        ax.set_axisbelow(True)
+
+        # add xtick name with variance value
+        xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
+        plt.setp(xticksNames, fontsize=8)
+
+        # change outline color, fill color and linewidth of the boxes
+        for box in bp_0['boxes']:
+            # change outline color
+            box.set(color='#7570b3', linewidth=1)
+
+        # change color and linewidth of the whiskers
+        for whisker in bp_0['whiskers']:
+            whisker.set(color='#7570b3', linewidth=2)
+
+        # change color and linewidth of the caps
+        for cap in bp_0['caps']:
+            cap.set(color='#7570b3', linewidth=2)
+
+        # change color and linewidth of the medians
+        for i, median in enumerate(bp_0['medians']):
+            if i == 0:
+                median.set(color='#b2df8a', linewidth=2, label="error_median")
+            else:
+                median.set(color='#b2df8a', linewidth=2)
+        ax.set_ylabel('Errors')
+        if str_ == "tverberg":
+            ax.set_xlabel('Tverberg points with increasing single models.')
+            fig1.savefig(path+'tverberg.png', bbox_inches='tight')
+        elif str_ == "average":
+            ax.set_xlabel('Average points with increasing single models')
+            fig1.savefig(path+'average.png', bbox_inches='tight')
+        else:
+            ax.set_xlabel('All points with increasing single models')
+            fig1.savefig(path+'all_.png', bbox_inches='tight')
+
+        plt.close()
+
     def box_plot_different_dimensions(self, n, path):
         special_list_list = [[], [], []]
         for i in range(2, n):
             random_special_list = [[], [], []]
             for j in range(10):
-                fr_random = open(path+"10experiments_10000instances_"+str(i)+"d_"+str(i) +
-                                 "informative_2label_0.75train_1000vectors_1000instances/"+str(j)+"error_random.txt")
+                fr_random = open(path+str(i)+"/"+str(j)+"error_random.txt")
                 random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
                 random_special_list[0].append(ra_average_list)
                 random_special_list[1].append(ra_center_list)
@@ -366,6 +422,24 @@ class Plot:
             special_list_list[0].append(random_special_list[0])
             special_list_list[1].append(random_special_list[1])
             special_list_list[2].append(random_special_list[2])
-        self.box_plot_special_point(special_list_list[0], path, "average")
-        self.box_plot_special_point(special_list_list[1], path, "tverberg")
-        self.box_plot_special_point(special_list_list[2], path, "all")
+        self.box_plot_special_point_dimension(special_list_list[0], path, "average")
+        self.box_plot_special_point_dimension(special_list_list[1], path, "tverberg")
+        self.box_plot_special_point_dimension(special_list_list[2], path, "all")
+
+    def box_plot_different_instances(self, n, path):
+        special_list_list = [[], [], []]
+        list_ = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000]
+        for i in list_:
+            random_special_list = [[], [], []]
+            for j in range(10):
+                fr_random = open(path+str(i) +"/"+str(j)+"error_random.txt")
+                random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
+                random_special_list[0].append(ra_average_list)
+                random_special_list[1].append(ra_center_list)
+                random_special_list[2].append(ra_all_list)
+            special_list_list[0].append(random_special_list[0])
+            special_list_list[1].append(random_special_list[1])
+            special_list_list[2].append(random_special_list[2])
+        self.box_plot_special_point_instance(special_list_list[0], path, "average")
+        self.box_plot_special_point_instance(special_list_list[1], path, "tverberg")
+        self.box_plot_special_point_instance(special_list_list[2], path, "all")
