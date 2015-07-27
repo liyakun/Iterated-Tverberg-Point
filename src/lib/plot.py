@@ -77,10 +77,10 @@ class Plot:
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
 
         # get all the variance value w.r.t equal_list(random_list)
-        # randomDists = [str(round(np.var(equal_list[0]), 4))+'/expt_1', str(round(np.var(equal_list[1]), 4))+'/expt_2', str(round(np.var(equal_list[2
-        #     ]), 4))+'/expt_3', str(round(np.var(equal_list[3]), 4))+'/expt_4', str(round(np.var(equal_list[4]), 4))+'/expt_5',
-        #     str(round(np.var(equal_list[5]), 4))+'/expt_6', str(round(np.var(equal_list[6]), 4))+'/expt_7', str(round(np.var(equal_list[7]), 4))+'/expt_8',
-        #     str(round(np.var(equal_list[8]), 4))+'/expt_9', str(round(np.var(equal_list[9]), 4))+'/expt_10']
+        randomDists = [str(round(np.var(equal_list[0]), 4))+'/expt_1', str(round(np.var(equal_list[1]), 4))+'/expt_2', str(round(np.var(equal_list[2
+             ]), 4))+'/expt_3', str(round(np.var(equal_list[3]), 4))+'/expt_4', str(round(np.var(equal_list[4]), 4))+'/expt_5',
+             str(round(np.var(equal_list[5]), 4))+'/expt_6', str(round(np.var(equal_list[6]), 4))+'/expt_7', str(round(np.var(equal_list[7]), 4))+'/expt_8',
+             str(round(np.var(equal_list[8]), 4))+'/expt_9', str(round(np.var(equal_list[9]), 4))+'/expt_10']
         bp_0 = ax.boxplot(equal_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         bp_1 = ax.boxplot(equal_special_list[0])
@@ -116,8 +116,8 @@ class Plot:
         ax.set_axisbelow(True)
 
         # add xtick name with variance value
-        # xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
-        # plt.setp(xticksNames, fontsize=8)
+        xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
+        plt.setp(xticksNames, fontsize=8)
 
         # change outline color, fill color and linewidth of the boxes
         for box in bp_0['boxes']:
@@ -275,25 +275,25 @@ class Plot:
         equal_list, random_list,  = [], []
         equal_special_list, random_special_list = [[], [], []], [[], [], []]
         for i in range(n):
-            #fr_equal = (open(path+str(i)+"error_equal.txt"))
+            fr_equal = (open(path+str(i)+"error_equal.txt"))
             fr_random = (open(path+str(i)+"error_random.txt"))
-            #equal, eq_average_list, eq_center_list, eq_all_list = self.file_to_list(fr_equal)
+            equal, eq_average_list, eq_center_list, eq_all_list = self.file_to_list(fr_equal)
             random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
-            #equal_list.append(equal)
-            #equal_special_list[0].append(eq_average_list)
-            #equal_special_list[1].append(eq_center_list)
-            #equal_special_list[2].append(eq_all_list)
+            equal_list.append(equal)
+            equal_special_list[0].append(eq_average_list)
+            equal_special_list[1].append(eq_center_list)
+            equal_special_list[2].append(eq_all_list)
             random_list.append(random_)
             random_special_list[0].append(ra_average_list)
             random_special_list[1].append(ra_center_list)
             random_special_list[2].append(ra_all_list)
 
         print len(random_special_list)
-        # self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
+        self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
         self.box_plot_with_special_point(random_list, random_special_list, path, "random")
-        # self.box_plot_no_special_point(equal_list, path, "equal")
+        self.box_plot_no_special_point(equal_list, path, "equal")
         self.box_plot_no_special_point(random_list, path, "random")
-        # self.box_plot_only_special_point(equal_special_list, path, "equal")
+        self.box_plot_only_special_point(equal_special_list, path, "equal")
         self.box_plot_only_special_point(random_special_list, path, "random")
 
     def box_plot_special_point_dimension(self, special_list, path, str_):
