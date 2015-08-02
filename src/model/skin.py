@@ -3,23 +3,27 @@ skin data set from UCI
 https://archive.ics.uci.edu/ml/datasets/Skin+Segmentation
 """
 
-from src.lib import data, itertver, regression, test
+from src.lib import itertver, regression, test
+from src.lib.data import Data, SkinData
 from sklearn import linear_model
 from copy import deepcopy
 from random import shuffle
 
+
 class Skin:
 
-    my_data = data.Data()
+    my_data = SkinData()
     my_data.load_skin_data()
 
     def __init__(self):
         pass
 
-    # each run will get different subset from X, Y, as the matrix are shuffled before they are split
     def get_skin_data(self, percent_of_train):
+        """
+        each run will get different subset from X, Y, as the matrix are shuffled before they are split
+        """
         x, y = self.my_data.get_skin_data()
-        x_train, y_train, x_test, y_test = self.my_data.split_to_train_and_test(x, y, percent_of_train)
+        x_train, y_train, x_test, y_test = Data().split_to_train_and_test(x, y, percent_of_train)
         return x_train, y_train, x_test, y_test, x, y
 
     def run_skin_one_fold(self, number_of_training, number_of_training_instances, fold, percent_of_train,
@@ -36,16 +40,16 @@ class Skin:
 
         # how many "num_subset" equal
         # data_set, label = self.my_data.get_disjoint_subset_data(number_of_equal_disjoint_sets, x, y)
-        data_set, label = self.my_data.get_disjoint_subset_data(number_of_equal_disjoint_sets, x_train, y_train)
+        data_set, label = Data().get_disjoint_subset_data(number_of_equal_disjoint_sets, x_train, y_train)
 
         weights_equal = (regression.Regression().gradient_descent_equal(data_set, label))
 
         # write trained weights to file
-        self.my_data.write_to_csv_file("../resources/skin/result/weights/output_weights_random"+str(fold)+".csv",
+        Data().write_to_csv_file("../resources/skin/result/weights/output_weights_random"+str(fold)+".csv",
                                        weights_random)
-        self.my_data.write_to_csv_file("../resources/skin/result/weights/output_weights_equal"+str(fold)+".csv",
+        Data().write_to_csv_file("../resources/skin/result/weights/output_weights_equal"+str(fold)+".csv",
                                        weights_equal)
-        self.my_data.write_to_csv_file("../resources/skin/result/weights/output_weights_all"+str(fold)+".csv",
+        Data().write_to_csv_file("../resources/skin/result/weights/output_weights_all"+str(fold)+".csv",
                                        weights_all)
         # get center point
         my_center_point = itertver.IteratedTverberg()
@@ -95,10 +99,27 @@ class Skin:
 
         # testing phase
         test.Test().perform_test(x_test, y_test, weights_random, center_point_random, average_point_random, weights_all,
-                                 "../resources/skin/New_Setting_Result/"+str(fold) + "error_random.txt")
+                                 "../resources/skin/LastTest/"+str(fold) + "error_random.txt")
 
         test.Test().perform_test(x_test, y_test, weights_equal, center_point_equal, average_point_equal, weights_all,
-                                 "../resources/skin/New_Setting_Result/"+str(fold) + "error_equal.txt")
+                                 "../resources/skin/LastTest/"+str(fold) + "error_equal.txt")
+
+    def test_all_point(self, number_of_fold, percent_of_train, path):
+        # get skin data
+        x_train, y_train, x_test, y_test, x, y = self.get_skin_data(percent_of_train)
+        weights_all = []
+        sgd = linear_model.SGDClassifier()
+        my_test = test.Test()
+        for i in range(1, 11):
+            x_train_, y_train_, x_test_, y_test_ = Data().split_to_train_and_test(x_train, y_train, i)
+            sgd.fit(x_train_, y_train_)
+            weights_all.append(sgd.coef_)
+            i = float(i-0.5)
+            x_train_, y_train_, x_test_, y_test_ = Data().split_to_train_and_test(x_train, y_train, i)
+            sgd.fit(x_train_, y_train_)
+            weights_all.append(sgd.coef_)
+
+        my_test.perform_test_for_all_point(x_test, y_test, weights_all, path)
 
     def run_skin_n_fold(self, number_of_training, number_of_training_instances, number_of_fold, percent_of_trains):
         for i in range(number_of_fold):

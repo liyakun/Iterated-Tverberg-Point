@@ -9,6 +9,7 @@ import matplotlib.backends.backend_pdf as pltpage
 from pylab import *
 from mpl_toolkits.mplot3d import  Axes3D
 
+
 class Plot:
 
     def __init__(self):
@@ -28,6 +29,13 @@ class Plot:
             else:
                 all_list.append(float(line.split(":")[1].rstrip()))
         return temp_list, average_list, center_list, all_list
+
+    def file_to_list_all_points(self, file_open):
+        line_list = [line for line in file_open.readlines()]
+        temp_list = []
+        for i,  line in enumerate(line_list):
+            temp_list.append(float(line.split(":")[1].rstrip()))
+        return temp_list
 
     def plot(self, weights_all):
         size = len(weights_all)
@@ -212,9 +220,12 @@ class Plot:
         if str_ == "equal":
             ax.set_xlabel('Equal Sample-Lists of Weight Vector with variance at bottom')
             fig1.savefig(path+'fig_equal_.png', bbox_inches='tight')
-        else:
+        elif str_ == "random":
             ax.set_xlabel('Random Sample-Lists of Weight Vector with variance at bottom')
             fig1.savefig(path+'fig_random_.png', bbox_inches='tight')
+        else:
+            ax.set_xlabel('Errors_Different_Number_of_Instances')
+            fig1.savefig(path+'fig_all_.png', bbox_inches='tight')
 
         plt.close()
 
@@ -275,26 +286,42 @@ class Plot:
         equal_list, random_list,  = [], []
         equal_special_list, random_special_list = [[], [], []], [[], [], []]
         for i in range(n):
-            fr_equal = (open(path+str(i)+"error_equal.txt"))
+            # fr_equal = (open(path+str(i)+"error_equal.txt"))
             fr_random = (open(path+str(i)+"error_random.txt"))
-            equal, eq_average_list, eq_center_list, eq_all_list = self.file_to_list(fr_equal)
+            # equal, eq_average_list, eq_center_list, eq_all_list = self.file_to_list(fr_equal)
             random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
             equal_list.append(equal)
-            equal_special_list[0].append(eq_average_list)
-            equal_special_list[1].append(eq_center_list)
-            equal_special_list[2].append(eq_all_list)
+            # equal_special_list[0].append(eq_average_list)
+            # equal_special_list[1].append(eq_center_list)
+            # equal_special_list[2].append(eq_all_list)
             random_list.append(random_)
             random_special_list[0].append(ra_average_list)
             random_special_list[1].append(ra_center_list)
             random_special_list[2].append(ra_all_list)
 
-        print len(random_special_list)
-        self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
+        # self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
         self.box_plot_with_special_point(random_list, random_special_list, path, "random")
-        self.box_plot_no_special_point(equal_list, path, "equal")
+        # self.box_plot_no_special_point(equal_list, path, "equal")
         self.box_plot_no_special_point(random_list, path, "random")
-        self.box_plot_only_special_point(equal_special_list, path, "equal")
+        # self.box_plot_only_special_point(equal_special_list, path, "equal")
         self.box_plot_only_special_point(random_special_list, path, "random")
+
+    def box_plot_all(self, n, path):
+        all_list = []
+        for i in range(n):
+            fr_all = (open(path+"error_all_half_step"+str(i)+".txt"))
+            temp = self.file_to_list_all_points(fr_all)
+            all_list.append(temp)
+
+        all_all_list = []
+        print len(all_list[0])
+        for j in range(len(all_list[0])):
+            temp_ = []
+            for i in range(len(all_list)):
+                temp_.append(all_list[i][j])
+            all_all_list.append(temp_)
+
+        self.box_plot_no_special_point(all_all_list, path, "all")
 
     def box_plot_special_point_dimension(self, special_list, path, str_):
         fig1 = plt.figure(1, figsize=(10, 10))

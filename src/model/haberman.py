@@ -1,21 +1,25 @@
 # http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 import numpy as np
 
-from src.lib import data, sklearnlib, plot, itertver
+from src.lib import sklearnlib, plot, itertver
+from src.lib.data import HaberManData, Data
 
 
 class Haberman:
 
-    my_haber_man_data = data.Data()
+    my_haber_man_data = HaberManData()
     my_haber_man_data.load_haber_man_data()
     X, y = my_haber_man_data.get_haber_man_data()  # get instances matrix and corresponding label
     Y = np.array(y.transpose())[0]
 
-    def run_sklearn(self):
+    def __init__(self):
+        pass
+
+    def run_haber_man(self):
         my_sklearn = sklearnlib.Sklearnlib()
         weights, scores, mean_point = my_sklearn.train_and_test(3200, self.X, self.Y, 0.3)
-        self.my_haber_man_data.write_to_csv_file("../resources/haberman/output_weights_haber_man", weights)
-        self.my_haber_man_data.write_score_to_file("../resources/haberman/scores", scores)
+        Data().write_to_csv_file("../resources/haberman/output_weights_haber_man", weights)
+        Data().write_score_to_file("../resources/haberman/scores", scores)
 
         my_itertver = itertver.IteratedTverberg()
         center_point_with_proof = my_itertver.center_point(weights)

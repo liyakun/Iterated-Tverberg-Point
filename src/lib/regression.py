@@ -2,21 +2,24 @@
 This file contains the logistic regression algorithm
 """
 from src.lib import optimization
-from src.lib import data
+from src.lib.data import Data
+
 
 class Regression:
+    """
+    train a logistic regression model using some optional optimize algorithm
+    """
 
     def __init__(self):
         pass
 
-    # train a logistic regression model using some optional optimize algorithm
     def gradient_descent_random(self, my_data, number_of_training, number_of_training_instances):
         weights_random = []
         for i in range(0, number_of_training):
             print i, "th training."
             reg_opt = optimization.Optimization()
             weights_random.append(reg_opt.gradient_descent_random(my_data.train_matrix, my_data.train_class_list,
-                                                                  my_data.get_random_index_list(
+                                                                  my_data.Data().get_random_index_list(
                                                                       number_of_training_instances, my_data.train_matrix
                                                                   )))
         return weights_random
@@ -36,7 +39,7 @@ class Regression:
 
     def gradient_descent_random_general(self, data_set, label_set, number_of_training, number_of_training_instances):
         weights_random = []
-        my_data = data.Data()
+        my_data = Data()
         for i in range(0, number_of_training):
             print i, "th training."
             reg_opt = optimization.Optimization()

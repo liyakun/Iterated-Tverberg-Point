@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c8ecb39-0f88-4bbc-bc6f-e88c824ffa8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_equal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_equal_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_special_equal_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/0error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/1error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/3error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/4error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/5error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/6error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/7error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/8error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/9error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/skin/New_Setting_Result/9error_random.txt" />
+    <list default="true" id="0c8ecb39-0f88-4bbc-bc6f-e88c824ffa8c" name="Default" comment="add alternative setting result">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/pic/weights.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/bank.py" afterPath="$PROJECT_DIR$/src/model/bank.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/data.py" afterPath="$PROJECT_DIR$/src/lib/data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/haberman.py" afterPath="$PROJECT_DIR$/src/model/haberman.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/optimization.py" afterPath="$PROJECT_DIR$/src/lib/optimization.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/plot.py" afterPath="$PROJECT_DIR$/src/lib/plot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/regression.py" afterPath="$PROJECT_DIR$/src/lib/regression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/skin.py" afterPath="$PROJECT_DIR$/src/model/skin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/test.py" afterPath="$PROJECT_DIR$/src/lib/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab.iws" />
@@ -49,37 +33,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="60" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.06987578">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
               <folding>
-                <element signature="e#45#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#318#322#0" expanded="false" />
-                <element signature="e#371#1029#0" expanded="false" />
-                <element signature="e#1072#1428#0" expanded="false" />
-                <element signature="e#1500#2114#0" expanded="false" />
-                <element signature="e#2156#2543#0" expanded="false" />
-                <element signature="e#2640#6684#0" expanded="false" />
-                <element signature="e#6759#9195#0" expanded="false" />
-                <element signature="e#9274#11678#0" expanded="false" />
-                <element signature="e#11721#13099#0" expanded="false" />
-                <element signature="e#13183#15746#0" expanded="false" />
-                <element signature="e#15829#18308#0" expanded="false" />
-                <element signature="e#18372#19318#0" expanded="false" />
-                <element signature="e#19381#20451#0" expanded="false" />
+                <element signature="e#156#488#1" expanded="false" />
+                <element signature="e#707#764#1" expanded="false" />
+                <element signature="e#790#946#1" expanded="false" />
+                <element signature="e#965#1119#1" expanded="false" />
+                <element signature="e#1149#1759#1" expanded="false" />
+                <element signature="e#1784#1942#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,23 +54,42 @@
         <entry file="file://$PROJECT_DIR$/src/model/skin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
-                <element signature="e#90#142#0" expanded="true" />
-                <element signature="e#331#335#0" expanded="false" />
-                <element signature="e#493#686#0" expanded="false" />
-                <element signature="e#861#2969#0" expanded="false" />
-                <element signature="e#3090#4987#0" expanded="false" />
-                <element signature="e#5113#5297#0" expanded="false" />
+                <element signature="e#282#6095#0" expanded="false" />
+                <element signature="e#365#369#0" expanded="false" />
+                <element signature="e#426#740#0" expanded="false" />
+                <element signature="e#915#2999#0" expanded="false" />
+                <element signature="e#3120#4997#0" expanded="false" />
+                <element signature="e#5077#5785#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fig_random.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_random.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="haberman.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/haberman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#518#1388#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bank.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/bank.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="e#31#67#0" expanded="true" />
+                <element signature="e#336#340#0" expanded="false" />
+                <element signature="e#427#2464#0" expanded="false" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -129,19 +113,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/model/bank.py" />
         <option value="$PROJECT_DIR$/src/model/test.py" />
-        <option value="$PROJECT_DIR$/src/lib/test.py" />
         <option value="$PROJECT_DIR$/src/lib/itertver.py" />
-        <option value="$PROJECT_DIR$/src/lib/data.py" />
-        <option value="$PROJECT_DIR$/src/lib/optimization.py" />
-        <option value="$PROJECT_DIR$/src/lib/regression.py" />
-        <option value="$PROJECT_DIR$/src/lib/sklearnlib.py" />
         <option value="$PROJECT_DIR$/src/model/fakedata.py" />
         <option value="$PROJECT_DIR$/src/model/synthetic.py" />
         <option value="$PROJECT_DIR$/src/lib/synthetic.py" />
-        <option value="$PROJECT_DIR$/src/model/skin.py" />
+        <option value="$PROJECT_DIR$/src/lib/sklearnlib.py" />
+        <option value="$PROJECT_DIR$/src/model/haberman.py" />
+        <option value="$PROJECT_DIR$/src/lib/regression.py" />
         <option value="$PROJECT_DIR$/src/lib/plot.py" />
+        <option value="$PROJECT_DIR$/resources/shuttle/shuttle.trn" />
+        <option value="$PROJECT_DIR$/resources/shuttle/shuttle.tst" />
+        <option value="$PROJECT_DIR$/src/lib/data.py" />
+        <option value="$PROJECT_DIR$/src/lib/optimization.py" />
+        <option value="$PROJECT_DIR$/src/model/shuttle.py" />
+        <option value="$PROJECT_DIR$/src/model/bank.py" />
+        <option value="$PROJECT_DIR$/src/lib/test.py" />
+        <option value="$PROJECT_DIR$/src/model/skin.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
       </list>
     </option>
@@ -152,7 +140,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="width" value="1288" />
-    <option name="height" value="804" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -177,7 +165,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,7 +207,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,14 +228,11 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,11 +251,11 @@
       <recent name="C:\Users\Administrator\PycharmProjects\datamininglab\resources\fakedata\result\experiment_10000_9_2_0.75\10experiments_10000instances_9d_9informative_2label_0.75train_1500vectors_1000instances" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/shuttle" />
       <recent name="C:\Users\Administrator\PycharmProjects\datamininglab\src\lib" />
       <recent name="C:\Users\Administrator\PycharmProjects\datamininglab\resources\fakedata\result" />
       <recent name="C:\Users\Administrator\PycharmProjects\datamininglab\resources\fakedata\experiments" />
       <recent name="C:\Users\Administrator\PycharmProjects\datamininglab\resources\fakedata\result\experiment_10000_9_2_0.75\10experiments_10000instances_9d_9informative_2label_0.75train_1000vectors_1000instances" />
-      <recent name="C:\Users\Administrator\PycharmProjects\datamininglab\resources\fakedata\result\experiment_10000_8_2_0.75\10experiments_10000instances_8d_8informative_2label_0.75train_1000vectors_1000instances" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -568,19 +556,25 @@
       <option name="project" value="LOCAL" />
       <updated>1438034083731</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add alternative setting result">
+      <created>1438034246309</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1438034246309</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1288" height="804" extended-state="6" />
-    <editor active="false" />
+    <frame x="-4" y="0" width="1288" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3889717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33671874" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26328126" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25329816" sideWeight="0.26" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70554763" sideWeight="0.2640625" order="7" side_tool="true" content_ui="tabs" />
@@ -588,12 +582,12 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39027596" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7777778" sideWeight="0.7359375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17368421" sideWeight="0.7359375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -612,9 +606,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.088533334" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3784091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -651,166 +645,223 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main.py">
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/error_all_half_step11.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="60" />
-          <folding>
-            <element signature="e#45#71#0" expanded="true" />
-          </folding>
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/error_all_half_step0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#318#322#0" expanded="false" />
-            <element signature="e#371#1029#0" expanded="false" />
-            <element signature="e#1072#1428#0" expanded="false" />
-            <element signature="e#1500#2114#0" expanded="false" />
-            <element signature="e#2156#2543#0" expanded="false" />
-            <element signature="e#2640#6684#0" expanded="false" />
-            <element signature="e#6759#9195#0" expanded="false" />
-            <element signature="e#9274#11678#0" expanded="false" />
-            <element signature="e#11721#13099#0" expanded="false" />
-            <element signature="e#13183#15746#0" expanded="false" />
-            <element signature="e#15829#18308#0" expanded="false" />
-            <element signature="e#18372#19318#0" expanded="false" />
-            <element signature="e#19381#20451#0" expanded="false" />
-          </folding>
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/skin.py">
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/error_all_half_step1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#90#142#0" expanded="true" />
-            <element signature="e#331#335#0" expanded="false" />
-            <element signature="e#493#686#0" expanded="false" />
-            <element signature="e#861#2969#0" expanded="false" />
-            <element signature="e#3090#4987#0" expanded="false" />
-            <element signature="e#5113#5297#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_random.png">
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/error_all_half_step2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/error_all_half_step3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/error_all_half_step4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/error_all_half_step5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/error_all_half_step10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/All_Point_Test/fig_all_.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
+    <entry file="file://$PROJECT_DIR$/resources/bank/bank-additional-full.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="60" />
-          <folding>
-            <element signature="e#45#71#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.8384615">
+          <caret line="41188" column="3" selection-start-line="41188" selection-start-column="3" selection-end-line="41188" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/error.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#318#322#0" expanded="false" />
-            <element signature="e#371#1029#0" expanded="false" />
-            <element signature="e#1072#1428#0" expanded="false" />
-            <element signature="e#1500#2114#0" expanded="false" />
-            <element signature="e#2156#2543#0" expanded="false" />
-            <element signature="e#2640#6684#0" expanded="false" />
-            <element signature="e#6759#9195#0" expanded="false" />
-            <element signature="e#9274#11678#0" expanded="false" />
-            <element signature="e#11721#13099#0" expanded="false" />
-            <element signature="e#13183#15746#0" expanded="false" />
-            <element signature="e#15829#18308#0" expanded="false" />
-            <element signature="e#18372#19318#0" expanded="false" />
-            <element signature="e#19381#20451#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/skin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#90#142#0" expanded="true" />
-            <element signature="e#331#335#0" expanded="false" />
-            <element signature="e#493#686#0" expanded="false" />
-            <element signature="e#861#2969#0" expanded="false" />
-            <element signature="e#3090#4987#0" expanded="false" />
-            <element signature="e#5113#5297#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/synthetic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5287818">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.7781065">
+          <caret line="998" column="47" selection-start-line="998" selection-start-column="47" selection-end-line="998" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2716895">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="82" selection-start-line="46" selection-start-column="82" selection-end-line="46" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/InstancesTest/6error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/InstancesTest/8error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4000" column="0" selection-start-line="4000" selection-start-column="0" selection-end-line="4002" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/InstancesTest/4error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3973" column="40" selection-start-line="3973" selection-start-column="40" selection-end-line="3973" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/InstancesTest/fig_special_random_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/InstancesTest/fig_random_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/InstancesTest/fig_random.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/InstancesTest/7error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34077078">
+          <caret line="300" column="0" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/skin_nonskin.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimension_differences_1000_single_vectors/tverberg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimension_differences_1000_single_vectors/average.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/haberman/haberman.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.110946745">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/SecondTest/0error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6601467">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/SecondTest/3error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-192.36012">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/SecondTest/4error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/SecondTest/5error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bank/result/SecondTest/6error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34640524">
+          <caret line="3989" column="23" selection-start-line="3989" selection-start-column="23" selection-end-line="3989" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/optimization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53652966">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/sklearnlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20547946">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/synthetic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56621003">
-          <caret line="32" column="88" selection-start-line="31" selection-start-column="11" selection-end-line="32" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#115#10882#0" expanded="false" />
+            <element signature="e#143#147#0" expanded="false" />
+            <element signature="e#208#235#0" expanded="false" />
+            <element signature="e#410#2193#0" expanded="false" />
+            <element signature="e#2305#2549#0" expanded="false" />
+            <element signature="e#2629#2770#0" expanded="false" />
+            <element signature="e#3119#3401#0" expanded="false" />
+            <element signature="e#3490#4410#0" expanded="false" />
+            <element signature="e#4488#6239#0" expanded="false" />
+            <element signature="e#6391#6441#0" expanded="false" />
+            <element signature="e#6441#6475#0" expanded="false" />
+            <element signature="e#6840#7030#0" expanded="false" />
+            <element signature="e#7126#7423#0" expanded="false" />
+            <element signature="e#7429#7463#0" expanded="false" />
+            <element signature="e#7774#10882#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -819,75 +870,112 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_equal_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/New_Setting_Result/0error_equal.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9792027">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/New_Setting_Result/0error_random.txt">
+    <entry file="file://$PROJECT_DIR$/src/lib/data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="60" />
+          <caret line="393" column="0" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
           <folding>
-            <element signature="e#45#71#0" expanded="true" />
+            <element signature="e#93#1721#0" expanded="false" />
+            <element signature="e#93#148#1" expanded="false" />
+            <element signature="e#182#186#0" expanded="false" />
+            <element signature="e#268#779#0" expanded="false" />
+            <element signature="e#1054#1213#0" expanded="false" />
+            <element signature="e#1278#1434#0" expanded="false" />
+            <element signature="e#1517#1721#0" expanded="false" />
+            <element signature="e#1748#2424#0" expanded="false" />
+            <element signature="e#2447#3175#0" expanded="false" />
+            <element signature="e#3198#11087#0" expanded="false" />
+            <element signature="e#3638#3642#0" expanded="false" />
+            <element signature="e#3686#3915#0" expanded="false" />
+            <element signature="e#3961#4426#0" expanded="false" />
+            <element signature="e#4504#9120#0" expanded="false" />
+            <element signature="e#9178#9401#0" expanded="false" />
+            <element signature="e#9454#10138#0" expanded="false" />
+            <element signature="e#11114#12837#0" expanded="false" />
+            <element signature="e#11194#11198#0" expanded="false" />
+            <element signature="e#11241#11587#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
+    <entry file="file://$PROJECT_DIR$/src/lib/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="54" column="105" selection-start-line="54" selection-start-column="105" selection-end-line="54" selection-end-column="105" />
           <folding>
-            <element signature="e#318#322#0" expanded="false" />
-            <element signature="e#371#1029#0" expanded="false" />
-            <element signature="e#1072#1428#0" expanded="false" />
-            <element signature="e#1500#2114#0" expanded="false" />
-            <element signature="e#2156#2543#0" expanded="false" />
-            <element signature="e#2640#6684#0" expanded="false" />
-            <element signature="e#6759#9195#0" expanded="false" />
-            <element signature="e#9274#11678#0" expanded="false" />
-            <element signature="e#11721#13099#0" expanded="false" />
-            <element signature="e#13183#15746#0" expanded="false" />
-            <element signature="e#15829#18308#0" expanded="false" />
-            <element signature="e#18372#19318#0" expanded="false" />
-            <element signature="e#19381#20451#0" expanded="false" />
+            <element signature="e#150#154#0" expanded="false" />
+            <element signature="e#299#984#0" expanded="false" />
+            <element signature="e#3170#3342#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/LastTest/0error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="982" column="47" selection-start-line="982" selection-start-column="47" selection-end-line="982" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/skin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
-            <element signature="e#90#142#0" expanded="true" />
-            <element signature="e#331#335#0" expanded="false" />
-            <element signature="e#493#686#0" expanded="false" />
-            <element signature="e#861#2969#0" expanded="false" />
-            <element signature="e#3090#4987#0" expanded="false" />
-            <element signature="e#5113#5297#0" expanded="false" />
+            <element signature="e#282#6095#0" expanded="false" />
+            <element signature="e#365#369#0" expanded="false" />
+            <element signature="e#426#740#0" expanded="false" />
+            <element signature="e#915#2999#0" expanded="false" />
+            <element signature="e#3120#4997#0" expanded="false" />
+            <element signature="e#5077#5785#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/skin/New_Setting_Result/fig_random.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/model/haberman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#518#1388#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/skin/LastTest/1error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8136646">
+          <caret line="1000" column="41" selection-start-line="1000" selection-start-column="41" selection-end-line="1000" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/bank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#31#67#0" expanded="true" />
+            <element signature="e#336#340#0" expanded="false" />
+            <element signature="e#427#2464#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06987578">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#156#488#1" expanded="false" />
+            <element signature="e#707#764#1" expanded="false" />
+            <element signature="e#790#946#1" expanded="false" />
+            <element signature="e#965#1119#1" expanded="false" />
+            <element signature="e#1149#1759#1" expanded="false" />
+            <element signature="e#1784#1942#1" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
