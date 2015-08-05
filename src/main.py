@@ -14,7 +14,7 @@ we can select subset from all the vectors calculated from the equal split
 """
 
 my_skin = skin.Skin()
-my_skin.run_skin_n_fold(1000, 100, 2, 9)
+my_skin.run_skin_n_fold(1000, 100, 2, 0.1)
 # for i in range(100):
 #    my_skin.test_all_point(10, 0.9, "../resources/skin/All_Point_Test/error_all_half_step"+str(i)+".txt")
 

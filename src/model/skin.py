@@ -5,7 +5,7 @@ https://archive.ics.uci.edu/ml/datasets/Skin+Segmentation
 
 from src.lib import itertver, regression, test
 from src.lib.data import Data, SkinData
-from sklearn import linear_model
+from sklearn import linear_model, cross_validation
 from copy import deepcopy
 from random import shuffle
 
@@ -64,9 +64,10 @@ class Skin:
                                  "../resources/skin/result/errors/"+str(fold) + "error_equal.txt")
 
     def run_skin_one_fold_new(self, number_of_training, number_of_training_instances, fold, percent_of_train):
-        x_train, y_train, x_test, y_test, x, y = self.get_skin_data(percent_of_train)
-
-        sgd = linear_model.SGDClassifier()
+        # x_train, y_train, x_test, y_test, x, y = self.get_skin_data(percent_of_train)
+        x_, y_ = self.my_data.get_skin_data()
+        x_train, x_test, y_train, y_test = cross_validation.train_test_split(x_, y_, test_size=0.1, random_state=42)
+        sgd = linear_model.SGDClassifier(loss='log')
         sgd.fit(x_train, y_train)
         weights_all = deepcopy(sgd.coef_)
         weights_equal = []
@@ -75,7 +76,7 @@ class Skin:
             Xs = x_train[i*number_of_training:(i+1)*number_of_training]
             ys = y_train[i*number_of_training:(i+1)*number_of_training]
             if len(ys) > 0:
-                sgd = linear_model.SGDClassifier()
+                sgd = linear_model.SGDClassifier(loss='log')
                 sgd.fit(Xs,ys)
                 w = deepcopy(sgd.coef_[0])
                 weights_equal.append(w)
@@ -85,7 +86,7 @@ class Skin:
             shuffle(yidx)
             Xs = x_train[Xidx[:number_of_training_instances]]
             ys = y_train[yidx[:number_of_training_instances]]
-            sgd = linear_model.SGDClassifier()
+            sgd = linear_model.SGDClassifier(loss='log')
             sgd.fit(Xs,ys)
             w = deepcopy(sgd.coef_[0])
             weights_random.append(w)
@@ -99,10 +100,10 @@ class Skin:
 
         # testing phase
         test.Test().perform_test(x_test, y_test, weights_random, center_point_random, average_point_random, weights_all,
-                                 "../resources/skin/LastTest/"+str(fold) + "error_random.txt")
+                                 "../resources/skin/Reality/"+str(fold) + "error_random.txt")
 
         test.Test().perform_test(x_test, y_test, weights_equal, center_point_equal, average_point_equal, weights_all,
-                                 "../resources/skin/LastTest/"+str(fold) + "error_equal.txt")
+                                 "../resources/skin/Reality/"+str(fold) + "error_equal.txt")
 
     def test_all_point(self, number_of_fold, percent_of_train, path):
         # get skin data

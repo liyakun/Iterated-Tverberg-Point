@@ -52,7 +52,6 @@ class Test:
                 if int((my_optimization.sig_test(instance_matrix[i], np.asarray(coefficients).transpose()))) != \
                         int(labels_list[i]):
                     error_center_counter += 1
-                print (my_optimization.sig_test(instance_matrix[i], np.asarray(weights_all).transpose()))
                 if int((my_optimization.sig_test(instance_matrix[i], np.asarray(weights_all).transpose()))) != \
                         int(labels_list[i]):
                     error_all_counter += 1
