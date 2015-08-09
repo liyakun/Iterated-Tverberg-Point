@@ -1,7 +1,7 @@
 """
 This file contains the main function
 """
-from src.model import telescope, skin
+from src.model import telescope, skin, wilt
 import time, os
 from src.lib import plot
 from src.lib import synthetic
@@ -96,3 +96,10 @@ for i in range(700, 3000, 100):
     file.write(str(time.time() - start_time)+"--- seconds ---")
 """
 
+""" test wilt data """
+"""
+number_of_training, number_of_training_instances, number_of_equal_disjoint_sets,
+                        path
+"""
+my_wilt = wilt.Wilt()
+my_wilt.run_wilt_n_fold(1, 350, 200, 100, "../resources/wilt/result/")

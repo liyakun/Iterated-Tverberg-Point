@@ -451,3 +451,47 @@ class TelescopeData:
         x_, y_ = np.hsplit(data_matrix, np.array([10, ]))
         y_ = np.hstack(y_).tolist()
         return x_, y_
+
+class WiltData:
+
+    wilt_data_list, wilt_test_list = [], []
+
+    def __init__(self):
+        pass
+
+    def read_wilt__file(self):
+
+        with open("../resources/wilt/training.csv", "rb") as csv_file_train:
+            spam_reader_train = csv.reader(csv_file_train, delimiter=',')
+            for i, row in enumerate(spam_reader_train):
+                if i == 0:
+                    print row
+                else:
+                    if row[0] == 'w':
+                        row[0] = 0
+                    else:
+                        row[0] = 1
+                    self.wilt_data_list.append([float(i) for i in row][:])
+
+        with open("../resources/wilt/testing.csv", "rb") as csv_file_test:
+            spamreader = csv.reader(csv_file_test, delimiter=',')
+            for i, row in enumerate(spamreader):
+                if i == 0:
+                    print row
+                else:
+                    if row[0] == 'w':
+                        row[0] = 0
+                    else:
+                        row[0] = 1
+                    self.wilt_test_list.append([float(i) for i in row][:])
+
+    def get_wilt_file(self):
+        data_matrix = np.asarray(self.wilt_data_list)
+        np.random.shuffle(data_matrix)
+        label_matrix = np.asarray(self.wilt_test_list)
+        np.random.shuffle(label_matrix)
+        y_train, x_train = np.hsplit(data_matrix, np.array([1, ]))
+        y_test, x_test = np.hsplit(label_matrix, np.array([1, ]))
+        y_train = np.hstack(y_train).tolist()
+        y_test = np.hstack(y_test).tolist()
+        return x_train, y_train, x_test, y_test

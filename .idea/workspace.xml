@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c8ecb39-0f88-4bbc-bc6f-e88c824ffa8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/protein/CASP.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/protein.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/telescope.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/telescope/result_30_1000_100/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/telescope/result_30_1000_200/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/telescope/result_30_1000_300/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/telescope/result_30_1000_400/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/telescope/result_30_1000_500/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/telescope/result_30_1000_600/time.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/wilt.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/data.py" afterPath="$PROJECT_DIR$/src/lib/data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lab.iml" afterPath="$PROJECT_DIR$/.idea/lab.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/optimization.py" afterPath="$PROJECT_DIR$/src/lib/optimization.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/skin/result/weights/output_weights_all0.csv" afterPath="$PROJECT_DIR$/resources/skin/result/weights/output_weights_all0.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/skin/result/weights/output_weights_equal0.csv" afterPath="$PROJECT_DIR$/resources/skin/result/weights/output_weights_equal0.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/skin/result/weights/output_weights_random0.csv" afterPath="$PROJECT_DIR$/resources/skin/result/weights/output_weights_random0.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/plot.py" afterPath="$PROJECT_DIR$/src/lib/plot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab.iws" />
@@ -44,79 +29,20 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32484075">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.36881188">
+              <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
               <folding>
-                <element signature="e#45#82#0" expanded="true" />
-                <element signature="e#177#509#1" expanded="false" />
-                <element signature="e#510#712#1" expanded="false" />
-                <element signature="e#736#793#1" expanded="false" />
-                <element signature="e#819#975#1" expanded="false" />
-                <element signature="e#994#1189#1" expanded="false" />
-                <element signature="e#1219#1829#1" expanded="false" />
-                <element signature="e#1854#2012#1" expanded="false" />
-                <element signature="e#2039#2127#1" expanded="false" />
-                <element signature="e#2154#2382#1" expanded="false" />
-                <element signature="e#2412#2581#1" expanded="false" />
-                <element signature="e#2582#2953#1" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/skin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="110" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
-              <folding>
-                <element signature="e#444#758#0" expanded="false" />
-                <element signature="e#933#3017#0" expanded="false" />
-                <element signature="e#3138#5207#0" expanded="false" />
-                <element signature="e#5287#5995#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-              <folding>
-                <element signature="e#150#154#0" expanded="false" />
-                <element signature="e#299#984#0" expanded="false" />
-                <element signature="e#1137#2955#0" expanded="false" />
-                <element signature="e#3064#3236#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-              <folding>
-                <element signature="e#319#323#0" expanded="false" />
-                <element signature="e#372#1030#0" expanded="false" />
-                <element signature="e#1090#1301#0" expanded="false" />
-                <element signature="e#1344#1700#0" expanded="false" />
-                <element signature="e#1772#2386#0" expanded="false" />
-                <element signature="e#2428#2815#0" expanded="false" />
-                <element signature="e#3602#4632#0" expanded="false" />
-                <element signature="e#4729#9767#0" expanded="false" />
-                <element signature="e#9852#12470#0" expanded="false" />
-                <element signature="e#12549#15045#0" expanded="false" />
-                <element signature="e#15088#16427#0" expanded="false" />
-                <element signature="e#16477#17291#0" expanded="false" />
-                <element signature="e#17338#17855#0" expanded="false" />
-                <element signature="e#17939#20502#0" expanded="false" />
-                <element signature="e#20585#23064#0" expanded="false" />
-                <element signature="e#23128#24074#0" expanded="false" />
-                <element signature="e#24137#25207#0" expanded="false" />
+                <element signature="e#45#88#0" expanded="true" />
+                <element signature="e#183#515#1" expanded="false" />
+                <element signature="e#516#718#1" expanded="false" />
+                <element signature="e#742#799#1" expanded="false" />
+                <element signature="e#825#981#1" expanded="false" />
+                <element signature="e#1000#1195#1" expanded="false" />
+                <element signature="e#1225#1835#1" expanded="false" />
+                <element signature="e#1860#2018#1" expanded="false" />
+                <element signature="e#2045#2133#1" expanded="false" />
+                <element signature="e#2160#2388#1" expanded="false" />
+                <element signature="e#2418#2587#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -126,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/lib/data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+              <caret line="470" column="34" selection-start-line="470" selection-start-column="34" selection-end-line="470" selection-end-column="34" />
               <folding>
                 <element signature="e#93#1721#0" expanded="false" />
                 <element signature="e#182#186#0" expanded="false" />
@@ -140,13 +66,10 @@
                 <element signature="e#2564#2568#0" expanded="false" />
                 <element signature="e#3224#11113#0" expanded="false" />
                 <element signature="e#11140#12863#0" expanded="false" />
-                <element signature="e#12890#13705#0" expanded="false" />
                 <element signature="e#12890#12935#1" expanded="false" />
                 <element signature="e#13026#13030#0" expanded="false" />
                 <element signature="e#13792#13796#0" expanded="false" />
-                <element signature="e#13841#14202#0" expanded="false" />
                 <element signature="e#13841#13879#1" expanded="false" />
-                <element signature="e#14246#14533#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -156,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/model/telescope.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <caret line="11" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
                 <element signature="e#102#146#0" expanded="true" />
                 <element signature="e#343#347#0" expanded="false" />
@@ -167,15 +90,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="protein.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/protein.py">
+      <file leaf-file-name="wilt.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/wilt.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+              <caret line="49" column="28" selection-start-line="48" selection-start-column="33" selection-end-line="49" selection-end-column="28" />
               <folding>
-                <element signature="e#353#357#0" expanded="false" />
-                <element signature="e#541#2180#0" expanded="false" />
-                <element signature="e#2356#2556#0" expanded="false" />
+                <element signature="e#81#120#0" expanded="true" />
+                <element signature="e#293#297#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -228,6 +150,7 @@
         <option value="$PROJECT_DIR$/resources/telescope/result_30_1000_200/time.txt" />
         <option value="$PROJECT_DIR$/src/lib/plot.py" />
         <option value="$PROJECT_DIR$/src/model/telescope.py" />
+        <option value="$PROJECT_DIR$/src/model/wilt.py" />
         <option value="$PROJECT_DIR$/src/lib/data.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
       </list>
@@ -282,6 +205,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="datamininglab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datamininglab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -636,26 +573,32 @@
       <option name="project" value="LOCAL" />
       <updated>1438522529712</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add telescope data test">
+      <created>1439138106839</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1439138106839</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24453124" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18984374" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70554763" sideWeight="0.2640625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37777779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25187406" sideWeight="0.7359375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35232383" sideWeight="0.7359375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25329816" sideWeight="0.26" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -716,7 +659,8 @@
     <MESSAGE value="correct code" />
     <MESSAGE value="add alternative setting result" />
     <MESSAGE value="optimize code" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimize code" />
+    <MESSAGE value="add telescope data test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add telescope data test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,34 +669,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/protein/result/errors/3error_random.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1000" column="8" selection-start-line="1000" selection-start-column="8" selection-end-line="1000" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/protein/result/errors/8error_random.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-58.55903">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/protein/result/errors/7error_random.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6458333">
-          <caret line="1003" column="0" selection-start-line="1003" selection-start-column="0" selection-end-line="1003" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/protein/result/errors/6error_random.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6458333">
-          <caret line="1003" column="0" selection-start-line="1003" selection-start-column="0" selection-end-line="1003" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/protein/result/errors/9error_equal.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8024316">
@@ -1031,59 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/telescope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#102#146#0" expanded="true" />
-            <element signature="e#343#347#0" expanded="false" />
-            <element signature="e#540#2226#0" expanded="false" />
-            <element signature="e#2412#2620#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/protein.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding>
-            <element signature="e#353#357#0" expanded="false" />
-            <element signature="e#541#2180#0" expanded="false" />
-            <element signature="e#2356#2556#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
-          <folding>
-            <element signature="e#93#1721#0" expanded="false" />
-            <element signature="e#182#186#0" expanded="false" />
-            <element signature="e#268#779#0" expanded="false" />
-            <element signature="e#844#991#0" expanded="false" />
-            <element signature="e#1054#1213#0" expanded="false" />
-            <element signature="e#1278#1434#0" expanded="false" />
-            <element signature="e#1517#1721#0" expanded="false" />
-            <element signature="e#1748#2424#0" expanded="false" />
-            <element signature="e#2447#2510#1" expanded="false" />
-            <element signature="e#2564#2568#0" expanded="false" />
-            <element signature="e#3224#11113#0" expanded="false" />
-            <element signature="e#11140#12863#0" expanded="false" />
-            <element signature="e#12890#13705#0" expanded="false" />
-            <element signature="e#12890#12935#1" expanded="false" />
-            <element signature="e#13026#13030#0" expanded="false" />
-            <element signature="e#13792#13796#0" expanded="false" />
-            <element signature="e#13841#14202#0" expanded="false" />
-            <element signature="e#13841#13879#1" expanded="false" />
-            <element signature="e#14246#14533#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/skin/Reality/0error_equal.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5440613">
@@ -1102,7 +965,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/skin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.45859873">
           <caret line="65" column="110" selection-start-line="65" selection-start-column="110" selection-end-line="65" selection-end-column="110" />
           <folding>
             <element signature="e#444#758#0" expanded="false" />
@@ -1115,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.50530785">
           <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="e#150#154#0" expanded="false" />
@@ -1126,23 +989,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/protein.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54140127">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <element signature="e#353#357#0" expanded="false" />
+            <element signature="e#541#2180#0" expanded="false" />
+            <element signature="e#2356#2556#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/telescope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#102#146#0" expanded="true" />
+            <element signature="e#343#347#0" expanded="false" />
+            <element signature="e#540#2226#0" expanded="false" />
+            <element signature="e#2412#2620#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/wilt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="28" selection-start-line="48" selection-start-column="33" selection-end-line="49" selection-end-column="28" />
+          <folding>
+            <element signature="e#81#120#0" expanded="true" />
+            <element signature="e#293#297#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/wilt/testing.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/wilt/training.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="470" column="34" selection-start-line="470" selection-start-column="34" selection-end-line="470" selection-end-column="34" />
+          <folding>
+            <element signature="e#93#1721#0" expanded="false" />
+            <element signature="e#182#186#0" expanded="false" />
+            <element signature="e#268#779#0" expanded="false" />
+            <element signature="e#844#991#0" expanded="false" />
+            <element signature="e#1054#1213#0" expanded="false" />
+            <element signature="e#1278#1434#0" expanded="false" />
+            <element signature="e#1517#1721#0" expanded="false" />
+            <element signature="e#1748#2424#0" expanded="false" />
+            <element signature="e#2447#2510#1" expanded="false" />
+            <element signature="e#2564#2568#0" expanded="false" />
+            <element signature="e#3224#11113#0" expanded="false" />
+            <element signature="e#11140#12863#0" expanded="false" />
+            <element signature="e#12890#12935#1" expanded="false" />
+            <element signature="e#13026#13030#0" expanded="false" />
+            <element signature="e#13792#13796#0" expanded="false" />
+            <element signature="e#13841#13879#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/wilt/result/0error_random.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="300" column="8" selection-start-line="300" selection-start-column="8" selection-end-line="300" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32484075">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.36881188">
+          <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
           <folding>
-            <element signature="e#45#82#0" expanded="true" />
-            <element signature="e#177#509#1" expanded="false" />
-            <element signature="e#510#712#1" expanded="false" />
-            <element signature="e#736#793#1" expanded="false" />
-            <element signature="e#819#975#1" expanded="false" />
-            <element signature="e#994#1189#1" expanded="false" />
-            <element signature="e#1219#1829#1" expanded="false" />
-            <element signature="e#1854#2012#1" expanded="false" />
-            <element signature="e#2039#2127#1" expanded="false" />
-            <element signature="e#2154#2382#1" expanded="false" />
-            <element signature="e#2412#2581#1" expanded="false" />
-            <element signature="e#2582#2953#1" expanded="false" />
+            <element signature="e#45#88#0" expanded="true" />
+            <element signature="e#183#515#1" expanded="false" />
+            <element signature="e#516#718#1" expanded="false" />
+            <element signature="e#742#799#1" expanded="false" />
+            <element signature="e#825#981#1" expanded="false" />
+            <element signature="e#1000#1195#1" expanded="false" />
+            <element signature="e#1225#1835#1" expanded="false" />
+            <element signature="e#1860#2018#1" expanded="false" />
+            <element signature="e#2045#2133#1" expanded="false" />
+            <element signature="e#2160#2388#1" expanded="false" />
+            <element signature="e#2418#2587#1" expanded="false" />
           </folding>
         </state>
       </provider>
