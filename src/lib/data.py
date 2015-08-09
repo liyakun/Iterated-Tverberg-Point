@@ -110,7 +110,8 @@ class SkinData:
         np.random.shuffle(skin_data)
         x_, y_ = np.hsplit(skin_data, np.array([3, ]))
         y_ = y_.transpose()[0]
-        y_[y_ == '2'] = 0
+        y_[y_ == '1'] = 0
+        y_[y_ == '2'] = 1
         x_ = x_.astype(np.float)
         y_ = y_.astype(np.float)
         return x_, y_
@@ -391,3 +392,62 @@ class ShuttleData:
         shuttle__tst_data = shuttle__tst_data.astype(np.float)
 
         return shuttle_trn_data, shuttle_trn_label, shuttle__tst_data, shuttle_tst_label
+
+
+class ProteinData:
+
+    """
+    Protein data processing class
+    """
+    protein_instances_list, protein_labels_list = [], []
+
+    def __init__(self):
+        pass
+
+    def read_protein_file(self):
+        with open("../resources/protein/CASP.csv", "rb") as csvfile:
+            spamreader = csv.reader(csvfile, delimiter=',')
+            for i, row in enumerate(spamreader):
+                if i == 0:
+                    print row
+                else:
+                    self.protein_instances_list.append([float(i) for i in row][:])
+
+    def get_protein_data(self):
+        data_matrix = np.asarray(self.protein_instances_list)
+        np.random.shuffle(data_matrix)
+        y_, x_ = np.hsplit(data_matrix, np.array([1, ]))
+        y_ = np.hstack(y_).tolist()
+        y_ = [(0 if num < 14 else 1) for num in y_]
+        return x_, y_
+
+
+class TelescopeData:
+
+    telescope_data_list = []
+
+    def __init__(self):
+        pass
+
+    def read_telescope_data(self):
+        """
+        load skin data
+        """
+        fr = open("../resources/telescope/magic04.data.txt")
+        for line in fr:
+            line = line.strip().split(',')
+            if line[-1] == 'g':
+                line[-1] = 0
+            if line[-1] == 'h':
+                line[-1] = 1
+            self.telescope_data_list.append([float(i) for i in line][:])
+
+    def get_telescope_data(self):
+        """
+        get telescope data and return with data and label
+        """
+        data_matrix = np.asarray(self.telescope_data_list)
+        np.random.shuffle(data_matrix)
+        x_, y_ = np.hsplit(data_matrix, np.array([10, ]))
+        y_ = np.hstack(y_).tolist()
+        return x_, y_

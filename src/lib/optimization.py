@@ -44,13 +44,13 @@ class Optimization:
         return weights_tmp
 
     def gradient_descent_random(self, train_matrix, train_class_list, random_index_list_in_training):
-        clf = linear_model.SGDClassifier(loss="log", n_iter=6, n_jobs=-1)
+        clf = linear_model.SGDClassifier(loss="log", n_jobs=-1)
         clf.fit(np.asarray(train_matrix)[random_index_list_in_training], np.asarray(train_class_list)[random_index_list_in_training]
                 )
         return clf.coef_[0]
 
     def gradient_descent_equal(self, train_matrix, train_class_list):
-        clf = linear_model.SGDClassifier(loss="log", n_iter=6, n_jobs=-1)
+        clf = linear_model.SGDClassifier(loss="log", n_jobs=-1)
         clf.fit(train_matrix, train_class_list)
         return clf.coef_[0]
 

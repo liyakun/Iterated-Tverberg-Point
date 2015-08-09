@@ -78,6 +78,45 @@ class Plot:
             pdf.savefig(fig)
             plt.close()
 
+    def plot_time(self, path):
+        time_list = []
+        for i in range(100, 3000, 100):
+            fr = open(path+"result_30_1000_"+str(i)+"/time.txt")
+            for line in fr:
+                line = line.replace('seconds', '')
+                line = line.replace('-', '')
+                time_list.append(float(line))
+        with pltpage.PdfPages(path+"run_time_diagram.pdf") as pdf:
+            fig = plt.figure()
+            ax = fig.gca()
+            ax.set_xlabel('Number of instances for each single model, 100-3000')
+            ax.set_ylabel('Run time (seconds)')
+            xs = range(100, 3000, 100)
+            ys = time_list
+            ax.plot(xs, ys)
+            pdf.savefig(fig)
+            plt.close()
+
+    def plot_comparing_median(self, n, path):
+        random_list = []
+        random_all, random_mean, random_tverberg = [], [], []
+        for j in range(100, 3000, 100):
+            random_special_list = [[], [], []]
+            for i in range(n):
+                fr_random = (open(path+"result_30_1000_"+str(j)+"/"+str(i)+"error_random.txt"))
+                random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
+                random_list.append(random_)
+                random_special_list[0].append(ra_average_list)
+                random_special_list[1].append(ra_center_list)
+                random_special_list[2].append(ra_all_list)
+            random_all.append(random_special_list[2])
+            random_tverberg.append(random_special_list[1])
+            random_mean.append(random_special_list[0])
+
+        self.box_plot_no_special_point(random_mean, path, "random", "average_")
+        self.box_plot_no_special_point(random_tverberg, path, "random", "tverberg_")
+        self.box_plot_no_special_point(random_all, path, "random", "all_")
+
     def box_plot_with_special_point(self, equal_list, equal_special_list, path, str_):
         fig1 = plt.figure(1, figsize=(14, 14))
         ax = fig1.add_subplot(111)
@@ -85,10 +124,18 @@ class Plot:
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
 
         # get all the variance value w.r.t equal_list(random_list)
-        randomDists = [str(round(np.var(equal_list[0]), 4))+'/expt_1', str(round(np.var(equal_list[1]), 4))+'/expt_2', str(round(np.var(equal_list[2
-             ]), 4))+'/expt_3', str(round(np.var(equal_list[3]), 4))+'/expt_4', str(round(np.var(equal_list[4]), 4))+'/expt_5',
-             str(round(np.var(equal_list[5]), 4))+'/expt_6', str(round(np.var(equal_list[6]), 4))+'/expt_7', str(round(np.var(equal_list[7]), 4))+'/expt_8',
-             str(round(np.var(equal_list[8]), 4))+'/expt_9', str(round(np.var(equal_list[9]), 4))+'/expt_10']
+        """
+        randomDists = [str(round(np.var(equal_list[0]), 4))+'/t_1', str(round(np.var(equal_list[1]), 4))+'/t_2', str(round(np.var(equal_list[2
+             ]), 4))+'/t_3', str(round(np.var(equal_list[3]), 4))+'/t_4', str(round(np.var(equal_list[4]), 4))+'/t_5',
+             str(round(np.var(equal_list[5]), 4))+'/t_6', str(round(np.var(equal_list[6]), 4))+'/t_7', str(round(np.var(equal_list[7]), 4))+'/t_8',
+             str(round(np.var(equal_list[8]), 4))+'/t_9', str(round(np.var(equal_list[9]), 4))+'/t_10', str(round(np.var(equal_list[10]), 4))+'/t_11', str(round(np.var(equal_list[11]), 4))+'/t_12', str(round(np.var(equal_list[12
+             ]), 4))+'/t_13', str(round(np.var(equal_list[13]), 4))+'/t_14', str(round(np.var(equal_list[14]), 4))+'/t_15',
+             str(round(np.var(equal_list[15]), 4))+'/t_16', str(round(np.var(equal_list[16]), 4))+'/t_17', str(round(np.var(equal_list[17]), 4))+'/t_18',
+             str(round(np.var(equal_list[18]), 4))+'/t_19', str(round(np.var(equal_list[19]), 4))+'/t_20', str(round(np.var(equal_list[20]), 4))+'/t_21', str(round(np.var(equal_list[21]), 4))+'/t_22', str(round(np.var(equal_list[22
+             ]), 4))+'/t_23', str(round(np.var(equal_list[23]), 4))+'/t_24', str(round(np.var(equal_list[24]), 4))+'/t_25',
+             str(round(np.var(equal_list[25]), 4))+'/t_26', str(round(np.var(equal_list[26]), 4))+'/t_27', str(round(np.var(equal_list[27]), 4))+'/t_28',
+             str(round(np.var(equal_list[28]), 4))+'/t_29', str(round(np.var(equal_list[29]), 4))+'/t_30']
+        """
         bp_0 = ax.boxplot(equal_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         bp_1 = ax.boxplot(equal_special_list[0])
@@ -124,8 +171,8 @@ class Plot:
         ax.set_axisbelow(True)
 
         # add xtick name with variance value
-        xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
-        plt.setp(xticksNames, fontsize=8)
+        # xticksNames = plt.setp(ax, xticklabels=np.repeat(randomDists, 1))
+        # plt.setp(xticksNames, fontsize=5)
 
         # change outline color, fill color and linewidth of the boxes
         for box in bp_0['boxes']:
@@ -152,7 +199,7 @@ class Plot:
         if str_ == "equal":
             ax.set_xlabel('Equal Sample-Lists of Weight Vectors with variance at bottom')
         else:
-            ax.set_xlabel('Random Sample-Lists of Weight Vectors with variance at bottom')
+            ax.set_xlabel('Random Sample-Lists of Weight Vectors')
         ax.set_ylabel('Errors of Each Weight Vector')
         # Put a legend below current axis
         f1 = plt.legend(handles=[dash_line], loc=1)
@@ -172,7 +219,7 @@ class Plot:
 
         plt.close()
 
-    def box_plot_no_special_point(self, equal_list, path, str_):
+    def box_plot_no_special_point(self, equal_list, path, str_, name_=""):
         fig1 = plt.figure(1, figsize=(10, 10))
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
@@ -216,16 +263,16 @@ class Plot:
                 median.set(color='#b2df8a', linewidth=2, label="error_median")
             else:
                 median.set(color='#b2df8a', linewidth=2)
-        ax.set_ylabel('Errors of Each Weight Vector')
+        ax.set_ylabel('Errors')
         if str_ == "equal":
             ax.set_xlabel('Equal Sample-Lists of Weight Vector with variance at bottom')
-            fig1.savefig(path+'fig_equal_.png', bbox_inches='tight')
+            fig1.savefig(path+name_+'fig_equal_.png', bbox_inches='tight')
         elif str_ == "random":
-            ax.set_xlabel('Random Sample-Lists of Weight Vector with variance at bottom')
-            fig1.savefig(path+'fig_random_.png', bbox_inches='tight')
+            ax.set_xlabel(name_+'points: Increasing number of training instance(100-2900, step 100), 29 tests')
+            fig1.savefig(path+name_+'fig_random_.png', bbox_inches='tight')
         else:
             ax.set_xlabel('Errors_Different_Number_of_Instances')
-            fig1.savefig(path+'fig_all_.png', bbox_inches='tight')
+            fig1.savefig(path+name_+'fig_all_.png', bbox_inches='tight')
 
         plt.close()
 
@@ -234,8 +281,9 @@ class Plot:
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
-        randomDists = [str(round(np.var(special_list[0]), 7))+'/mean_points', str(round(np.var(special_list[1]), 7))+
-                       '/tverberg_points', str(round(np.var(special_list[2]), 7))+'/all_points']
+        randomDists = [str(round(np.var(special_list[0]), 6))+'/mean_points', str(round(np.var(special_list[1]), 6))+
+                       '/tverberg_points', str(round(np.var(special_list[3]), 6))+'/single_points',
+                       str(round(np.var(special_list[2]), 5))+'/all_points']
         bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         # Remove top axes and right axes ticks
@@ -277,7 +325,7 @@ class Plot:
             ax.set_xlabel('Equal Sample-Lists of mean points, tverberg points and all points with variance at bottom')
             fig1.savefig(path+'fig_special_equal_.png', bbox_inches='tight')
         else:
-            ax.set_xlabel('Random Sample-Lists of  mean points, tverberg points and all points with variance at bottom')
+            ax.set_xlabel('Random Sample-Lists of  mean points, tverberg points, all points, single points with variance at bottom')
             fig1.savefig(path+'fig_special_random_.png', bbox_inches='tight')
 
         plt.close()
@@ -286,24 +334,41 @@ class Plot:
         equal_list, random_list,  = [], []
         equal_special_list, random_special_list = [[], [], []], [[], [], []]
         for i in range(n):
-            # fr_equal = (open(path+str(i)+"error_equal.txt"))
+            fr_equal = (open(path+str(i)+"error_equal.txt"))
             fr_random = (open(path+str(i)+"error_random.txt"))
-            # equal, eq_average_list, eq_center_list, eq_all_list = self.file_to_list(fr_equal)
+            equal, eq_average_list, eq_center_list, eq_all_list = self.file_to_list(fr_equal)
             random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
             equal_list.append(equal)
-            # equal_special_list[0].append(eq_average_list)
-            # equal_special_list[1].append(eq_center_list)
-            # equal_special_list[2].append(eq_all_list)
+            equal_special_list[0].append(eq_average_list)
+            equal_special_list[1].append(eq_center_list)
+            equal_special_list[2].append(eq_all_list)
             random_list.append(random_)
             random_special_list[0].append(ra_average_list)
             random_special_list[1].append(ra_center_list)
             random_special_list[2].append(ra_all_list)
 
-        # self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
+        self.box_plot_with_special_point(equal_list, equal_special_list, path, "equal")
         self.box_plot_with_special_point(random_list, random_special_list, path, "random")
-        # self.box_plot_no_special_point(equal_list, path, "equal")
+        self.box_plot_no_special_point(equal_list, path, "equal")
         self.box_plot_no_special_point(random_list, path, "random")
-        # self.box_plot_only_special_point(equal_special_list, path, "equal")
+        self.box_plot_only_special_point(equal_special_list, path, "equal")
+        self.box_plot_only_special_point(random_special_list, path, "random")
+
+    def box_plot_random(self, n, path):
+        random_list, random_list_all = [], []
+        random_special_list = [[], [], [], []]
+        for i in range(n):
+            fr_random = (open(path+str(i)+"error_random.txt"))
+            random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
+            random_list.append(random_)
+            random_list_all.extend(random_)
+            random_special_list[0].append(ra_average_list)
+            random_special_list[1].append(ra_center_list)
+            random_special_list[2].append(ra_all_list)
+        random_special_list[3] = random_list_all
+
+        self.box_plot_with_special_point(random_list, random_special_list, path, "random")
+        self.box_plot_no_special_point(random_list, path, "random")
         self.box_plot_only_special_point(random_special_list, path, "random")
 
     def box_plot_all(self, n, path):

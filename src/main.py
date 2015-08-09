@@ -1,7 +1,8 @@
 """
 This file contains the main function
 """
-from src.model import skin, bank
+from src.model import telescope, skin
+import time, os
 from src.lib import plot
 from src.lib import synthetic
 
@@ -12,12 +13,12 @@ number of equally split disjoint subset
 we have many single vectors for the equal split, when we want to tes the number of single vector's influence
 we can select subset from all the vectors calculated from the equal split
 """
-
+"""
 my_skin = skin.Skin()
-my_skin.run_skin_n_fold(1000, 100, 2, 0.1)
+my_skin.run_skin_n_fold(1000, 100, 1, 0.1)
 # for i in range(100):
 #    my_skin.test_all_point(10, 0.9, "../resources/skin/All_Point_Test/error_all_half_step"+str(i)+".txt")
-
+"""
 
 """ run bank test """
 """
@@ -34,9 +35,10 @@ my_plot.plot_error("../resources/skin/result/error_equal.txt")
 
 """ box plot """
 """
-my_plot = plot.Plot()
-my_plot.box_plot(10, "../resources/skin/New_Setting_Result/")
-my_plot.box_plot_all(100, "../resources/skin/All_Point_Test/")
+# my_plot = plot.Plot()
+# my_plot.plot_time("../resources/telescope/")
+for i in range(700, 3000, 100):
+    my_plot.box_plot_random(30, "../resources/telescope/result_30_1000_"+str(i)+"/")
 """
 
 """ test synthetic data """
@@ -62,5 +64,35 @@ my_bank.run_bank_n_fold(10, 4000, 500, 9)
 """
 
 """ test shuttle data"""
+"""
 # my_shuttle = shuttle.Shuttle()
 # my_shuttle.run_shuttle_n_fold(1000, 2000, 10)
+"""
+
+""" test protein data"""
+"""
+n, number_of_training, number_of_training_instances, number_of_equal_disjoint_sets,
+                           percent_of_training
+
+# my_protein = protein.Protein()
+# my_protein.run_protein_n_fold(20, 1000, 50, 800, 0.7)
+"""
+
+""" test telescope data """
+"""
+100: 652.132999897 seconds
+200: 690.535000086 seconds
+300: 688.878000021 seconds
+400: 693.819999933 seconds
+500: 686.217999935 seconds
+600: 738.809000015 seconds
+"""
+"""
+for i in range(700, 3000, 100):
+    start_time = time.time()
+    my_telescope = telescope.Telescope()
+    my_telescope.run_telescope_n_fold(30, 1000, i, 1000, 0.9, "../resources/telescope/result_30_1000_"+str(i)+"/")
+    file = open("../resources/telescope/result_30_1000_"+str(i)+"/time.txt", 'wb')
+    file.write(str(time.time() - start_time)+"--- seconds ---")
+"""
+
