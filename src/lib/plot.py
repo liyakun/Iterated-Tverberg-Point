@@ -282,8 +282,8 @@ class Plot:
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
         randomDists = [str(round(np.var(special_list[0]), 6))+'/mean_points', str(round(np.var(special_list[1]), 6))+
-                       '/tverberg_points', str(round(np.var(special_list[3]), 6))+'/single_points',
-                       str(round(np.var(special_list[2]), 5))+'/all_points']
+                       '/tverberg_points', str(round(np.var(special_list[2]), 6))+'/all_points',
+                       str(round(np.var(special_list[3]), 5))+'/single_points']
         bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         # Remove top axes and right axes ticks
@@ -331,7 +331,7 @@ class Plot:
         plt.close()
 
     def box_plot(self, n, path):
-        equal_list, random_list,  = [], []
+        equal_list, random_list = [], []
         equal_special_list, random_special_list = [[], [], []], [[], [], []]
         for i in range(n):
             fr_equal = (open(path+str(i)+"error_equal.txt"))
@@ -393,9 +393,7 @@ class Plot:
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
-        randomDists = [str(2)+"-dim", str(3)+"-dim", str(4)+"-dim", str(5)+"-dim", str(6)+"-dim", str(7)+"-dim",
-                       str(8)+"-dim", str(9)+"-dim", str(10)+"-dim", str(11)+"-dim", str(12)+"-dim", str(13)+"-dim",
-                       str(14)+"-dim", str(15)+"-dim", str(16)+"-dim", str(17)+"-dim", str(18)+"-dim", str(19)+"-dim"]
+        randomDists = [str(2)+"-dim", str(3)+"-dim", str(4)+"-dim", str(5)+"-dim", str(6)+"-dim", str(7)+"-dim"]
         bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         # Remove top axes and right axes ticks
@@ -505,7 +503,10 @@ class Plot:
         special_list_list = [[], [], []]
         for i in range(2, n):
             random_special_list = [[], [], []]
-            for j in range(10):
+            m = 100
+            if i == n - 1:
+                m = 50
+            for j in range(m):
                 fr_random = open(path+str(i)+"/"+str(j)+"error_random.txt")
                 random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
                 random_special_list[0].append(ra_average_list)

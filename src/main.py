@@ -34,12 +34,12 @@ my_plot.plot_error("../resources/skin/result/error_equal.txt")
 """
 
 """ box plot """
-"""
 # my_plot = plot.Plot()
 # my_plot.plot_time("../resources/telescope/")
-for i in range(700, 3000, 100):
-    my_plot.box_plot_random(30, "../resources/telescope/result_30_1000_"+str(i)+"/")
-"""
+# for i in range(700, 3000, 100):
+#    my_plot.box_plot_random(30, "../resources/telescope/result_30_1000_"+str(i)+"/")
+
+# my_plot.box_plot_different_dimensions(8, "../resources/syntheticdata/result/dimensions_100_iterations/errors/")
 
 """ test synthetic data """
 """
@@ -101,5 +101,5 @@ for i in range(700, 3000, 100):
 number_of_training, number_of_training_instances, number_of_equal_disjoint_sets,
                         path
 """
-my_wilt = wilt.Wilt()
-my_wilt.run_wilt_n_fold(1, 350, 200, 100, "../resources/wilt/result/")
+# my_wilt = wilt.Wilt()
+# my_wilt.run_wilt_n_fold(1, 350, 200, 100, "../resources/wilt/result/")
