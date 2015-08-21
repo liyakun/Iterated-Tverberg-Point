@@ -97,6 +97,23 @@ class Plot:
             pdf.savefig(fig)
             plt.close()
 
+    def plot_time_dimensions(self, path):
+        time_list = []
+        for i in range(2, 15, 1):
+            fr = open(path+str(i)+"/time.txt")
+            for line in fr:
+                time_list.append(float(line))
+        with pltpage.PdfPages(path+"run_time_diagram.pdf") as pdf:
+            fig = plt.figure()
+            ax = fig.gca()
+            ax.set_xlabel('Number of dimensions, 2-14')
+            ax.set_ylabel('Run time (seconds)')
+            xs = range(2, 15, 1)
+            ys = time_list
+            ax.plot(xs, ys)
+            pdf.savefig(fig)
+            plt.close()
+
     def plot_comparing_median(self, n, path):
         random_list = []
         random_all, random_mean, random_tverberg = [], [], []

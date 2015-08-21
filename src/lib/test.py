@@ -29,9 +29,9 @@ class Test:
 
     """ Perform test  """
     def perform_test(self, instance_matrix, labels_list, weights_list, coefficients, mean_point, weights_all, path):
-        errors_list = []
         print "Test Starts...\n"
         my_optimization = optimization.Optimization()
+        errors_list = []
         for j in range(len(weights_list)):
             print "%d th test..." % j
             error_count = 0
@@ -45,15 +45,16 @@ class Test:
         if coefficients is not None:
             error_center_counter, error_mean_counter, error_all_counter = 0, 0, 0
             print "test for middle and center point..."
-            for i in range(len(instance_matrix)):
-                if int((my_optimization.sig_test(instance_matrix[i], np.asarray(mean_point).transpose()))) != \
-                        int(labels_list[i]):
+            print mean_point, coefficients, weights_all[0]
+            for i_ in range(len(instance_matrix)):
+                if int((my_optimization.sig_test(instance_matrix[i_], np.asarray(mean_point).transpose()))) != \
+                        int(labels_list[i_]):
                     error_mean_counter += 1
-                if int((my_optimization.sig_test(instance_matrix[i], np.asarray(coefficients).transpose()))) != \
-                        int(labels_list[i]):
+                if int((my_optimization.sig_test(instance_matrix[i_], np.asarray(coefficients).transpose()))) != \
+                        int(labels_list[i_]):
                     error_center_counter += 1
-                if int((my_optimization.sig_test(instance_matrix[i], np.asarray(weights_all).transpose()))) != \
-                        int(labels_list[i]):
+                if int((my_optimization.sig_test(instance_matrix[i_], np.asarray(weights_all[0]).transpose()))) != \
+                        int(labels_list[i_]):
                     error_all_counter += 1
             print "test for middle and center point finished."
             errors_list.append(float(error_mean_counter)/float(len(instance_matrix)))
@@ -64,5 +65,7 @@ class Test:
     """ Write testing error rate to file """
     def write_error_to_file(self, errors_list, path):
         with open(path, "w") as f:
+            print len(errors_list)
+            print errors_list
             for i in range(0, len(errors_list)):
                 f.writelines("Testing Error of %dth weights vector: %f\n" % (i, errors_list[i]))
