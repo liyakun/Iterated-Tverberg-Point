@@ -106,7 +106,7 @@ class Plot:
         with pltpage.PdfPages(path+"run_time_diagram.pdf") as pdf:
             fig = plt.figure()
             ax = fig.gca()
-            ax.set_xlabel('Number of dimensions, 2-14')
+            ax.set_xlabel('Number of features, 2-14')
             ax.set_ylabel('Run time (seconds)')
             xs = range(2, 15, 1)
             ys = time_list

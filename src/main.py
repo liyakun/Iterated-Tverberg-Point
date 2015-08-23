@@ -40,9 +40,10 @@ my_plot = plot.Plot()
 #    my_plot.box_plot_random(30, "../resources/telescope/result_30_1000_"+str(i)+"/")
 
 # my_plot.box_plot_different_dimensions(8, "../resources/syntheticdata/result/dimensions_100_iterations/errors/")
-#my_plot.plot_time_dimensions("../resources/syntheticdata/result/dimensions_30_iterations/errors/")
-for i in range(2, 15, 1):
-    my_plot.box_plot_random(30, "../resources/syntheticdata/result/dimensions_30_iterations/errors/"+str(i)+"/")
+my_plot.plot_time_dimensions("../resources/syntheticdata/result/dimensions_30_iterations/errors/")
+
+#for i in range(2, 15, 1):
+#    my_plot.box_plot_random(30, "../resources/syntheticdata/result/dimensions_30_iterations/errors/"+str(i)+"/")
 
 """ test synthetic data """
 """

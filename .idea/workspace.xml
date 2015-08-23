@@ -2,427 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c8ecb39-0f88-4bbc-bc6f-e88c824ffa8c" name="Default" comment="new data set added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/time.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lab.iml" afterPath="$PROJECT_DIR$/.idea/lab.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/plot.py" afterPath="$PROJECT_DIR$/src/lib/plot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/test.py" afterPath="$PROJECT_DIR$/src/lib/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab.iws" />
@@ -447,8 +30,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5202952">
-              <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding>
                 <element signature="e#91#106#0" expanded="true" />
                 <element signature="e#185#517#1" expanded="false" />
@@ -463,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="374" column="12" selection-start-line="374" selection-start-column="12" selection-end-line="374" selection-end-column="12" />
+              <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
               <folding>
                 <element signature="e#319#323#0" expanded="false" />
                 <element signature="e#372#1030#0" expanded="false" />
@@ -472,27 +55,19 @@
                 <element signature="e#1772#2386#0" expanded="false" />
                 <element signature="e#2428#2815#0" expanded="false" />
                 <element signature="e#2856#3546#0" expanded="false" />
-                <element signature="e#3598#4137#0" expanded="false" />
-                <element signature="e#4193#5223#0" expanded="false" />
-                <element signature="e#5320#10358#0" expanded="false" />
-                <element signature="e#10443#13061#0" expanded="false" />
-                <element signature="e#13140#15636#0" expanded="false" />
-                <element signature="e#15679#17016#0" expanded="false" />
-                <element signature="e#17927#18444#0" expanded="false" />
-                <element signature="e#18528#20855#0" expanded="false" />
-                <element signature="e#20938#23417#0" expanded="false" />
-                <element signature="e#24559#25629#0" expanded="false" />
+                <element signature="e#3598#4135#0" expanded="false" />
+                <element signature="e#4191#5221#0" expanded="false" />
+                <element signature="e#5318#10356#0" expanded="false" />
+                <element signature="e#10441#13059#0" expanded="false" />
+                <element signature="e#13138#15634#0" expanded="false" />
+                <element signature="e#15677#17014#0" expanded="false" />
+                <element signature="e#17064#17878#0" expanded="false" />
+                <element signature="e#17925#18442#0" expanded="false" />
+                <element signature="e#18526#20853#0" expanded="false" />
+                <element signature="e#20936#23415#0" expanded="false" />
+                <element signature="e#23479#24494#0" expanded="false" />
+                <element signature="e#24557#25627#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/time.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -545,8 +120,8 @@
         <option value="$PROJECT_DIR$/src/model/telescope.py" />
         <option value="$PROJECT_DIR$/src/model/wilt.py" />
         <option value="$PROJECT_DIR$/src/lib/data.py" />
-        <option value="$PROJECT_DIR$/src/lib/plot.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/lib/plot.py" />
       </list>
     </option>
   </component>
@@ -554,9 +129,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="width" value="1288" />
-    <option name="height" value="764" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -581,6 +157,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -635,10 +213,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datamininglab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="syntheticdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="result" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dimensions_30_iterations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -990,49 +596,49 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1288" height="764" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265625" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38830584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2546875" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1417798" sideWeight="0.7359375" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25329816" sideWeight="0.26" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70554763" sideWeight="0.2640625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37777779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25329816" sideWeight="0.26" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31784108" sideWeight="0.7359375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38830584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37777779" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3784091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.088533334" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25329816" sideWeight="0.26" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37777779" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.088533334" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3784091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1080,6 +686,96 @@
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding>
+            <element signature="e#91#106#0" expanded="true" />
+            <element signature="e#185#517#1" expanded="false" />
+            <element signature="e#518#720#1" expanded="false" />
+            <element signature="e#744#801#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#319#323#0" expanded="false" />
+            <element signature="e#372#1030#0" expanded="false" />
+            <element signature="e#1090#1301#0" expanded="false" />
+            <element signature="e#1344#1700#0" expanded="false" />
+            <element signature="e#1772#2386#0" expanded="false" />
+            <element signature="e#2428#2815#0" expanded="false" />
+            <element signature="e#2856#3546#0" expanded="false" />
+            <element signature="e#3598#4135#0" expanded="false" />
+            <element signature="e#4191#5221#0" expanded="false" />
+            <element signature="e#5318#10356#0" expanded="false" />
+            <element signature="e#10441#13059#0" expanded="false" />
+            <element signature="e#13138#15634#0" expanded="false" />
+            <element signature="e#15677#17014#0" expanded="false" />
+            <element signature="e#17064#17878#0" expanded="false" />
+            <element signature="e#17925#18442#0" expanded="false" />
+            <element signature="e#18526#20853#0" expanded="false" />
+            <element signature="e#20936#23415#0" expanded="false" />
+            <element signature="e#23479#24494#0" expanded="false" />
+            <element signature="e#24557#25627#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/time.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#106#0" expanded="true" />
+            <element signature="e#185#517#1" expanded="false" />
+            <element signature="e#518#720#1" expanded="false" />
+            <element signature="e#744#801#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="374" column="12" selection-start-line="374" selection-start-column="12" selection-end-line="374" selection-end-column="12" />
+          <folding>
+            <element signature="e#319#323#0" expanded="false" />
+            <element signature="e#372#1030#0" expanded="false" />
+            <element signature="e#1090#1301#0" expanded="false" />
+            <element signature="e#1344#1700#0" expanded="false" />
+            <element signature="e#1772#2386#0" expanded="false" />
+            <element signature="e#2428#2815#0" expanded="false" />
+            <element signature="e#2856#3546#0" expanded="false" />
+            <element signature="e#3598#4135#0" expanded="false" />
+            <element signature="e#4191#5221#0" expanded="false" />
+            <element signature="e#5318#10356#0" expanded="false" />
+            <element signature="e#10441#13059#0" expanded="false" />
+            <element signature="e#13138#15634#0" expanded="false" />
+            <element signature="e#15677#17014#0" expanded="false" />
+            <element signature="e#17064#17878#0" expanded="false" />
+            <element signature="e#17925#18442#0" expanded="false" />
+            <element signature="e#18526#20853#0" expanded="false" />
+            <element signature="e#20936#23415#0" expanded="false" />
+            <element signature="e#23479#24494#0" expanded="false" />
+            <element signature="e#24557#25627#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#91#106#0" expanded="true" />
@@ -1102,16 +798,18 @@
             <element signature="e#1772#2386#0" expanded="false" />
             <element signature="e#2428#2815#0" expanded="false" />
             <element signature="e#2856#3546#0" expanded="false" />
-            <element signature="e#3598#4137#0" expanded="false" />
-            <element signature="e#4193#5223#0" expanded="false" />
-            <element signature="e#5320#10358#0" expanded="false" />
-            <element signature="e#10443#13061#0" expanded="false" />
-            <element signature="e#13140#15636#0" expanded="false" />
-            <element signature="e#15679#17016#0" expanded="false" />
-            <element signature="e#17927#18444#0" expanded="false" />
-            <element signature="e#18528#20855#0" expanded="false" />
-            <element signature="e#20938#23417#0" expanded="false" />
-            <element signature="e#24559#25629#0" expanded="false" />
+            <element signature="e#3598#4135#0" expanded="false" />
+            <element signature="e#4191#5221#0" expanded="false" />
+            <element signature="e#5318#10356#0" expanded="false" />
+            <element signature="e#10441#13059#0" expanded="false" />
+            <element signature="e#13138#15634#0" expanded="false" />
+            <element signature="e#15677#17014#0" expanded="false" />
+            <element signature="e#17064#17878#0" expanded="false" />
+            <element signature="e#17925#18442#0" expanded="false" />
+            <element signature="e#18526#20853#0" expanded="false" />
+            <element signature="e#20936#23415#0" expanded="false" />
+            <element signature="e#23479#24494#0" expanded="false" />
+            <element signature="e#24557#25627#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1259,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,7 +971,7 @@
     <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="374" column="12" selection-start-line="374" selection-start-column="12" selection-end-line="374" selection-end-column="12" />
+          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
           <folding>
             <element signature="e#319#323#0" expanded="false" />
             <element signature="e#372#1030#0" expanded="false" />
@@ -1283,49 +980,26 @@
             <element signature="e#1772#2386#0" expanded="false" />
             <element signature="e#2428#2815#0" expanded="false" />
             <element signature="e#2856#3546#0" expanded="false" />
-            <element signature="e#3598#4137#0" expanded="false" />
-            <element signature="e#4193#5223#0" expanded="false" />
-            <element signature="e#5320#10358#0" expanded="false" />
-            <element signature="e#10443#13061#0" expanded="false" />
-            <element signature="e#13140#15636#0" expanded="false" />
-            <element signature="e#15679#17016#0" expanded="false" />
-            <element signature="e#17927#18444#0" expanded="false" />
-            <element signature="e#18528#20855#0" expanded="false" />
-            <element signature="e#20938#23417#0" expanded="false" />
-            <element signature="e#24559#25629#0" expanded="false" />
+            <element signature="e#3598#4135#0" expanded="false" />
+            <element signature="e#4191#5221#0" expanded="false" />
+            <element signature="e#5318#10356#0" expanded="false" />
+            <element signature="e#10441#13059#0" expanded="false" />
+            <element signature="e#13138#15634#0" expanded="false" />
+            <element signature="e#15677#17014#0" expanded="false" />
+            <element signature="e#17064#17878#0" expanded="false" />
+            <element signature="e#17925#18442#0" expanded="false" />
+            <element signature="e#18526#20853#0" expanded="false" />
+            <element signature="e#20936#23415#0" expanded="false" />
+            <element signature="e#23479#24494#0" expanded="false" />
+            <element signature="e#24557#25627#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/fig_special_random_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/fig_random.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/fig_special_random_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/fig_random_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/fig_random.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5202952">
-          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding>
             <element signature="e#91#106#0" expanded="true" />
             <element signature="e#185#517#1" expanded="false" />
