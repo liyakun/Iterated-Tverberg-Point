@@ -83,8 +83,6 @@ class Plot:
         for i in range(100, 3000, 100):
             fr = open(path+"result_30_1000_"+str(i)+"/time.txt")
             for line in fr:
-                line = line.replace('seconds', '')
-                line = line.replace('-', '')
                 time_list.append(float(line))
         with pltpage.PdfPages(path+"run_time_diagram.pdf") as pdf:
             fig = plt.figure()

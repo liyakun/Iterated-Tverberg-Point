@@ -50,7 +50,7 @@ class Telescope:
     def run_telescope_n_fold(self, n, number_of_training, number_of_training_instances, number_of_equal_disjoint_sets,
                              percent_of_training, path):
         for i in range(n):
-            self.run_telescope_one_fold(number_of_training, number_of_training_instances, number_of_equal_disjoint_sets, i
-                                      , percent_of_training, path)
+            self.run_telescope_one_fold(number_of_training, number_of_training_instances, number_of_equal_disjoint_sets,
+                                        i, percent_of_training, path)
 
 
