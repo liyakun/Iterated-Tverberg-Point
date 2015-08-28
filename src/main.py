@@ -1,7 +1,7 @@
 """
 This file contains the main function
 """
-from src.model import telescope, skin, wilt
+from src.model import telescope, skin
 import time, os
 from src.lib import plot
 from src.lib import synthetic
@@ -34,14 +34,15 @@ my_plot.plot_error("../resources/skin/result/error_equal.txt")
 """
 
 """ box plot """
-my_plot = plot.Plot()
-my_plot.plot_time("../resources/telescope/new_errors/")
-# for i in range(700, 3000, 100):
+#my_plot = plot.Plot()
+#my_plot.plot_comparing_median(30, "../resources/telescope/")
+#my_plot.plot_time("../resources/telescope/new_results/")
+#for i in range(100, 3000, 100):
 #    my_plot.box_plot_random(30, "../resources/telescope/result_30_1000_"+str(i)+"/")
 
-# my_plot.box_plot_different_dimensions(8, "../resources/syntheticdata/result/dimensions_100_iterations/errors/")
-#my_plot.plot_time_dimensions("../resources/syntheticdata/result/dimensions_30_iterations/errors/")
 
+#my_plot.box_plot_different_dimensions(20, "../resources/syntheticdata/result/dimensions/errors/")
+#my_plot.plot_time_dimensions("../resources/syntheticdata/result/dimensions_30_iterations/errors/")
 #for i in range(2, 15, 1):
 #    my_plot.box_plot_random(30, "../resources/syntheticdata/result/dimensions_30_iterations/errors/"+str(i)+"/")
 
@@ -91,14 +92,14 @@ n, number_of_training, number_of_training_instances, number_of_equal_disjoint_se
 500: 686.217999935 seconds
 600: 738.809000015 seconds
 """
-"""
-for i in range(1100, 3000, 100):
-    start_time = time.time()
-    my_telescope = telescope.Telescope()
-    my_telescope.run_telescope_n_fold(30, 1000, i, 1000, 0.9, "../resources/telescope/new_errors/result_30_1000_"+str(i)+"/")
-    file = open("../resources/telescope/new_errors/result_30_1000_"+str(i)+"/time.txt", 'wb')
-    file.write(str(time.time() - start_time))
-"""
+
+for j in range(1, 12):
+    for i in range(64, 2048, 2**j):
+        start_time = time.time()
+        my_telescope = telescope.Telescope()
+        my_telescope.run_telescope_n_fold(30, 1000, i, 1000, 0.9, "../resources/telescope/new_est_results/result_30_1000_"+str(i)+"/")
+        file = open("../resources/telescope/new_est_results/result_30_1000_"+str(i)+"/time.txt", 'wb')
+        file.write(str(time.time() - start_time))
 
 """ test wilt data """
 """

@@ -87,7 +87,7 @@ class Plot:
         with pltpage.PdfPages(path+"run_time_diagram.pdf") as pdf:
             fig = plt.figure()
             ax = fig.gca()
-            ax.set_xlabel('Number of instances for each single model, 100-3000')
+            ax.set_xlabel('Number of instances for each single model, 100-2900')
             ax.set_ylabel('Run time (seconds)')
             xs = range(100, 3000, 100)
             ys = time_list
@@ -244,6 +244,17 @@ class Plot:
         #                np.var(equal_list[8]), np.var(equal_list[9])]
         bp_0 = ax.boxplot(equal_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
+        y = []
+
+        for i in range(len(equal_list)):
+            y.append(np.median(np.array(equal_list[i])))
+
+        x = np.arange(1, 30, 1)
+
+        ax.plot(x, y, 'b-')
+
+        ax.set_ylim(ymin=0.2)
+        ax.set_ylim(ymax=0.32)
         # Remove top axes and right axes ticks
         ax.get_xaxis().tick_bottom()
         ax.get_yaxis().tick_left()
@@ -278,7 +289,13 @@ class Plot:
                 median.set(color='#b2df8a', linewidth=2, label="error_median")
             else:
                 median.set(color='#b2df8a', linewidth=2)
+
+
+        dash_line = mlines.Line2D([], [], color='purple', label='error_mean', linestyle='--')
+        median_line = mlines.Line2D([], [], color='green', label='error_median')
         ax.set_ylabel('Errors')
+        f2 = plt.legend(handles=[dash_line, median_line], loc=2)
+
         if str_ == "equal":
             ax.set_xlabel('Equal Sample-Lists of Weight Vector with variance at bottom')
             fig1.savefig(path+name_+'fig_equal_.png', bbox_inches='tight')
@@ -296,9 +313,15 @@ class Plot:
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
+
+
         randomDists = [str(round(np.var(special_list[0]), 6))+'/mean_points', str(round(np.var(special_list[1]), 6))+
                        '/tverberg_points', str(round(np.var(special_list[2]), 6))+'/all_points',
                        str(round(np.var(special_list[3]), 5))+'/single_points']
+        """
+        randomDists = [str(round(np.var(special_list[0]), 6))+'/mean_points', str(round(np.var(special_list[1]), 6))+
+                       '/tverberg_points', str(round(np.var(special_list[2]), 6))+'/all_points']
+         """
         bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
         # Remove top axes and right axes ticks
@@ -372,6 +395,7 @@ class Plot:
     def box_plot_random(self, n, path):
         random_list, random_list_all = [], []
         random_special_list = [[], [], [], []]
+        #random_special_list = [[], [], []]
         for i in range(n):
             fr_random = (open(path+str(i)+"error_random.txt"))
             random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
@@ -408,9 +432,21 @@ class Plot:
         ax = fig1.add_subplot(111)
         plt.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
         meanlineprops = dict(linestyle='--', linewidth=2.5, color='purple')
-        randomDists = [str(2)+"-dim", str(3)+"-dim", str(4)+"-dim", str(5)+"-dim", str(6)+"-dim", str(7)+"-dim"]
+        randomDists = [str(2)+"-dim", str(3)+"-dim", str(4)+"-dim", str(5)+"-dim", str(6)+"-dim", str(7)+"-dim", str(8)+
+                       "-dim", str(9)+"-dim", str(10)+"-dim", str(11)+"-dim", str(12)+"-dim", str(13)+"-dim", str(14)+
+                       "-dim", str(15)+"-dim", str(16)+"-dim", str(17)+"-dim", str(18)+"-dim", str(19)+"-dim"]
         bp_0 = ax.boxplot(special_list, 1, meanprops=meanlineprops, meanline=True, showmeans=True)
 
+        y = []
+
+        for i in range(len(special_list)):
+            y.append(np.median(np.array(special_list[i])))
+
+        x = np.arange(1, 19, 1)
+
+        ax.plot(x, y, 'b-')
+        ax.set_ylim(ymin=0.10)
+        ax.set_ylim(ymax=0.40)
         # Remove top axes and right axes ticks
         ax.get_xaxis().tick_bottom()
         ax.get_yaxis().tick_left()
@@ -445,7 +481,11 @@ class Plot:
                 median.set(color='#b2df8a', linewidth=2, label="error_median")
             else:
                 median.set(color='#b2df8a', linewidth=2)
+        dash_line = mlines.Line2D([], [], color='purple', label='error_mean', linestyle='--')
+        median_line = mlines.Line2D([], [], color='green', label='error_median')
         ax.set_ylabel('Errors')
+        f2 = plt.legend(handles=[dash_line, median_line], loc=2)
+
         if str_ == "tverberg":
             ax.set_xlabel('Tverberg points with increasing dimensions.')
             fig1.savefig(path+'tverberg.png', bbox_inches='tight')
@@ -518,9 +558,7 @@ class Plot:
         special_list_list = [[], [], []]
         for i in range(2, n):
             random_special_list = [[], [], []]
-            m = 100
-            if i == n - 1:
-                m = 50
+            m = 20
             for j in range(m):
                 fr_random = open(path+str(i)+"/"+str(j)+"error_random.txt")
                 random_, ra_average_list, ra_center_list, ra_all_list = self.file_to_list(fr_random)
