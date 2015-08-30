@@ -34,9 +34,9 @@ my_plot.plot_error("../resources/skin/result/error_equal.txt")
 """
 
 """ box plot """
-#my_plot = plot.Plot()
+my_plot = plot.Plot()
 #my_plot.plot_comparing_median(30, "../resources/telescope/")
-#my_plot.plot_time("../resources/telescope/new_results/")
+#my_plot.plot_time("../resources/syntheticdata/result/vections_30_iterations/")
 #for i in range(100, 3000, 100):
 #    my_plot.box_plot_random(30, "../resources/telescope/result_30_1000_"+str(i)+"/")
 
@@ -45,6 +45,11 @@ my_plot.plot_error("../resources/skin/result/error_equal.txt")
 #my_plot.plot_time_dimensions("../resources/syntheticdata/result/dimensions_30_iterations/errors/")
 #for i in range(2, 15, 1):
 #    my_plot.box_plot_random(30, "../resources/syntheticdata/result/dimensions_30_iterations/errors/"+str(i)+"/")
+
+#my_plot.box_plot_different_vectors( "../resources/syntheticdata/result/vectors_30_iterations/")
+for i in range(1000, 6500, 500):
+    my_plot.box_plot_random(30, "../resources/syntheticdata/result/vectors_30_iterations/"+str(i)+"/")
+
 
 """ test synthetic data """
 """
@@ -92,7 +97,7 @@ n, number_of_training, number_of_training_instances, number_of_equal_disjoint_se
 500: 686.217999935 seconds
 600: 738.809000015 seconds
 """
-
+"""
 for j in range(1, 12):
     for i in range(64, 2048, 2**j):
         start_time = time.time()
@@ -100,7 +105,7 @@ for j in range(1, 12):
         my_telescope.run_telescope_n_fold(30, 1000, i, 1000, 0.9, "../resources/telescope/new_est_results/result_30_1000_"+str(i)+"/")
         file = open("../resources/telescope/new_est_results/result_30_1000_"+str(i)+"/time.txt", 'wb')
         file.write(str(time.time() - start_time))
-
+"""
 """ test wilt data """
 """
 number_of_training, number_of_training_instances, number_of_equal_disjoint_sets,
