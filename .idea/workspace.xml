@@ -1,389 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c8ecb39-0f88-4bbc-bc6f-e88c824ffa8c" name="Default" comment="real dataset  test result added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/all_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/average.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/fig_random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/fig_special_random_.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/run_time_diagram.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/tverberg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/0error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/10error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/11error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/12error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/13error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/14error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/15error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/16error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/17error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/18error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/19error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/1error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/20error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/21error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/22error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/23error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/24error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/25error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/26error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/27error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/28error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/29error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/2error_equal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/2error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/3error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/4error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/5error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/6error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/7error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/8error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/9error_random.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1000/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/1500/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2000/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/2500/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3000/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/3500/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4000/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/4500/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5000/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/5500/time.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/time.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lab.iml" afterPath="$PROJECT_DIR$/.idea/lab.iml" />
+    <list default="true" id="0c8ecb39-0f88-4bbc-bc6f-e88c824ffa8c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/all_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/all_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/all_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/all_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/telescope/all_fig_random_.png" afterPath="$PROJECT_DIR$/resources/telescope/all_fig_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/average.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/average.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/average.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/average.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/telescope/average_fig_random_.png" afterPath="$PROJECT_DIR$/resources/telescope/average_fig_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/11/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/12/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/13/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/14/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/3/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/4/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/5/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/6/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/7/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/8/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/fig_special_random_.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/fig_special_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/run_time_diagram.pdf" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/run_time_diagram.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/run_time_diagram.pdf" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/run_time_diagram.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/telescope/run_time_diagram.pdf" afterPath="$PROJECT_DIR$/resources/telescope/run_time_diagram.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/telescope/new_results/run_time_diagram.pdf" afterPath="$PROJECT_DIR$/resources/telescope/new_results/run_time_diagram.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/tverberg.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/tverberg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/tverberg.png" afterPath="$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/tverberg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/telescope/tverberg_fig_random_.png" afterPath="$PROJECT_DIR$/resources/telescope/tverberg_fig_random_.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/data.py" afterPath="$PROJECT_DIR$/src/lib/data.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.py" afterPath="$PROJECT_DIR$/src/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/optimization.py" afterPath="$PROJECT_DIR$/src/lib/optimization.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/plot.py" afterPath="$PROJECT_DIR$/src/lib/plot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/synthetic.py" afterPath="$PROJECT_DIR$/src/lib/synthetic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab.iws" />
@@ -405,14 +54,142 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29411766">
-              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
               <folding>
-                <element signature="e#45#82#0" expanded="true" />
-                <element signature="e#736#793#1" expanded="false" />
+                <element signature="e#0#34#1" expanded="false" />
+                <element signature="e#167#695#1" expanded="false" />
+                <element signature="e#720#928#1" expanded="false" />
+                <element signature="e#955#2029#1" expanded="false" />
+                <element signature="e#2060#2670#1" expanded="false" />
+                <element signature="e#2698#2782#1" expanded="false" />
+                <element signature="e#2810#3038#1" expanded="false" />
+                <element signature="e#3069#3664#1" expanded="false" />
+                <element signature="e#3690#3876#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding>
+                <element signature="e#93#1721#0" expanded="false" />
+                <element signature="e#1748#2424#0" expanded="false" />
+                <element signature="e#2447#3201#0" expanded="false" />
+                <element signature="e#3224#11113#0" expanded="false" />
+                <element signature="e#11140#12863#0" expanded="false" />
+                <element signature="e#12890#13705#0" expanded="false" />
+                <element signature="e#13734#14533#0" expanded="false" />
+                <element signature="e#14557#16130#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sklearnlib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lib/sklearnlib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2502781">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#150#270#0" expanded="false" />
+                <element signature="e#319#439#0" expanded="false" />
+                <element signature="e#507#1118#0" expanded="false" />
+                <element signature="e#1167#1426#0" expanded="false" />
+                <element signature="e#1492#1580#0" expanded="false" />
+                <element signature="e#1673#1898#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#270#274#0" expanded="false" />
+                <element signature="e#382#973#0" expanded="false" />
+                <element signature="e#1034#1250#0" expanded="false" />
+                <element signature="e#1316#1484#0" expanded="false" />
+                <element signature="e#1612#2115#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itertver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/itertver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding>
+                <element signature="e#215#219#0" expanded="false" />
+                <element signature="e#265#6371#0" expanded="false" />
+                <element signature="e#1161#1195#0" expanded="false" />
+                <element signature="e#1794#1828#0" expanded="false" />
+                <element signature="e#2295#2329#0" expanded="false" />
+                <element signature="e#3230#3264#0" expanded="false" />
+                <element signature="e#4404#4438#0" expanded="false" />
+                <element signature="e#5316#5350#0" expanded="false" />
+                <element signature="e#6434#6925#0" expanded="false" />
+                <element signature="e#6983#7297#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="optimization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/optimization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding>
+                <element signature="e#143#147#0" expanded="false" />
+                <element signature="e#208#235#0" expanded="false" />
+                <element signature="e#410#2193#0" expanded="false" />
+                <element signature="e#2305#2539#0" expanded="false" />
+                <element signature="e#2619#2750#0" expanded="false" />
+                <element signature="e#2831#2999#0" expanded="false" />
+                <element signature="e#3099#3381#0" expanded="false" />
+                <element signature="e#3470#4390#0" expanded="false" />
+                <element signature="e#3536#3570#0" expanded="false" />
+                <element signature="e#4468#6219#0" expanded="false" />
+                <element signature="e#4468#4502#0" expanded="false" />
+                <element signature="e#5389#5423#0" expanded="false" />
+                <element signature="e#6371#6421#0" expanded="false" />
+                <element signature="e#6421#6455#0" expanded="false" />
+                <element signature="e#6820#7010#0" expanded="false" />
+                <element signature="e#7106#7403#0" expanded="false" />
+                <element signature="e#7409#7443#0" expanded="false" />
+                <element signature="e#7754#10931#0" expanded="false" />
+                <element signature="e#8380#8414#0" expanded="false" />
+                <element signature="e#9106#9140#0" expanded="false" />
+                <element signature="e#10092#10126#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="synthetic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/synthetic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="e#391#2186#0" expanded="false" />
+                <element signature="e#2417#2671#0" expanded="false" />
+                <element signature="e#2876#3187#0" expanded="false" />
+                <element signature="e#3391#4422#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -422,31 +199,41 @@
         <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="364" column="64" selection-start-line="364" selection-start-column="64" selection-end-line="364" selection-end-column="64" />
+              <caret line="752" column="47" selection-start-line="752" selection-start-column="47" selection-end-line="752" selection-end-column="47" />
               <folding>
                 <element signature="e#319#323#0" expanded="false" />
-                <element signature="e#372#1030#0" expanded="false" />
-                <element signature="e#1090#1301#0" expanded="false" />
-                <element signature="e#1344#1700#0" expanded="false" />
-                <element signature="e#1772#2386#0" expanded="false" />
-                <element signature="e#2428#2815#0" expanded="false" />
-                <element signature="e#2856#3501#0" expanded="false" />
-                <element signature="e#3553#4090#0" expanded="false" />
-                <element signature="e#4146#5176#0" expanded="false" />
-                <element signature="e#10396#13495#0" expanded="false" />
-                <element signature="e#16573#17910#0" expanded="false" />
-                <element signature="e#18866#19383#0" expanded="false" />
-                <element signature="e#19467#22515#0" expanded="false" />
-                <element signature="e#22598#25077#0" expanded="false" />
+                <element signature="e#372#1094#0" expanded="false" />
+                <element signature="e#372#427#1" expanded="false" />
+                <element signature="e#1154#1446#0" expanded="false" />
+                <element signature="e#1154#1226#1" expanded="false" />
+                <element signature="e#1489#1900#0" expanded="false" />
+                <element signature="e#1489#1535#1" expanded="false" />
+                <element signature="e#1972#2635#0" expanded="false" />
+                <element signature="e#2677#3133#0" expanded="false" />
+                <element signature="e#2677#2737#1" expanded="false" />
+                <element signature="e#3174#4099#0" expanded="false" />
+                <element signature="e#3174#3215#1" expanded="false" />
+                <element signature="e#4151#4825#0" expanded="false" />
+                <element signature="e#4151#4203#1" expanded="false" />
+                <element signature="e#4881#5996#0" expanded="false" />
+                <element signature="e#6093#11244#0" expanded="false" />
+                <element signature="e#11329#14490#0" expanded="false" />
+                <element signature="e#11329#11383#1" expanded="false" />
+                <element signature="e#14569#17603#0" expanded="false" />
+                <element signature="e#14569#14650#1" expanded="false" />
+                <element signature="e#17646#19034#0" expanded="false" />
+                <element signature="e#19084#20011#0" expanded="false" />
+                <element signature="e#19084#19142#1" expanded="false" />
+                <element signature="e#20058#20638#0" expanded="false" />
+                <element signature="e#20722#24144#0" expanded="false" />
+                <element signature="e#24227#26937#0" expanded="false" />
+                <element signature="e#27019#30362#0" expanded="false" />
+                <element signature="e#30426#31450#0" expanded="false" />
+                <element signature="e#31513#32661#0" expanded="false" />
+                <element signature="e#32719#33759#0" expanded="false" />
+                <element signature="e#32719#32781#1" expanded="false" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tverberg.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/tverberg.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -475,7 +262,6 @@
         <option value="$PROJECT_DIR$/src/lib/itertver.py" />
         <option value="$PROJECT_DIR$/src/model/fakedata.py" />
         <option value="$PROJECT_DIR$/src/model/synthetic.py" />
-        <option value="$PROJECT_DIR$/src/lib/synthetic.py" />
         <option value="$PROJECT_DIR$/src/lib/sklearnlib.py" />
         <option value="$PROJECT_DIR$/src/model/haberman.py" />
         <option value="$PROJECT_DIR$/resources/shuttle/shuttle.trn" />
@@ -487,7 +273,6 @@
         <option value="$PROJECT_DIR$/resources/protein/result/errors/7error_random.txt" />
         <option value="$PROJECT_DIR$/src/lib/regression.py" />
         <option value="$PROJECT_DIR$/src/model/protein.py" />
-        <option value="$PROJECT_DIR$/src/lib/optimization.py" />
         <option value="$PROJECT_DIR$/resources/telescope/result_30_1000_700/time.txt" />
         <option value="$PROJECT_DIR$/resources/telescope/result_30_1000_2200/time.txt" />
         <option value="$PROJECT_DIR$/resources/telescope/result_30_1000_500/time.txt" />
@@ -497,10 +282,12 @@
         <option value="$PROJECT_DIR$/resources/telescope/result_30_1000_600/time.txt" />
         <option value="$PROJECT_DIR$/resources/telescope/result_30_1000_200/time.txt" />
         <option value="$PROJECT_DIR$/src/model/wilt.py" />
-        <option value="$PROJECT_DIR$/src/lib/data.py" />
         <option value="$PROJECT_DIR$/src/model/telescope.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/lib/plot.py" />
+        <option value="$PROJECT_DIR$/src/lib/optimization.py" />
+        <option value="$PROJECT_DIR$/src/lib/synthetic.py" />
+        <option value="$PROJECT_DIR$/src/lib/data.py" />
       </list>
     </option>
   </component>
@@ -564,7 +351,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataMiningLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataMiningLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -579,14 +402,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syntheticdata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -958,21 +773,25 @@
       <option name="project" value="LOCAL" />
       <updated>1440446400379</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add varying number of models test result">
+      <created>1440927469670</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1440927469670</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1027" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27760416" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.290625" sideWeight="0.74" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42008638" sideWeight="0.7359375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25329816" sideWeight="0.26" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70554763" sideWeight="0.2640625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37777779" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -980,10 +799,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38830584" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7120116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5476529" sideWeight="0.7359375" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1042,11 +863,12 @@
     <MESSAGE value="new data set added" />
     <MESSAGE value="dimension test result plot added" />
     <MESSAGE value="real dataset  test result added" />
-    <option name="LAST_COMMIT_MESSAGE" value="real dataset  test result added" />
+    <MESSAGE value="add varying number of models test result" />
+    <option name="LAST_COMMIT_MESSAGE" value="add varying number of models test result" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1056,222 +878,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#45#82#0" expanded="true" />
-            <element signature="e#736#793#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/telescope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
-          <folding>
-            <element signature="e#319#323#0" expanded="false" />
-            <element signature="e#372#1030#0" expanded="false" />
-            <element signature="e#1090#1301#0" expanded="false" />
-            <element signature="e#1344#1700#0" expanded="false" />
-            <element signature="e#1772#2386#0" expanded="false" />
-            <element signature="e#2428#2815#0" expanded="false" />
-            <element signature="e#2856#3501#0" expanded="false" />
-            <element signature="e#3553#4090#0" expanded="false" />
-            <element signature="e#4146#5176#0" expanded="false" />
-            <element signature="e#10396#13495#0" expanded="false" />
-            <element signature="e#16573#17910#0" expanded="false" />
-            <element signature="e#18866#19383#0" expanded="false" />
-            <element signature="e#19467#22515#0" expanded="false" />
-            <element signature="e#22598#25077#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#82#0" expanded="true" />
-            <element signature="e#736#793#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/telescope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/telescope/result_30_1000_1500/time.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/telescope/result_30_1000_1400/time.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/telescope/result_30_1000_1600/time.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
-          <folding>
-            <element signature="e#319#323#0" expanded="false" />
-            <element signature="e#372#1030#0" expanded="false" />
-            <element signature="e#1090#1301#0" expanded="false" />
-            <element signature="e#1344#1700#0" expanded="false" />
-            <element signature="e#1772#2386#0" expanded="false" />
-            <element signature="e#2428#2815#0" expanded="false" />
-            <element signature="e#2856#3501#0" expanded="false" />
-            <element signature="e#3553#4090#0" expanded="false" />
-            <element signature="e#4146#5176#0" expanded="false" />
-            <element signature="e#10396#13495#0" expanded="false" />
-            <element signature="e#16573#17910#0" expanded="false" />
-            <element signature="e#18866#19383#0" expanded="false" />
-            <element signature="e#19467#22515#0" expanded="false" />
-            <element signature="e#22598#25077#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#82#0" expanded="true" />
-            <element signature="e#736#793#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
-          <folding>
-            <element signature="e#319#323#0" expanded="false" />
-            <element signature="e#372#1030#0" expanded="false" />
-            <element signature="e#1090#1301#0" expanded="false" />
-            <element signature="e#1344#1700#0" expanded="false" />
-            <element signature="e#1772#2386#0" expanded="false" />
-            <element signature="e#2428#2815#0" expanded="false" />
-            <element signature="e#2856#3501#0" expanded="false" />
-            <element signature="e#3553#4090#0" expanded="false" />
-            <element signature="e#4146#5176#0" expanded="false" />
-            <element signature="e#10396#13495#0" expanded="false" />
-            <element signature="e#16573#17910#0" expanded="false" />
-            <element signature="e#18866#19383#0" expanded="false" />
-            <element signature="e#19467#22515#0" expanded="false" />
-            <element signature="e#22598#25077#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding>
-            <element signature="e#45#82#0" expanded="true" />
-            <element signature="e#736#793#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#319#323#0" expanded="false" />
-            <element signature="e#372#1030#0" expanded="false" />
-            <element signature="e#1090#1301#0" expanded="false" />
-            <element signature="e#1344#1700#0" expanded="false" />
-            <element signature="e#1772#2386#0" expanded="false" />
-            <element signature="e#2428#2815#0" expanded="false" />
-            <element signature="e#2856#3501#0" expanded="false" />
-            <element signature="e#3553#4090#0" expanded="false" />
-            <element signature="e#4146#5176#0" expanded="false" />
-            <element signature="e#10396#13495#0" expanded="false" />
-            <element signature="e#16573#17910#0" expanded="false" />
-            <element signature="e#18866#19383#0" expanded="false" />
-            <element signature="e#19467#22515#0" expanded="false" />
-            <element signature="e#22598#25077#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/10/time.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#82#0" expanded="true" />
-            <element signature="e#736#793#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="374" column="12" selection-start-line="374" selection-start-column="12" selection-end-line="374" selection-end-column="12" />
-          <folding>
-            <element signature="e#319#323#0" expanded="false" />
-            <element signature="e#372#1030#0" expanded="false" />
-            <element signature="e#1090#1301#0" expanded="false" />
-            <element signature="e#1344#1700#0" expanded="false" />
-            <element signature="e#1772#2386#0" expanded="false" />
-            <element signature="e#2428#2815#0" expanded="false" />
-            <element signature="e#2856#3501#0" expanded="false" />
-            <element signature="e#3553#4090#0" expanded="false" />
-            <element signature="e#4146#5176#0" expanded="false" />
-            <element signature="e#10396#13495#0" expanded="false" />
-            <element signature="e#16573#17910#0" expanded="false" />
-            <element signature="e#18866#19383#0" expanded="false" />
-            <element signature="e#19467#22515#0" expanded="false" />
-            <element signature="e#22598#25077#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#82#0" expanded="true" />
-            <element signature="e#736#793#1" expanded="false" />
+            <element signature="e#0#34#1" expanded="false" />
+            <element signature="e#167#695#1" expanded="false" />
+            <element signature="e#720#928#1" expanded="false" />
+            <element signature="e#955#2029#1" expanded="false" />
+            <element signature="e#2060#2670#1" expanded="false" />
+            <element signature="e#2698#2782#1" expanded="false" />
+            <element signature="e#2810#3038#1" expanded="false" />
+            <element signature="e#3069#3664#1" expanded="false" />
+            <element signature="e#3690#3876#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1282,31 +897,41 @@
           <caret line="503" column="27" selection-start-line="503" selection-start-column="23" selection-end-line="503" selection-end-column="27" />
           <folding>
             <element signature="e#319#323#0" expanded="false" />
-            <element signature="e#372#1030#0" expanded="false" />
-            <element signature="e#1090#1301#0" expanded="false" />
-            <element signature="e#1344#1700#0" expanded="false" />
-            <element signature="e#1772#2386#0" expanded="false" />
-            <element signature="e#2428#2815#0" expanded="false" />
-            <element signature="e#2856#3501#0" expanded="false" />
-            <element signature="e#3553#4090#0" expanded="false" />
-            <element signature="e#4146#5176#0" expanded="false" />
-            <element signature="e#10396#13495#0" expanded="false" />
-            <element signature="e#16573#17910#0" expanded="false" />
-            <element signature="e#18866#19383#0" expanded="false" />
-            <element signature="e#19467#22515#0" expanded="false" />
-            <element signature="e#22598#25077#0" expanded="false" />
+            <element signature="e#372#1094#0" expanded="false" />
+            <element signature="e#372#427#1" expanded="false" />
+            <element signature="e#1154#1446#0" expanded="false" />
+            <element signature="e#1154#1226#1" expanded="false" />
+            <element signature="e#1489#1900#0" expanded="false" />
+            <element signature="e#1489#1535#1" expanded="false" />
+            <element signature="e#1972#2635#0" expanded="false" />
+            <element signature="e#2677#3133#0" expanded="false" />
+            <element signature="e#2677#2737#1" expanded="false" />
+            <element signature="e#3174#4099#0" expanded="false" />
+            <element signature="e#3174#3215#1" expanded="false" />
+            <element signature="e#4151#4825#0" expanded="false" />
+            <element signature="e#4151#4203#1" expanded="false" />
+            <element signature="e#4881#5996#0" expanded="false" />
+            <element signature="e#6093#11244#0" expanded="false" />
+            <element signature="e#11329#14490#0" expanded="false" />
+            <element signature="e#11329#11383#1" expanded="false" />
+            <element signature="e#14569#17603#0" expanded="false" />
+            <element signature="e#14569#14650#1" expanded="false" />
+            <element signature="e#17646#19034#0" expanded="false" />
+            <element signature="e#19084#20011#0" expanded="false" />
+            <element signature="e#19084#19142#1" expanded="false" />
+            <element signature="e#20058#20638#0" expanded="false" />
+            <element signature="e#20722#24144#0" expanded="false" />
+            <element signature="e#24227#26937#0" expanded="false" />
+            <element signature="e#27019#30362#0" expanded="false" />
+            <element signature="e#30426#31450#0" expanded="false" />
+            <element signature="e#31513#32661#0" expanded="false" />
+            <element signature="e#32719#33759#0" expanded="false" />
+            <element signature="e#32719#32781#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/telescope/result_30_1000_100/time.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/telescope/result_30_1000_300/time.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
@@ -1369,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="470" column="34" selection-start-line="470" selection-start-column="34" selection-end-line="470" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_100_iterations/errors/2/0error_equal.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7605634">
@@ -1409,11 +1027,6 @@
         <state vertical-scroll-proportion="0.81377155">
           <caret line="1002" column="48" selection-start-line="1002" selection-start-column="48" selection-end-line="1002" selection-end-column="48" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/tverberg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_100_iterations/errors/tverberg.png">
@@ -1477,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,15 +1103,87 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/telescope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88039213">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/6000/time.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/fig_random.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/fig_random_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/2/fig_special_random_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/average.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/average.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions/errors/tverberg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/telescope/average_fig_random_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/telescope/tverberg_fig_random_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/vectors_30_iterations/tverberg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/telescope.py">
+    <entry file="file://$PROJECT_DIR$/resources/telescope/result_30_1000_300/time.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88039213">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/9/fig_special_random_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/syntheticdata/result/dimensions_30_iterations/errors/tverberg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1507,33 +1191,166 @@
     <entry file="file://$PROJECT_DIR$/src/lib/plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="364" column="64" selection-start-line="364" selection-start-column="64" selection-end-line="364" selection-end-column="64" />
+          <caret line="752" column="47" selection-start-line="752" selection-start-column="47" selection-end-line="752" selection-end-column="47" />
           <folding>
             <element signature="e#319#323#0" expanded="false" />
-            <element signature="e#372#1030#0" expanded="false" />
-            <element signature="e#1090#1301#0" expanded="false" />
-            <element signature="e#1344#1700#0" expanded="false" />
-            <element signature="e#1772#2386#0" expanded="false" />
-            <element signature="e#2428#2815#0" expanded="false" />
-            <element signature="e#2856#3501#0" expanded="false" />
-            <element signature="e#3553#4090#0" expanded="false" />
-            <element signature="e#4146#5176#0" expanded="false" />
-            <element signature="e#10396#13495#0" expanded="false" />
-            <element signature="e#16573#17910#0" expanded="false" />
-            <element signature="e#18866#19383#0" expanded="false" />
-            <element signature="e#19467#22515#0" expanded="false" />
-            <element signature="e#22598#25077#0" expanded="false" />
+            <element signature="e#372#1094#0" expanded="false" />
+            <element signature="e#372#427#1" expanded="false" />
+            <element signature="e#1154#1446#0" expanded="false" />
+            <element signature="e#1154#1226#1" expanded="false" />
+            <element signature="e#1489#1900#0" expanded="false" />
+            <element signature="e#1489#1535#1" expanded="false" />
+            <element signature="e#1972#2635#0" expanded="false" />
+            <element signature="e#2677#3133#0" expanded="false" />
+            <element signature="e#2677#2737#1" expanded="false" />
+            <element signature="e#3174#4099#0" expanded="false" />
+            <element signature="e#3174#3215#1" expanded="false" />
+            <element signature="e#4151#4825#0" expanded="false" />
+            <element signature="e#4151#4203#1" expanded="false" />
+            <element signature="e#4881#5996#0" expanded="false" />
+            <element signature="e#6093#11244#0" expanded="false" />
+            <element signature="e#11329#14490#0" expanded="false" />
+            <element signature="e#11329#11383#1" expanded="false" />
+            <element signature="e#14569#17603#0" expanded="false" />
+            <element signature="e#14569#14650#1" expanded="false" />
+            <element signature="e#17646#19034#0" expanded="false" />
+            <element signature="e#19084#20011#0" expanded="false" />
+            <element signature="e#19084#19142#1" expanded="false" />
+            <element signature="e#20058#20638#0" expanded="false" />
+            <element signature="e#20722#24144#0" expanded="false" />
+            <element signature="e#24227#26937#0" expanded="false" />
+            <element signature="e#27019#30362#0" expanded="false" />
+            <element signature="e#30426#31450#0" expanded="false" />
+            <element signature="e#31513#32661#0" expanded="false" />
+            <element signature="e#32719#33759#0" expanded="false" />
+            <element signature="e#32719#32781#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <element signature="e#143#147#0" expanded="false" />
+            <element signature="e#208#235#0" expanded="false" />
+            <element signature="e#410#2193#0" expanded="false" />
+            <element signature="e#2305#2539#0" expanded="false" />
+            <element signature="e#2619#2750#0" expanded="false" />
+            <element signature="e#2831#2999#0" expanded="false" />
+            <element signature="e#3099#3381#0" expanded="false" />
+            <element signature="e#3470#4390#0" expanded="false" />
+            <element signature="e#3536#3570#0" expanded="false" />
+            <element signature="e#4468#6219#0" expanded="false" />
+            <element signature="e#4468#4502#0" expanded="false" />
+            <element signature="e#5389#5423#0" expanded="false" />
+            <element signature="e#6371#6421#0" expanded="false" />
+            <element signature="e#6421#6455#0" expanded="false" />
+            <element signature="e#6820#7010#0" expanded="false" />
+            <element signature="e#7106#7403#0" expanded="false" />
+            <element signature="e#7409#7443#0" expanded="false" />
+            <element signature="e#7754#10931#0" expanded="false" />
+            <element signature="e#8380#8414#0" expanded="false" />
+            <element signature="e#9106#9140#0" expanded="false" />
+            <element signature="e#10092#10126#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/synthetic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#391#2186#0" expanded="false" />
+            <element signature="e#2417#2671#0" expanded="false" />
+            <element signature="e#2876#3187#0" expanded="false" />
+            <element signature="e#3391#4422#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/itertver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#215#219#0" expanded="false" />
+            <element signature="e#265#6371#0" expanded="false" />
+            <element signature="e#1161#1195#0" expanded="false" />
+            <element signature="e#1794#1828#0" expanded="false" />
+            <element signature="e#2295#2329#0" expanded="false" />
+            <element signature="e#3230#3264#0" expanded="false" />
+            <element signature="e#4404#4438#0" expanded="false" />
+            <element signature="e#5316#5350#0" expanded="false" />
+            <element signature="e#6434#6925#0" expanded="false" />
+            <element signature="e#6983#7297#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29411766">
-          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
           <folding>
-            <element signature="e#45#82#0" expanded="true" />
-            <element signature="e#736#793#1" expanded="false" />
+            <element signature="e#0#34#1" expanded="false" />
+            <element signature="e#167#695#1" expanded="false" />
+            <element signature="e#720#928#1" expanded="false" />
+            <element signature="e#955#2029#1" expanded="false" />
+            <element signature="e#2060#2670#1" expanded="false" />
+            <element signature="e#2698#2782#1" expanded="false" />
+            <element signature="e#2810#3038#1" expanded="false" />
+            <element signature="e#3069#3664#1" expanded="false" />
+            <element signature="e#3690#3876#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#93#1721#0" expanded="false" />
+            <element signature="e#1748#2424#0" expanded="false" />
+            <element signature="e#2447#3201#0" expanded="false" />
+            <element signature="e#3224#11113#0" expanded="false" />
+            <element signature="e#11140#12863#0" expanded="false" />
+            <element signature="e#12890#13705#0" expanded="false" />
+            <element signature="e#13734#14533#0" expanded="false" />
+            <element signature="e#14557#16130#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#270#274#0" expanded="false" />
+            <element signature="e#382#973#0" expanded="false" />
+            <element signature="e#1034#1250#0" expanded="false" />
+            <element signature="e#1316#1484#0" expanded="false" />
+            <element signature="e#1612#2115#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/sklearnlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2502781">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#150#270#0" expanded="false" />
+            <element signature="e#319#439#0" expanded="false" />
+            <element signature="e#507#1118#0" expanded="false" />
+            <element signature="e#1167#1426#0" expanded="false" />
+            <element signature="e#1492#1580#0" expanded="false" />
+            <element signature="e#1673#1898#0" expanded="false" />
           </folding>
         </state>
       </provider>

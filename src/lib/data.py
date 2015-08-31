@@ -452,6 +452,7 @@ class TelescopeData:
         y_ = np.hstack(y_).tolist()
         return x_, y_
 
+
 class WiltData:
 
     wilt_data_list, wilt_test_list = [], []

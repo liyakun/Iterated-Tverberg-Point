@@ -6,6 +6,7 @@ from src.lib import itertver, regression, test
 class SyntheticData:
 
     x_, y_ = '', ''
+    
     def run_synthetic_data_one_fold(self, n_samples, n_features, n_informative, n_classes, percent_of_train,
                                number_of_training, number_of_training_instances, i_, path, str_):
         x_train, x_test, y_train,  y_test = Sklearnlib().split_train_and_test(self.x_, self.y_, percent_of_train)

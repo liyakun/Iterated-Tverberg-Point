@@ -226,9 +226,12 @@ class Optimization:
         lambdas = _alphas[idx] / betas[idx]
         lambda_min_idx = np.argmin(lambdas)
 
+
+        # <editor-fold desc="Description">
         # adjust the alpha's of the original point
         # since _alphas is a view to the original data, the alphas array will like
         # be updated automatically
+        # </editor-fold>
         _alphas[:] = _alphas - (lambdas[lambda_min_idx] * betas)
 
         # remove (filter) the pruned hull vector
