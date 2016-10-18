@@ -1,1 +1,2 @@
-This is the repository for data mining lab.
+# Machine Learning Lab Project
+This is the repository for machine learning lab.
